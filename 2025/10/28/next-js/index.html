@@ -1,0 +1,262 @@
+<!DOCTYPE html><html lang="zh-TW" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>what is next.js | EZRA BLOG</title><meta name="author" content="YISHENG WU"><meta name="copyright" content="YISHENG WU"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="淺談Next.js 甚麼是Next.js? React 的Framework  功能: 在Server 時就rander 你的app舉例: 像是傳統React、Angular、Vue這種SPA(single page application)的特性是在切換不同網頁時，是直接用javascript更改畫面讓讀取速度比一般網頁快一些，而不是去Server下載整個頁面。    缺點：有時要在客戶端抓取資">
+<meta property="og:type" content="article">
+<meta property="og:title" content="what is next.js">
+<meta property="og:url" content="https://ezrawu-tw.github.io/2025/10/28/next-js/index.html">
+<meta property="og:site_name" content="EZRA BLOG">
+<meta property="og:description" content="淺談Next.js 甚麼是Next.js? React 的Framework  功能: 在Server 時就rander 你的app舉例: 像是傳統React、Angular、Vue這種SPA(single page application)的特性是在切換不同網頁時，是直接用javascript更改畫面讓讀取速度比一般網頁快一些，而不是去Server下載整個頁面。    缺點：有時要在客戶端抓取資">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://lh3.googleusercontent.com/a/ACg8ocJ-AxqZX3ywO-st4G6QEtLv0mhEAW2WnVCCd3FKD2xlTFwvXmkeRA=s288-c-no">
+<meta property="article:published_time" content="2025-10-28T04:27:20.000Z">
+<meta property="article:modified_time" content="2025-10-28T05:27:38.000Z">
+<meta property="article:author" content="YISHENG WU">
+<meta property="article:tag" content="javascript">
+<meta property="article:tag" content="next.js">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://lh3.googleusercontent.com/a/ACg8ocJ-AxqZX3ywO-st4G6QEtLv0mhEAW2WnVCCd3FKD2xlTFwvXmkeRA=s288-c-no"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "what is next.js",
+  "url": "https://ezrawu-tw.github.io/2025/10/28/next-js/",
+  "image": "https://lh3.googleusercontent.com/a/ACg8ocJ-AxqZX3ywO-st4G6QEtLv0mhEAW2WnVCCd3FKD2xlTFwvXmkeRA=s288-c-no",
+  "datePublished": "2025-10-28T04:27:20.000Z",
+  "dateModified": "2025-10-28T05:27:38.000Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "YISHENG WU",
+      "url": "https://ezrawu-tw.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/happy.png"><link rel="canonical" href="https://ezrawu-tw.github.io/2025/10/28/next-js/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '複製成功',
+    error: '複製失敗',
+    noSupport: '瀏覽器不支援'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '剛剛',
+    min: '分鐘前',
+    hour: '小時前',
+    day: '天前',
+    month: '個月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '載入更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'what is next.js',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://lh3.googleusercontent.com/a/ACg8ocJ-AxqZX3ywO-st4G6QEtLv0mhEAW2WnVCCd3FKD2xlTFwvXmkeRA=s288-c-no" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">35</div></a><a href="/tags/"><div class="headline">標籤</div><div class="length-num">39</div></a><a href="/categories/"><div class="headline">分類</div><div class="length-num">9</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 時間軸</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 標籤</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分類</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">EZRA BLOG</span></a><a class="nav-page-title" href="/"><span class="site-name">what is next.js</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首頁</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首頁</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 時間軸</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 標籤</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分類</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 關於</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">what is next.js</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">發表於</span><time class="post-meta-date-created" datetime="2025-10-28T04:27:20.000Z" title="發表於 2025-10-28 12:27:20">2025-10-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新於</span><time class="post-meta-date-updated" datetime="2025-10-28T05:27:38.000Z" title="更新於 2025-10-28 13:27:38">2025-10-28</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/JavaScript/">JavaScript</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">總字數:</span><span class="word-count">1.8k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">閱讀時間:</span><span>6分鐘</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">瀏覽量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="淺談Next-js"><a href="#淺談Next-js" class="headerlink" title="淺談Next.js"></a>淺談Next.js</h1><ol>
+<li>甚麼是Next.js?<blockquote>
+<p>React 的Framework</p>
+</blockquote>
+<strong>功能:</strong> 在Server 時就rander 你的app<br><strong>舉例:</strong><blockquote>
+<p>像是傳統React、Angular、Vue這種SPA(single page application)的特性是在切換不同網頁時，是直接用javascript更改畫面讓讀取速度比一般網頁快一些，而不是去Server下載整個頁面。</p>
+</blockquote>
+</li>
+</ol>
+<p>缺點：有時要在客戶端抓取資料，也就是說使用者打開網頁時，SPA才會使用js去server抓資料，如果google要爬你的網頁時，就無法爬到你的內容，因為網頁是要等使用者打開時，才會去抓資料的動作。而Next.js就解決這個問題。<br>2. 兩種獲取資料的方法</p>
+<ul>
+<li>getStaticProps &#x3D;你在產生網頁時，就去抓取資料然後之後每次User更新，直接傳給User已經產生好的資料，適合:久久更新的Blog</li>
+<li>getServerSideProps：每次User開啟都去抓資料，產生網頁給User，適合：頻繁更新的Twitter。</li>
+</ul>
+<h1 id="Next-js安裝"><a href="#Next-js安裝" class="headerlink" title="Next.js安裝"></a>Next.js安裝</h1><p>創建 Next.js 應用程式</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npx create-next-app </span><br><span class="line">or</span><br><span class="line">yarn create-next-app</span><br></pre></td></tr></table></figure>
+
+<h1 id="CSR是什麼"><a href="#CSR是什麼" class="headerlink" title="CSR是什麼"></a>CSR是什麼</h1><p>CSR全稱是 Client Side Rendering ，代表的是用戶端渲染。 顧名思義，就是在渲染工作在用戶端（瀏覽器）進行，而不是在伺服器端進行。 舉個例子，我們平時用vue，react等框架開發的專案，都是先下載html文檔（不是最終的完全的html），然後下載js來執行渲染出頁面結果。</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">head</span>&gt;</span> </span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span> <span class="attr">data-react-helmet</span>=<span class="string">&quot;true&quot;</span>&gt;</span>react app<span class="tag">&lt;/<span class="name">title</span>&gt;</span> </span><br><span class="line">  <span class="tag">&lt;<span class="name">noscript</span>&gt;</span> </span><br><span class="line">  <span class="tag">&lt;/<span class="name">noscript</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">noscript</span>&gt;</span></span><br><span class="line">   You need to enable JavaScript to run this app.</span><br><span class="line">  <span class="tag">&lt;/<span class="name">noscript</span>&gt;</span> </span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;root&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/static/js/bundle.js&quot;</span> <span class="attr">defer</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span> </span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/static/js/main.chunk.js&quot;</span> <span class="attr">defer</span>=<span class="string">&quot;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span> </span><br><span class="line"> <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>可以看出當前頁面除了 元素，沒有其他的元素，然後通過載入 ， 來執行渲染。 整個渲染過程包括，生成DOM節點，注入樣式，交互事件綁定，數據獲取等等。<div id="root"></div>bundle.jsmain.chunk.js<br><strong>優點</strong></p>
+</blockquote>
+<ol>
+<li>前後端分離。 前端專注於介面開發，後端專注於api開發，且前端有更多的選擇性，可以使用vue，react框架開發，而不需要遵循後端特定的範本。</li>
+<li>伺服器壓力變輕了，渲染工作在用戶端進行，伺服器直接返回不加工的html</li>
+<li>使用者在後續訪問操作體驗好，（首屏渲染慢）可以將網站做成SPA，可以增量渲染</li>
+</ol>
+<p><strong>缺點</strong></p>
+<ol>
+<li>不利於SEO，因為搜尋引擎不執行JS相關操作，無法獲取渲染后的最終html。</li>
+<li>首屏渲染時間比較長，因為需要頁面執行ajax獲取數據來渲染頁面，如果請求介面多，不利於首屏渲染</li>
+</ol>
+<h1 id="SSR是什麼"><a href="#SSR是什麼" class="headerlink" title="SSR是什麼"></a>SSR是什麼</h1><p>SSR全稱是 Server Side Rendering，代表的是服務端渲染。 與用戶端渲染不同的是，SSR輸出的是一個渲染完成的html，整個渲染過程是在伺服器端進行的。 例如傳統的JSP，PHP都是服務端渲染</p>
+<p><strong>優點</strong></p>
+<ol>
+<li>有利於SEO，由於頁面在伺服器生成，搜尋引擎直接抓取到最終頁面結果。</li>
+<li>有利於首屏渲染，html所需要的數據都在伺服器處理好，直接生成html，首屏渲染時間變短。</li>
+</ol>
+<p><strong>缺點</strong></p>
+<ol>
+<li>佔用伺服器資源，渲染工作都在服務端渲染</li>
+<li>用戶體驗不好，每次跳轉到新頁面都需要在重新服務端渲染整個頁面，不能只渲染可變區域</li>
+</ol>
+<h1 id="SSG是什麼"><a href="#SSG是什麼" class="headerlink" title="SSG是什麼"></a>SSG是什麼</h1><p>SSG全稱是 Static Site Generation ，代表的是靜態網站生成。 在構建的時候直接把結果頁面輸出html到磁碟，每次訪問直接把html返回給客戶端，相當於一個靜態資源<br><strong>優點</strong></p>
+<ol>
+<li>減輕伺服器壓力，可以把生成的靜態資源（html）放到CDN上，合理利用緩存</li>
+<li>有利於SEO，由於html已經提前生成好，不需要服務端和用戶端去渲染</li>
+</ol>
+<p><strong>缺點</strong></p>
+<ol>
+<li>只適用於靜態數據，對於經常改動的數據，需要每次重新生成頁面。</li>
+<li>用戶體驗不好，每次打開新頁面都需要重新渲染整個頁面，不能只渲染可變區域</li>
+</ol>
+<h1 id="Next-js-十大功能"><a href="#Next-js-十大功能" class="headerlink" title="Next.js 十大功能"></a>Next.js 十大功能</h1><ol>
+<li>Automatic Code Splitting<br>CODE SPLITTING可以在切換 Router的時候把需要的程式碼做分割 達到最輕量化 而加快速度，因為 Next.js 的Router的目錄是在pages底下使用 File-System 架構目錄來替代 Router 這部分的 Code Splitting 已經內建了</li>
+<li>Css<br>Built-In Css Support<br>Next.js之中有內建一套 style jsx 的Css In Js 的功能，如下面的風格</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">export default () =&gt;</span><br><span class="line">  &lt;div&gt;</span><br><span class="line">    Hello world</span><br><span class="line">    &lt;p&gt;scoped!&lt;/p&gt;</span><br><span class="line">    &lt;style jsx&gt;&#123;`</span><br><span class="line">      p &#123;</span><br><span class="line">        color: blue;</span><br><span class="line">      &#125;</span><br><span class="line">     &lt;/style&gt;</span><br><span class="line">   &lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<p>PS. Next.js是很彈性的也可以使用其他如Jss或是 styled-component….等等的Css In Js套件<br>3. Static File Serving<br>靜態檔案的約定目錄，可以把一些靜態檔案都放在這裡例如圖檔，聲音檔案等等都可以在根目錄下的static(約定目錄),也可以透過Express去指定<br>4. Populating</p>
+<p>在Next.js中因為是使用 React Render 所有的程式碼都會 Render在一個DOM節點下,如果今天要改變Document 的 Head 裡面的或是等等就可以使用 Next.js 提供的 Head 元件</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">import Head from &#x27;next/head&#x27;</span><br></pre></td></tr></table></figure>
+
+
+<ol start="5">
+<li>Fetching Data And ComponentT LifeCycle<br>Next.js提供了 Server Side Render 功能當網站使用了SSR 的部分的時候為了SPA與SSR同步 所以提供了一個生命週期 getInitialProps 方便前後端一致</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">static async getInitialProps(&#123; req &#125;) &#123;</span><br><span class="line">    const userAgent = req ? req.headers[&#x27;user-agent&#x27;] : navigator.userAgent</span><br><span class="line">    return &#123; userAgent &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+<ol start="6">
+<li>Routing</li>
+</ol>
+<blockquote>
+<p>Client-Side的部分 Next.js 提供 Link 工具可以使用 import Link from ‘next&#x2F;link’<br>在轉 Routing 時候 Next.js 綁定一些功能,例如 Prefetch 功能可以提前把指定的下一頁預處理好增加ux體驗<br>除了Link 像使用tag A href 的方式寫在 JSX 中外 ,如果要在程式中使用 API LINK 的功能可以使用<br>import Router from ‘next&#x2F;router’ 範例如下</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">export default () =&gt;</span><br><span class="line">  &lt;div&gt;</span><br><span class="line">    Click &lt;span onClick=&#123;() =&gt; Router.push(&#x27;/about&#x27;)&#125;&gt;here&lt;/span&gt; to read more</span><br><span class="line">  &lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<ol start="6">
+<li><p>ROUTER EVENT</p>
+<blockquote>
+<p>通常可以用在過場的時候,使用以下的一些EVENT管理, 常見可以用在LOADING的圖樣效果<br>onRouteChangeStart(url) - 開始轉換ROTUER時觸發<br>onRouteChangeComplete(url) - 完成時<br>onRouteChangeError(err, url) - 有錯誤時<br>onBeforeHistoryChange(url) - 如果有異動 BROWSER時</p>
+</blockquote>
+</li>
+<li><p>ShallowW Routing<br>再換頁的時候不去執行 getInitialProps 如果希望在同一頁底下每次的參數改變時候不執行 getInitialProps 就可以打開Shallow</p>
+</li>
+<li><p>Useing a High Order Component<br>React 常用的 HOC 在 Next.js 元件中也是可以使用的</p>
+</li>
+<li><p>Prefetching Pages<br>同上述 Router功能 ，使用 import Link from ‘next&#x2F;link’ LINK有提供PREFETCH功能可以預先 Preload 資料的功能</p>
+</li>
+<li><p>custom Server And Routing<br>Next.js 可以客製化綁定常見的Server Express Koa2 Hapi Connect….等 Routing 部分也非常彈性可以完全自定義</p>
+</li>
+</ol>
+<h1 id="推薦的優質資源"><a href="#推薦的優質資源" class="headerlink" title="推薦的優質資源"></a>推薦的優質資源</h1><ol>
+<li>Next.js Document 中&#x2F;英<br><a target="_blank" rel="noopener" href="https://nextjs.org/docs/getting-started">https://nextjs.org/docs/getting-started</a></li>
+<li>freecodecamp 英文<br><a target="_blank" rel="noopener" href="https://youtu.be/KjY94sAKLlw">https://youtu.be/KjY94sAKLlw</a></li>
+<li>基礎練習 適合初學者 英文<br><a target="_blank" rel="noopener" href="https://youtu.be/tsmaQdgidKg">https://youtu.be/tsmaQdgidKg</a></li>
+</ol>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://ezrawu-tw.github.io">YISHENG WU</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章連結: </span><span class="post-copyright-info"><a href="https://ezrawu-tw.github.io/2025/10/28/next-js/">https://ezrawu-tw.github.io/2025/10/28/next-js/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版權聲明: </span><span class="post-copyright-info">本部落格所有文章除特別聲明外，均採用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 授權協議。轉載請註明來源 <a href="https://ezrawu-tw.github.io" target="_blank">EZRA BLOG</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/javascript/">javascript</a><a class="post-meta__tags" href="/tags/next-js/">next.js</a></div><div class="post-share"><div class="social-share" data-image="https://lh3.googleusercontent.com/a/ACg8ocJ-AxqZX3ywO-st4G6QEtLv0mhEAW2WnVCCd3FKD2xlTFwvXmkeRA=s288-c-no" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2025/10/28/WOKWI/" title="WOKWI"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">WOKWI</div></div><div class="info-2"><div class="info-item-1">WOKWI 電路模擬網站使用教學WOKWI 電路模擬網站使用教學Wokwi有什麼特點呢？即刻開始. https://wokwi.com/  無需使用實際的元器件或下載大型軟體。 wokwi在線網站可以提供你需要的一切！ 在這裡你可以用短時間去構建你的下一個物聯網專案。   無需擔心犯錯誤.您是不會損壞虛擬硬體的。 相信我們，我們都測試完畢了！ 所以不要擔心燒毀了你珍貴的元器件。 與真正的硬體不同，在這裡，你總是可以撤銷，你還有重來無數次的機會。  尋找幫助和反饋非常簡單.在這裡，你只需要分享你的Wokwi項目的連結，就可以方便的尋求説明。  從你的代碼中獲得信心.在這裡，硬體和軟體問題是分開的，不用擔心硬體的問題，專心你的軟體。  不受約束的硬體.再也不用從舊的專案中拆除元器件了，隨意的取用你需要使用的零件吧！ 你再也不用擔心項目的花費和元器件的庫存。  開放的創客社區.這是一個分享專案、尋求幫助和獲得靈感的地方！  獨家提供——特色功能！WiFi 模擬 - 模擬專案可以連接到互聯網。 您可以使用MQTT、HTTP、NTP和許多其他網路協定。虛擬邏輯分析儀 - 在模擬中可以捕獲數...</div></div></div></a><a class="pagination-related" href="/2025/10/28/Pico/" title="Pico"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">Pico</div></div><div class="info-2"><div class="info-item-1">Raspberry Pico  使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico 使用 Pico + 1602 LCD 顯示內建溫度感測器讀取到的溫度資料 使用 Raspberry Pi 燒錄&#x2F;除錯 Pico 程式(All)   getTemp.py  取溫度程式  123456789101112131415161718192021222324import utimefrom machine import I2C, Pin, ADCfrom lcd_api import LcdApifrom pico_i2c_lcd import I2cLcdI2C_ADDR     = 63I2C_NUM_ROWS = 2I2C_NUM_COLS = 16i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000)lcd = I2cLcd(i2c, I2C_ADDR, I2C_NUM_ROWS, I2C_NUM_COLS)def read_temp():    sensor_temp = ADC(4)    conv...</div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://lh3.googleusercontent.com/a/ACg8ocJ-AxqZX3ywO-st4G6QEtLv0mhEAW2WnVCCd3FKD2xlTFwvXmkeRA=s288-c-no" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">YISHENG WU</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">35</div></a><a href="/tags/"><div class="headline">標籤</div><div class="length-num">39</div></a><a href="/categories/"><div class="headline">分類</div><div class="length-num">9</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/ezrawu-tw"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">焦慮是自由的眩暈-存在主義之父 Søren Kierkegaard</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目錄</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%B7%BA%E8%AB%87Next-js"><span class="toc-number">1.</span> <span class="toc-text">淺談Next.js</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Next-js%E5%AE%89%E8%A3%9D"><span class="toc-number">2.</span> <span class="toc-text">Next.js安裝</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#CSR%E6%98%AF%E4%BB%80%E9%BA%BC"><span class="toc-number">3.</span> <span class="toc-text">CSR是什麼</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#SSR%E6%98%AF%E4%BB%80%E9%BA%BC"><span class="toc-number">4.</span> <span class="toc-text">SSR是什麼</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#SSG%E6%98%AF%E4%BB%80%E9%BA%BC"><span class="toc-number">5.</span> <span class="toc-text">SSG是什麼</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Next-js-%E5%8D%81%E5%A4%A7%E5%8A%9F%E8%83%BD"><span class="toc-number">6.</span> <span class="toc-text">Next.js 十大功能</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%8E%A8%E8%96%A6%E7%9A%84%E5%84%AA%E8%B3%AA%E8%B3%87%E6%BA%90"><span class="toc-number">7.</span> <span class="toc-text">推薦的優質資源</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2025/11/14/oreilly-Responsible-Software-Engineering/" title="Responsible Software Engineering"><img src="https://cdn.oreillystatic.com/oreilly/images/logo_guidelines_bg_black.png" onerror="this.onerror=null;this.src='/null'" alt="Responsible Software Engineering"/></a><div class="content"><a class="title" href="/2025/11/14/oreilly-Responsible-Software-Engineering/" title="Responsible Software Engineering">Responsible Software Engineering</a><time datetime="2025-11-14T11:51:14.720Z" title="發表於 2025-11-14 19:51:14">2025-11-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/11/14/oreilly-AI-Agents-with-MCP/" title="AI Agents with MCP"><img src="https://cdn.oreillystatic.com/oreilly/images/logo_guidelines_bg_black.png" onerror="this.onerror=null;this.src='/null'" alt="AI Agents with MCP"/></a><div class="content"><a class="title" href="/2025/11/14/oreilly-AI-Agents-with-MCP/" title="AI Agents with MCP">AI Agents with MCP</a><time datetime="2025-11-14T11:44:18.880Z" title="發表於 2025-11-14 19:44:18">2025-11-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/11/14/oreilly-Designing-Data-Intensive-Applications/" title="Designing Data-Intensive Applications, 2nd Edition"><img src="https://cdn.oreillystatic.com/oreilly/images/logo_guidelines_bg_black.png" onerror="this.onerror=null;this.src='/null'" alt="Designing Data-Intensive Applications, 2nd Edition"/></a><div class="content"><a class="title" href="/2025/11/14/oreilly-Designing-Data-Intensive-Applications/" title="Designing Data-Intensive Applications, 2nd Edition">Designing Data-Intensive Applications, 2nd Edition</a><time datetime="2025-11-14T11:41:35.200Z" title="發表於 2025-11-14 19:41:35">2025-11-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/11/14/oreilly-Building-Applications-with-AI-Agents/" title="Building Applications with AI Agents"><img src="https://cdn.oreillystatic.com/oreilly/images/logo_guidelines_bg_black.png" onerror="this.onerror=null;this.src='/null'" alt="Building Applications with AI Agents"/></a><div class="content"><a class="title" href="/2025/11/14/oreilly-Building-Applications-with-AI-Agents/" title="Building Applications with AI Agents">Building Applications with AI Agents</a><time datetime="2025-11-14T11:39:02.460Z" title="發表於 2025-11-14 19:39:02">2025-11-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/11/14/oreilly-AI-Engineering/" title="AI Engineering"><img src="https://cdn.oreillystatic.com/oreilly/images/logo_guidelines_bg_black.png" onerror="this.onerror=null;this.src='/null'" alt="AI Engineering"/></a><div class="content"><a class="title" href="/2025/11/14/oreilly-AI-Engineering/" title="AI Engineering">AI Engineering</a><time datetime="2025-11-14T11:38:29.490Z" title="發表於 2025-11-14 19:38:29">2025-11-14</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(https://images.unsplash.com/photo-1747119072012-825949dec726?ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;q=80&amp;w=1171);"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2019 - 2025 By YISHENG WU</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主題 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.2</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="閱讀模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日夜模式切換"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="單欄和雙欄切換"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="設定"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目錄"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到頂端"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="/"></script></div></body></html>
