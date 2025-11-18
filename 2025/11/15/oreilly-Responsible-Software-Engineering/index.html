@@ -1,0 +1,298 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Responsible Software Engineering | EZRA BLOG</title><meta name="author" content="YISHENG WU"><meta name="copyright" content="YISHENG WU"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Treating people more fairly, regardless of their beliefs, culture, skin tone, and other attributes; operating more safely to reduce the risk of physical, psychological, or financial harm; better prote">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Responsible Software Engineering">
+<meta property="og:url" content="https://ezrawu-tw.github.io/2025/11/15/oreilly-Responsible-Software-Engineering/index.html">
+<meta property="og:site_name" content="EZRA BLOG">
+<meta property="og:description" content="Treating people more fairly, regardless of their beliefs, culture, skin tone, and other attributes; operating more safely to reduce the risk of physical, psychological, or financial harm; better prote">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://cdn.oreillystatic.com/oreilly/images/logo_guidelines_bg_black.png">
+<meta property="article:published_time" content="2025-11-14T16:00:00.000Z">
+<meta property="article:modified_time" content="2025-11-18T09:11:30.918Z">
+<meta property="article:author" content="YISHENG WU">
+<meta property="article:tag" content="oreilly">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.oreillystatic.com/oreilly/images/logo_guidelines_bg_black.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Responsible Software Engineering",
+  "url": "https://ezrawu-tw.github.io/2025/11/15/oreilly-Responsible-Software-Engineering/",
+  "image": "https://cdn.oreillystatic.com/oreilly/images/logo_guidelines_bg_black.png",
+  "datePublished": "2025-11-14T16:00:00.000Z",
+  "dateModified": "2025-11-18T09:11:30.918Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "YISHENG WU",
+      "url": "https://ezrawu-tw.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/happy.png"><link rel="canonical" href="https://ezrawu-tw.github.io/2025/11/15/oreilly-Responsible-Software-Engineering/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Responsible Software Engineering',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://lh3.googleusercontent.com/a/ACg8ocJ-AxqZX3ywO-st4G6QEtLv0mhEAW2WnVCCd3FKD2xlTFwvXmkeRA=s288-c-no" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">33</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">39</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">8</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Timeline</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Category</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About me</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://learning.oreilly.com/covers/urn:orm:book:9781098149154/400w/);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">EZRA BLOG</span></a><a class="nav-page-title" href="/"><span class="site-name">Responsible Software Engineering</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  Back to Home</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Timeline</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Category</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About me</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">Responsible Software Engineering</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2025-11-14T16:00:00.000Z" title="Created 2025-11-15 00:00:00">2025-11-15</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2025-11-18T09:11:30.918Z" title="Updated 2025-11-18 17:11:30">2025-11-18</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/O-Reilly-30-Day-Challenge/">O'Reilly 30-Day Challenge</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word Count:</span><span class="word-count">1.2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading Time:</span><span>7mins</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><p>This book is written based on the author’s observations of colleagues at Google.<br><em>Disclaimer: This is a personal summary and reflection, not a substitute for the original book.</em></p>
+<h1 id="What-Is-Responsible-Software-Engineering"><a href="#What-Is-Responsible-Software-Engineering" class="headerlink" title="What Is Responsible Software Engineering?"></a>What Is Responsible Software Engineering?</h1><h2 id="Definition"><a href="#Definition" class="headerlink" title="Definition"></a>Definition</h2><p>Responsible software engineering means developing software products that benefit society while avoiding harm to the planet and its inhabitants.</p>
+<p>What does that mean? It includes:</p>
+<ol>
+<li><strong>Social benefit</strong> — serving the public.</li>
+<li><strong>Not harming the planet</strong> — reducing carbon emissions.</li>
+<li><strong>Not harming inhabitants</strong> — avoiding physical, economic, psychological, or other harms to people (and “inhabitants” includes non-human life when relevant).</li>
+</ol>
+<p>Responsible engineering isn’t only about the technology itself—it’s about understanding the <em>social context</em> in which the technology is deployed.</p>
+<p>For example, suppose you build the world’s most powerful mapping application that finds the most efficient route. Responsible design means not only calculating optimal paths—it also means considering the social impact on communities along those paths.</p>
+<p><img src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA=="></p>
+<p>Once people start using your app, traffic might flood neighborhoods that were previously quiet—causing congestion, accidents, and pollution.<br>This means you may need to collaborate with these communities to mitigate negative side effects.</p>
+<h1 id="The-Five-Ethical-Principles-of-AI"><a href="#The-Five-Ethical-Principles-of-AI" class="headerlink" title="The Five Ethical Principles of AI"></a>The Five Ethical Principles of AI</h1><ol>
+<li><p><strong>Be Socially Beneficial</strong><br>Technology should serve public welfare—not just ads or profits. Speaker O shared how they used the UN SDGs as a filter to find real problems to solve, from fire detection in Street View to AI for recycling.</p>
+</li>
+<li><p><strong>Avoid Unfair Bias</strong><br>To prevent discrimination from being encoded into AI, adversarial testing is essential.<br>Examples:<br><em>Google Translate</em> adding gender-inclusive pronouns;<br>improved datasets for dark-skinned users to reduce face-recognition errors.</p>
+</li>
+<li><p><strong>Be Built and Tested for Safety</strong><br>Safety must be <em>designed in</em>, not patched later.<br>Borrowing from aviation and nuclear systems, developers must set boundaries early—before deployment.</p>
+</li>
+<li><p><strong>Be Built and Trusted for Interpretability</strong><br>AI should explain <em>why</em> it made a decision.<br>From “Why am I seeing this?” UI elements to basic AI literacy in K–12 education, interpretability builds trust.</p>
+</li>
+<li><p><strong>Privacy Must Be Equally Available</strong><br>Privacy should not be a luxury feature.<br>Speaker P cited the 2019 NYT editorial: “Privacy must be universal.”<br>Technologies like federated learning aim to ensure both fairness and safety.</p>
+</li>
+</ol>
+<h1 id="Building-AI-Systems-That-Benefit-Everyone"><a href="#Building-AI-Systems-That-Benefit-Everyone" class="headerlink" title="Building AI Systems That Benefit Everyone"></a>Building AI Systems That Benefit Everyone</h1><p><img src="https://learning.oreilly.com/api/v2/epubs/urn:orm:book:9781098149154/files/assets/rswe_0201.png"></p>
+<p>Figure 2-1 shows AI-generated images reinforcing stereotypes:</p>
+<ul>
+<li>Doctors as men  </li>
+<li>Nurses as women  </li>
+<li>Laborers as people of color</li>
+</ul>
+<h2 id="What-Is-Fairness"><a href="#What-Is-Fairness" class="headerlink" title="What Is Fairness?"></a>What Is Fairness?</h2><p>Fairness issues directly impact people’s lives. Examples:</p>
+<ul>
+<li>In 2016, Joy Buolamwini at MIT found that face-recognition systems couldn’t detect her face due to insufficient training data from people who look like her.</li>
+<li>A well-known AI image generator disproportionately rendered CEOs as white men and drug dealers as men of color.</li>
+<li>A fire-risk prediction model underestimated risks in low-income communities whose data was less reliable.</li>
+</ul>
+<h2 id="Why-Is-Fairness-Hard"><a href="#Why-Is-Fairness-Hard" class="headerlink" title="Why Is Fairness Hard?"></a>Why Is Fairness Hard?</h2><ul>
+<li>Fairness ≠ accuracy.  </li>
+<li>Fairness is contextual and relative.  </li>
+<li>Bias always exists.  </li>
+<li>Ambiguity in AI inputs is unavoidable.  </li>
+<li>AI outputs can be difficult to evaluate.</li>
+</ul>
+<h1 id="Ambiguity-in-AI-Inputs-When-One-Command-Can-Cause-Disaster"><a href="#Ambiguity-in-AI-Inputs-When-One-Command-Can-Cause-Disaster" class="headerlink" title="Ambiguity in AI Inputs: When One Command Can Cause Disaster"></a>Ambiguity in AI Inputs: When One Command Can Cause Disaster</h1><p>I once read about an open-source project integrating an AI chatbot into the Linux command line.<br>Users could type natural language commands, and AI would generate shell commands.</p>
+<p>I tried the prompt:</p>
+<blockquote>
+<p>“Make all files in the current directory read-only.”</p>
+</blockquote>
+<p>The AI returned:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod -R 444 *</span><br></pre></td></tr></table></figure>
+
+<p>If you’re a Linux engineer, that command should terrify you.</p>
+<p>Here’s why:</p>
+<h3 id="1-R-Recursively-modifies-all-subdirectories—never-requested"><a href="#1-R-Recursively-modifies-all-subdirectories—never-requested" class="headerlink" title="1. -R Recursively modifies all subdirectories—never requested."></a><em>1. <code>-R</code> Recursively modifies all subdirectories—never requested.</em></h3><p>AI over-extended the meaning of “all,” assuming I meant <em>every</em> file recursively.</p>
+<h3 id="2-444-grants-read-access-to-everyone"><a href="#2-444-grants-read-access-to-everyone" class="headerlink" title="2. 444 grants read access to everyone."></a><em>2. <code>444</code> grants read access to everyone.</em></h3><p>This exposes data that should remain private.</p>
+<h3 id="3-Hidden-files-are-ignored-skips-dotfiles"><a href="#3-Hidden-files-are-ignored-skips-dotfiles" class="headerlink" title="3. Hidden files are ignored (* skips dotfiles)."></a><em>3. Hidden files are ignored (<code>*</code> skips dotfiles).</em></h3><p>AI didn’t ask for clarification.</p>
+<h3 id="And-the-worst-part"><a href="#And-the-worst-part" class="headerlink" title="And the worst part:"></a>And the worst part:</h3><p><strong>Permission changes are extremely hard to revert</strong>, often breaking systems or blocking critical operations.</p>
+<p>A responsible design would have asked:</p>
+<ul>
+<li>“Do you want to include subdirectories?”  </li>
+<li>“Who should retain read access?”  </li>
+<li>“Should hidden files be included?”</li>
+</ul>
+<h1 id="Reducing-the-Carbon-Footprint-of-Code-The-Invisible-Responsibility"><a href="#Reducing-the-Carbon-Footprint-of-Code-The-Invisible-Responsibility" class="headerlink" title="Reducing the Carbon Footprint of Code: The Invisible Responsibility"></a>Reducing the Carbon Footprint of Code: The Invisible Responsibility</h1><p>Software is invisible, but its energy consumption is very real.</p>
+<p>Every program we run produces carbon emissions.<br>On a laptop, emissions are small.<br>On hundreds of thousands of CPUs in a data center using fossil energy? Massive.</p>
+<p>Even apps on your phone accumulate emissions through daily charging.</p>
+<h2 id="Three-Core-Strategies-for-Carbon-Aware-Software"><a href="#Three-Core-Strategies-for-Carbon-Aware-Software" class="headerlink" title="Three Core Strategies for Carbon-Aware Software"></a>Three Core Strategies for Carbon-Aware Software</h2><h3 id="1-Processor-Usage"><a href="#1-Processor-Usage" class="headerlink" title="1. Processor Usage"></a>1. Processor Usage</h3><p>How many CPUs?<br>For how long?<br>Can loops or polling be reduced?</p>
+<h3 id="2-Location"><a href="#2-Location" class="headerlink" title="2. Location"></a>2. Location</h3><p>Running workloads in data centers powered by renewables drastically reduces emissions.</p>
+<h3 id="3-Time-of-Day"><a href="#3-Time-of-Day" class="headerlink" title="3. Time of Day"></a>3. Time of Day</h3><p>Some power grids use more renewable energy at certain hours.<br>Google has even published “carbon-intensity schedules” for batch workloads.</p>
+<h2 id="Practical-Optimization-Approaches"><a href="#Practical-Optimization-Approaches" class="headerlink" title="Practical Optimization Approaches"></a>Practical Optimization Approaches</h2><ul>
+<li>Reduce CPU cycles → <strong>optimization &#x3D; decarbonization</strong>  </li>
+<li>Reduce memory → less garbage collection  </li>
+<li>Reduce network traffic → fewer transfers, less energy  </li>
+<li>Capacity management → avoid idle resources</li>
+</ul>
+<p>High-quality cloud providers offer metrics such as:</p>
+<ul>
+<li>CPU idle rate  </li>
+<li>Unused memory  </li>
+<li>Unallocated disk space</li>
+</ul>
+<p>These help engineers right-size resources.</p>
+<h1 id="Building-a-Culture-of-Responsible-Software-Engineering"><a href="#Building-a-Culture-of-Responsible-Software-Engineering" class="headerlink" title="Building a Culture of Responsible Software Engineering"></a>Building a Culture of Responsible Software Engineering</h1><p>Principles alone accomplish nothing.<br>To make responsibility real, organizations must solve six challenges:</p>
+<ol>
+<li><strong>Policy Creation</strong> — What values does the company prioritize?  </li>
+<li><strong>Communication</strong> — How do we educate engineers consistently?  </li>
+<li><strong>Process Design</strong> — How do we embed responsibility throughout development?  </li>
+<li><strong>Incentives</strong> — People choose the path of least resistance; we must reward good behavior.  </li>
+<li><strong>Learning from Mistakes</strong> — Systematic documentation prevents repeated failures.  </li>
+<li><strong>Measuring Success</strong> — Ethics must be made measurable.</li>
+</ol>
+<h1 id="Case-Study-Google’s-Responsible-AI-Principles"><a href="#Case-Study-Google’s-Responsible-AI-Principles" class="headerlink" title="Case Study: Google’s Responsible AI Principles"></a>Case Study: Google’s Responsible AI Principles</h1><p>In 2018, Google released principles including:</p>
+<ul>
+<li>Social benefit  </li>
+<li>Avoiding bias  </li>
+<li>Safety  </li>
+<li>Accountability  </li>
+<li>Privacy  </li>
+<li>Scientific excellence  </li>
+<li>Use restrictions ensuring alignment with principles</li>
+</ul>
+<p>But when EngEDU interviewed engineers:</p>
+<blockquote>
+<p>No one could recite even one principle.</p>
+</blockquote>
+<p>Principles existed—but weren’t internalized.</p>
+<p>This reflects a universal challenge:</p>
+<blockquote>
+<p>Principles aren’t hard to write.<br>The hard part is making people remember, understand, and apply them.</p>
+</blockquote>
+<h1 id="Discussion-Responsibility-×-Innovation"><a href="#Discussion-Responsibility-×-Innovation" class="headerlink" title="Discussion: Responsibility × Innovation"></a>Discussion: Responsibility × Innovation</h1><h3 id="How-should-organizations-challenge-technological-ethics"><a href="#How-should-organizations-challenge-technological-ethics" class="headerlink" title="How should organizations challenge technological ethics?"></a>How should organizations challenge technological ethics?</h3><p>By teaching engineers <em>reflection</em> so they can identify risks—not just follow instructions.</p>
+<h3 id="Is-open-source-more-ethical"><a href="#Is-open-source-more-ethical" class="headerlink" title="Is open source more ethical?"></a>Is open source more ethical?</h3><p>Open source enables broad scrutiny and diverse input, reducing some risks.<br>But openness ≠ ethics.<br>It simply creates more opportunities for improvement.</p>
+<h1 id="Conclusion-Technology-Is-Only-as-Good-as-the-Values-Behind-It"><a href="#Conclusion-Technology-Is-Only-as-Good-as-the-Values-Behind-It" class="headerlink" title="Conclusion: Technology Is Only as Good as the Values Behind It"></a>Conclusion: Technology Is Only as Good as the Values Behind It</h1><p>From dangerous shell commands to biased models, energy consumption, and cultural gaps within teams—we’re facing one fundamental question:</p>
+<blockquote>
+<p>Technology is neither good nor evil by nature.<br>It amplifies the values we embed into it.</p>
+</blockquote>
+<p>Responsible software engineering is not bureaucracy.<br>It is a mindset that asks:</p>
+<ul>
+<li>Could this code be misused?  </li>
+<li>Is this model fair?  </li>
+<li>Could this system cause harm?  </li>
+<li>Are resources used responsibly?  </li>
+<li>Do we truly understand what we’re building?</li>
+</ul>
+<p>The stronger technology becomes, the greater its externalities.<br>Responsible engineering ensures we don’t make the world worse by accident.</p>
+<p>As AI, software, and global systems evolve—<br>the future will be shaped not by machines, but by the choices of engineers, designers, and researchers.</p>
+<p>We only need to ask:</p>
+<blockquote>
+<p>When this technology reaches the world,<br><strong>who do we want it to benefit, and how?</strong></p>
+</blockquote>
+<p>If the answer brings more kindness, less bias, and less harm—<br>then we are indeed building a future worth believing in.</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="https://ezrawu-tw.github.io">YISHENG WU</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="https://ezrawu-tw.github.io/2025/11/15/oreilly-Responsible-Software-Engineering/">https://ezrawu-tw.github.io/2025/11/15/oreilly-Responsible-Software-Engineering/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles on this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless otherwise stated.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/oreilly/">oreilly</a></div><div class="post-share"><div class="social-share" data-image="https://cdn.oreillystatic.com/oreilly/images/logo_guidelines_bg_black.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2025/11/16/oreilly-Beyond-Vibe-Coding/" title="Beyond Vibe Coding"><img class="cover" src="https://cdn.oreillystatic.com/oreilly/images/logo_guidelines_bg_black.png" onerror="onerror=null;src='/null'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">Previous</div><div class="info-item-2">Beyond Vibe Coding</div></div><div class="info-2"><div class="info-item-1">Beyond Vibe Coding - IntroductionWhat Is Vibe Coding?Vibe coding is a prompt-first, conversational way of building software.You describe what you want; the AI writes the code. Great for:  Fast prototypes &amp; MVPs   CRUD apps and UI scaffolding   Integrations and boilerplate   Hackathons, zero-to-one ideas   Non-engineers who want to build quickly  Weaknesses:  Hidden bugs &amp; weak architecture   Security gaps   Hard to scale or maintain   Easy to generate tech debt fast  What Is AI-Assist...</div></div></div></a><a class="pagination-related" href="/2025/11/10/loneless-and-crowd/" title="Solitude Is a One-Person Celebration; Celebration Is a Crowd’s Loneliness"><img class="cover" src="https://images.unsplash.com/photo-1607615529751-517999dcf3a5?ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;q=80&amp;w=667" onerror="onerror=null;src='/null'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">Next</div><div class="info-item-2">Solitude Is a One-Person Celebration; Celebration Is a Crowd’s Loneliness</div></div><div class="info-2"><div class="info-item-1">Solitude Is a One-Person Celebration; Celebration Is a Crowd’s LonelinessIdolizationYes—I never really had idols growing up. No desire to “be like someone,”no moment where I watched someone shineand felt a spark of longing. So whenever people asked me,“Don’t you think so-and-so is amazing?”I felt nothing. Over time,I became the loneliest one in the crowd.Not because I wasn’t understood,but because I stopped needing to be. MemoryI still remember a field trip back in kindergarten.The destinatio...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2025/11/17/oreilly-A-Day-in-the-Life-of-a-Senior-Leader/" title="The Seven Circles of Meeting Hell"><img class="cover" src="https://cdn.oreillystatic.com/oreilly/images/logo_guidelines_bg_black.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-11-17</div><div class="info-item-2">The Seven Circles of Meeting Hell</div></div><div class="info-2"><div class="info-item-1">The Seven Circles of Meeting HellFirst Circle: THE SLOPPY AND THE UNPREPARED Meetings start late and run over. Attendees have not read the pre-supplied material, so we spend most of the time answering questions we had already answered elsewhere. Second Circle: THE DISTRACTED Meetings where attendees are not paying attention to the meeting. They sit there on their phones and computers, working elsewhere. No one is clear about why they are here, but they don’t really care because they’re busy d...</div></div></div></a><a class="pagination-related" href="/2025/11/16/oreilly-Beyond-Vibe-Coding/" title="Beyond Vibe Coding"><img class="cover" src="https://cdn.oreillystatic.com/oreilly/images/logo_guidelines_bg_black.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-11-16</div><div class="info-item-2">Beyond Vibe Coding</div></div><div class="info-2"><div class="info-item-1">Beyond Vibe Coding - IntroductionWhat Is Vibe Coding?Vibe coding is a prompt-first, conversational way of building software.You describe what you want; the AI writes the code. Great for:  Fast prototypes &amp; MVPs   CRUD apps and UI scaffolding   Integrations and boilerplate   Hackathons, zero-to-one ideas   Non-engineers who want to build quickly  Weaknesses:  Hidden bugs &amp; weak architecture   Security gaps   Hard to scale or maintain   Easy to generate tech debt fast  What Is AI-Assist...</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://lh3.googleusercontent.com/a/ACg8ocJ-AxqZX3ywO-st4G6QEtLv0mhEAW2WnVCCd3FKD2xlTFwvXmkeRA=s288-c-no" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">YISHENG WU</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">33</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">39</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">8</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/ezrawu-tw"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">Anxiety Is the Dizziness of Freedom - Søren Kierkegaard</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#What-Is-Responsible-Software-Engineering"><span class="toc-number">1.</span> <span class="toc-text">What Is Responsible Software Engineering?</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Definition"><span class="toc-number">1.1.</span> <span class="toc-text">Definition</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#The-Five-Ethical-Principles-of-AI"><span class="toc-number">2.</span> <span class="toc-text">The Five Ethical Principles of AI</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Building-AI-Systems-That-Benefit-Everyone"><span class="toc-number">3.</span> <span class="toc-text">Building AI Systems That Benefit Everyone</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#What-Is-Fairness"><span class="toc-number">3.1.</span> <span class="toc-text">What Is Fairness?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Why-Is-Fairness-Hard"><span class="toc-number">3.2.</span> <span class="toc-text">Why Is Fairness Hard?</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Ambiguity-in-AI-Inputs-When-One-Command-Can-Cause-Disaster"><span class="toc-number">4.</span> <span class="toc-text">Ambiguity in AI Inputs: When One Command Can Cause Disaster</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-R-Recursively-modifies-all-subdirectories%E2%80%94never-requested"><span class="toc-number">4.1.</span> <span class="toc-text">1. -R Recursively modifies all subdirectories—never requested.</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-444-grants-read-access-to-everyone"><span class="toc-number">4.2.</span> <span class="toc-text">2. 444 grants read access to everyone.</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-Hidden-files-are-ignored-skips-dotfiles"><span class="toc-number">4.3.</span> <span class="toc-text">3. Hidden files are ignored (* skips dotfiles).</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#And-the-worst-part"><span class="toc-number">4.4.</span> <span class="toc-text">And the worst part:</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Reducing-the-Carbon-Footprint-of-Code-The-Invisible-Responsibility"><span class="toc-number">5.</span> <span class="toc-text">Reducing the Carbon Footprint of Code: The Invisible Responsibility</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Three-Core-Strategies-for-Carbon-Aware-Software"><span class="toc-number">5.1.</span> <span class="toc-text">Three Core Strategies for Carbon-Aware Software</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-Processor-Usage"><span class="toc-number">5.1.1.</span> <span class="toc-text">1. Processor Usage</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-Location"><span class="toc-number">5.1.2.</span> <span class="toc-text">2. Location</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-Time-of-Day"><span class="toc-number">5.1.3.</span> <span class="toc-text">3. Time of Day</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Practical-Optimization-Approaches"><span class="toc-number">5.2.</span> <span class="toc-text">Practical Optimization Approaches</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Building-a-Culture-of-Responsible-Software-Engineering"><span class="toc-number">6.</span> <span class="toc-text">Building a Culture of Responsible Software Engineering</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Case-Study-Google%E2%80%99s-Responsible-AI-Principles"><span class="toc-number">7.</span> <span class="toc-text">Case Study: Google’s Responsible AI Principles</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Discussion-Responsibility-%C3%97-Innovation"><span class="toc-number">8.</span> <span class="toc-text">Discussion: Responsibility × Innovation</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#How-should-organizations-challenge-technological-ethics"><span class="toc-number">8.1.</span> <span class="toc-text">How should organizations challenge technological ethics?</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Is-open-source-more-ethical"><span class="toc-number">8.2.</span> <span class="toc-text">Is open source more ethical?</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Conclusion-Technology-Is-Only-as-Good-as-the-Values-Behind-It"><span class="toc-number">9.</span> <span class="toc-text">Conclusion: Technology Is Only as Good as the Values Behind It</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Posts</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2025/11/17/oreilly-A-Day-in-the-Life-of-a-Senior-Leader/" title="The Seven Circles of Meeting Hell"><img src="https://cdn.oreillystatic.com/oreilly/images/logo_guidelines_bg_black.png" onerror="this.onerror=null;this.src='/null'" alt="The Seven Circles of Meeting Hell"/></a><div class="content"><a class="title" href="/2025/11/17/oreilly-A-Day-in-the-Life-of-a-Senior-Leader/" title="The Seven Circles of Meeting Hell">The Seven Circles of Meeting Hell</a><time datetime="2025-11-16T16:00:00.000Z" title="Created 2025-11-17 00:00:00">2025-11-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/11/16/oreilly-Beyond-Vibe-Coding/" title="Beyond Vibe Coding"><img src="https://cdn.oreillystatic.com/oreilly/images/logo_guidelines_bg_black.png" onerror="this.onerror=null;this.src='/null'" alt="Beyond Vibe Coding"/></a><div class="content"><a class="title" href="/2025/11/16/oreilly-Beyond-Vibe-Coding/" title="Beyond Vibe Coding">Beyond Vibe Coding</a><time datetime="2025-11-15T16:00:00.000Z" title="Created 2025-11-16 00:00:00">2025-11-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/11/15/oreilly-Responsible-Software-Engineering/" title="Responsible Software Engineering"><img src="https://cdn.oreillystatic.com/oreilly/images/logo_guidelines_bg_black.png" onerror="this.onerror=null;this.src='/null'" alt="Responsible Software Engineering"/></a><div class="content"><a class="title" href="/2025/11/15/oreilly-Responsible-Software-Engineering/" title="Responsible Software Engineering">Responsible Software Engineering</a><time datetime="2025-11-14T16:00:00.000Z" title="Created 2025-11-15 00:00:00">2025-11-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/11/10/loneless-and-crowd/" title="Solitude Is a One-Person Celebration; Celebration Is a Crowd’s Loneliness"><img src="https://images.unsplash.com/photo-1607615529751-517999dcf3a5?ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;q=80&amp;w=667" onerror="this.onerror=null;this.src='/null'" alt="Solitude Is a One-Person Celebration; Celebration Is a Crowd’s Loneliness"/></a><div class="content"><a class="title" href="/2025/11/10/loneless-and-crowd/" title="Solitude Is a One-Person Celebration; Celebration Is a Crowd’s Loneliness">Solitude Is a One-Person Celebration; Celebration Is a Crowd’s Loneliness</a><time datetime="2025-11-10T12:17:00.000Z" title="Created 2025-11-10 20:17:00">2025-11-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/11/10/usefulness-as-faith/" title="When “Usefulness” Becomes a Faith, the Soul Disappears"><img src="https://images.unsplash.com/photo-1568417847905-1ba5effadab1?ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;q=80&amp;w=687" onerror="this.onerror=null;this.src='/null'" alt="When “Usefulness” Becomes a Faith, the Soul Disappears"/></a><div class="content"><a class="title" href="/2025/11/10/usefulness-as-faith/" title="When “Usefulness” Becomes a Faith, the Soul Disappears">When “Usefulness” Becomes a Faith, the Soul Disappears</a><time datetime="2025-11-10T11:30:00.000Z" title="Created 2025-11-10 19:30:00">2025-11-10</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(https://images.unsplash.com/photo-1747119072012-825949dec726?ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;q=80&amp;w=1171);"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2019 - 2025 By YISHENG WU</span><span class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.2</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Reading Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="/"></script></div></body></html>
