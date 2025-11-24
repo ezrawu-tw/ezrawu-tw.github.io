@@ -1,0 +1,181 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Visualising the Design Process with Dynamic Graph | EZRA BLOG</title><meta name="author" content="YISHENG WU"><meta name="copyright" content="YISHENG WU"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Visualising the Design Process with Dynamic GraphconceptDesigners have often forgotten after the completion of the design, but throughout viewing these recorded graphics can evoke their memory, and pr">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Visualising the Design Process with Dynamic Graph">
+<meta property="og:url" content="https://ezrawu-tw.github.io/2025/11/24/Diagrammatic-Design-Process-N-03/index.html">
+<meta property="og:site_name" content="EZRA BLOG">
+<meta property="og:description" content="Visualising the Design Process with Dynamic GraphconceptDesigners have often forgotten after the completion of the design, but throughout viewing these recorded graphics can evoke their memory, and pr">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://lh3.googleusercontent.com/a/ACg8ocJ-AxqZX3ywO-st4G6QEtLv0mhEAW2WnVCCd3FKD2xlTFwvXmkeRA=s288-c-no">
+<meta property="article:published_time" content="2025-11-24T11:51:26.541Z">
+<meta property="article:modified_time" content="2025-11-24T12:26:12.904Z">
+<meta property="article:author" content="YISHENG WU">
+<meta property="article:tag" content="Visualising Information">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://lh3.googleusercontent.com/a/ACg8ocJ-AxqZX3ywO-st4G6QEtLv0mhEAW2WnVCCd3FKD2xlTFwvXmkeRA=s288-c-no"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Visualising the Design Process with Dynamic Graph",
+  "url": "https://ezrawu-tw.github.io/2025/11/24/Diagrammatic-Design-Process-N-03/",
+  "image": "https://lh3.googleusercontent.com/a/ACg8ocJ-AxqZX3ywO-st4G6QEtLv0mhEAW2WnVCCd3FKD2xlTFwvXmkeRA=s288-c-no",
+  "datePublished": "2025-11-24T11:51:26.541Z",
+  "dateModified": "2025-11-24T12:26:12.904Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "YISHENG WU",
+      "url": "https://ezrawu-tw.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/happy.png"><link rel="canonical" href="https://ezrawu-tw.github.io/2025/11/24/Diagrammatic-Design-Process-N-03/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Visualising the Design Process with Dynamic Graph',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://lh3.googleusercontent.com/a/ACg8ocJ-AxqZX3ywO-st4G6QEtLv0mhEAW2WnVCCd3FKD2xlTFwvXmkeRA=s288-c-no" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">41</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">43</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">9</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Timeline</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Category</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About me</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">EZRA BLOG</span></a><a class="nav-page-title" href="/"><span class="site-name">Visualising the Design Process with Dynamic Graph</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  Back to Home</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Timeline</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Category</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About me</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">Visualising the Design Process with Dynamic Graph</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2025-11-24T11:51:26.541Z" title="Created 2025-11-24 19:51:26">2025-11-24</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2025-11-24T12:26:12.904Z" title="Updated 2025-11-24 20:26:12">2025-11-24</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Diagrammatic-Design-Process/">Diagrammatic Design Process</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word Count:</span><span class="word-count">368</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading Time:</span><span>2mins</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="Visualising-the-Design-Process-with-Dynamic-Graph"><a href="#Visualising-the-Design-Process-with-Dynamic-Graph" class="headerlink" title="Visualising the Design Process with Dynamic Graph"></a>Visualising the Design Process with Dynamic Graph</h1><h2 id="concept"><a href="#concept" class="headerlink" title="concept"></a>concept</h2><p>Designers have often forgotten after the completion of the design, but throughout viewing these recorded graphics can evoke their memory, and provide more inspiration to and thoughts.</p>
+<h1 id="Why-Designers-Forget-or-Lose-Information"><a href="#Why-Designers-Forget-or-Lose-Information" class="headerlink" title="Why Designers Forget or Lose Information"></a>Why Designers Forget or Lose Information</h1><p>Design work is a continuous decision-making process. However, in reality, designers often jump from one state to another instead of changing things step-by-step.<br>Because of this “jumping” process, some important information is easily lost. Examples include:</p>
+<h2 id="Quick-design-glimpses"><a href="#Quick-design-glimpses" class="headerlink" title="Quick design glimpses"></a>Quick design glimpses</h2><p>Small flashes of ideas that come and go.</p>
+<h2 id="Shape-evolution-steps"><a href="#Shape-evolution-steps" class="headerlink" title="Shape evolution steps"></a>Shape evolution steps</h2><p>The exact transitions between shapes during modeling.</p>
+<h2 id="Hidden-states"><a href="#Hidden-states" class="headerlink" title="Hidden states"></a>Hidden states</h2><p>Certain in-between states that are closer to the designer’s original idea but never get saved.</p>
+<h2 id="Memory-difficulty-after-finishing"><a href="#Memory-difficulty-after-finishing" class="headerlink" title="Memory difficulty after finishing"></a>Memory difficulty after finishing</h2><p>Designers often forget why they made certain decisions, or they forget shapes they tried and deleted.<br>These missing pieces are very important for understanding design thinking and the whole design process.</p>
+<h1 id="How-Information-Visualization-Helps-Memory-and-Retrieval"><a href="#How-Information-Visualization-Helps-Memory-and-Retrieval" class="headerlink" title="How Information Visualization Helps Memory and Retrieval"></a>How Information Visualization Helps Memory and Retrieval</h1><p>This study used a dynamic graph system to record the design process using information visualization. It helps capture lost information and helps designers remember their ideas.<br>Main functions and benefits:</p>
+<h2 id="Recording-jumping-states-continuously"><a href="#Recording-jumping-states-continuously" class="headerlink" title="Recording jumping states continuously"></a>Recording jumping states continuously</h2><p>The system turns the design process into a sequence of animations. Designers can clearly see how each step evolved, including states they usually skip over.</p>
+<h2 id="Automatic-background-recording"><a href="#Automatic-background-recording" class="headerlink" title="Automatic background recording"></a>Automatic background recording</h2><p>Besides manually saved states, the system auto-records shape changes (for example, once per minute) so that even unsaved ideas are captured.</p>
+<h2 id="Recovering-lost-inspiration"><a href="#Recovering-lost-inspiration" class="headerlink" title="Recovering lost inspiration"></a>Recovering lost inspiration</h2><p>When designers feel stuck, they can review the recorded process. Watching the past steps often gives them new ideas.</p>
+<h2 id="Triggering-memory"><a href="#Triggering-memory" class="headerlink" title="Triggering memory"></a>Triggering memory</h2><p>When researchers showed designers the automatically recorded shapes, designers realized many forgotten ideas were hidden inside. Viewing these shapes helps them recall thoughts they had already forgotten.</p>
+<h2 id="Better-efficiency-and-reflection"><a href="#Better-efficiency-and-reflection" class="headerlink" title="Better efficiency and reflection"></a>Better efficiency and reflection</h2><p>Designers gain not only the final result but also a full record of the design journey. They can review developing features and ideas that did not continue. This helps with reflection, learning, and improving future work.</p>
+<h1 id="Core-concept"><a href="#Core-concept" class="headerlink" title="Core concept"></a>Core concept</h1><p>This system can not only become a <strong>platform for data storage</strong>,<br>but also can be linked to the other cloud database and shaping this platform as<br>a <strong>“design database”</strong></p>
+<h1 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h1><p>Chang, W.-H. L. a. T.-W. (2012). “Visualising the Design Process with Dynamic Graph.”
+	</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="https://ezrawu-tw.github.io">YISHENG WU</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="https://ezrawu-tw.github.io/2025/11/24/Diagrammatic-Design-Process-N-03/">https://ezrawu-tw.github.io/2025/11/24/Diagrammatic-Design-Process-N-03/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles on this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless otherwise stated.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Visualising-Information/">Visualising Information</a></div><div class="post-share"><div class="social-share" data-image="https://lh3.googleusercontent.com/a/ACg8ocJ-AxqZX3ywO-st4G6QEtLv0mhEAW2WnVCCd3FKD2xlTFwvXmkeRA=s288-c-no" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2025/11/24/Diagrammatic-Design-Process-N-djoe/" title="dJOE - design Jigsaw On sitE A Computational Interface of Displacing Ideas in the Design Productive Process"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">Previous</div><div class="info-item-2">dJOE - design Jigsaw On sitE A Computational Interface of Displacing Ideas in the Design Productive Process</div></div><div class="info-2"><div class="info-item-1">dJOE: design Jigsaw On sitEA Computational Interface of Displacing Ideas in the Design Productive Process focus on how designer’s process of displacing ideas in the design productive phase and how to represent it on interface. Oxman (2004) claimed that only through a concept structure of the entire knowledge linking network can we understand the analogy reasoning pattern in the thinking process. RefChia-Hui Nico Lo1, I.-C. L., and Teng-Wen Chang2 (2013). “dJOE: design Jigsaw On sitEA Computat...</div></div></div></a><a class="pagination-related" href="/2025/11/24/Diagrammatic-Design-Process-N-02/" title="A is b, displacement"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">Next</div><div class="info-item-2">A is b, displacement</div></div><div class="info-2"><div class="info-item-1">A is B?Richards(1936) defines metaphor as the form “A is B”.a graph-like knowledge represents the individual memories with the nodes and arcs that are the ideas and the links between ideas respectively. AA is the tenor through which we intend to understand B BB is the vehicle which helps us to understand A ICFPICFP is a structured tool that helps capture and measure how designers organize and connect ideas during metaphorical displacement (when ideas shift from one domain to another). I — Iss...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2025/11/24/Diagrammatic-Design-Process-N-djoe/" title="dJOE - design Jigsaw On sitE A Computational Interface of Displacing Ideas in the Design Productive Process"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-11-24</div><div class="info-item-2">dJOE - design Jigsaw On sitE A Computational Interface of Displacing Ideas in the Design Productive Process</div></div><div class="info-2"><div class="info-item-1">dJOE: design Jigsaw On sitEA Computational Interface of Displacing Ideas in the Design Productive Process focus on how designer’s process of displacing ideas in the design productive phase and how to represent it on interface. Oxman (2004) claimed that only through a concept structure of the entire knowledge linking network can we understand the analogy reasoning pattern in the thinking process. RefChia-Hui Nico Lo1, I.-C. L., and Teng-Wen Chang2 (2013). “dJOE: design Jigsaw On sitEA Computat...</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://lh3.googleusercontent.com/a/ACg8ocJ-AxqZX3ywO-st4G6QEtLv0mhEAW2WnVCCd3FKD2xlTFwvXmkeRA=s288-c-no" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">YISHENG WU</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">41</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">43</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">9</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/ezrawu-tw"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">Anxiety Is the Dizziness of Freedom - Søren Kierkegaard</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Visualising-the-Design-Process-with-Dynamic-Graph"><span class="toc-number">1.</span> <span class="toc-text">Visualising the Design Process with Dynamic Graph</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#concept"><span class="toc-number">1.1.</span> <span class="toc-text">concept</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Why-Designers-Forget-or-Lose-Information"><span class="toc-number">2.</span> <span class="toc-text">Why Designers Forget or Lose Information</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-design-glimpses"><span class="toc-number">2.1.</span> <span class="toc-text">Quick design glimpses</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Shape-evolution-steps"><span class="toc-number">2.2.</span> <span class="toc-text">Shape evolution steps</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Hidden-states"><span class="toc-number">2.3.</span> <span class="toc-text">Hidden states</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Memory-difficulty-after-finishing"><span class="toc-number">2.4.</span> <span class="toc-text">Memory difficulty after finishing</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#How-Information-Visualization-Helps-Memory-and-Retrieval"><span class="toc-number">3.</span> <span class="toc-text">How Information Visualization Helps Memory and Retrieval</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Recording-jumping-states-continuously"><span class="toc-number">3.1.</span> <span class="toc-text">Recording jumping states continuously</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Automatic-background-recording"><span class="toc-number">3.2.</span> <span class="toc-text">Automatic background recording</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Recovering-lost-inspiration"><span class="toc-number">3.3.</span> <span class="toc-text">Recovering lost inspiration</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Triggering-memory"><span class="toc-number">3.4.</span> <span class="toc-text">Triggering memory</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Better-efficiency-and-reflection"><span class="toc-number">3.5.</span> <span class="toc-text">Better efficiency and reflection</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Core-concept"><span class="toc-number">4.</span> <span class="toc-text">Core concept</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Ref"><span class="toc-number">5.</span> <span class="toc-text">Ref</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Posts</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/11/24/mit-study-brain-chatgpt/" title="Can We Still Think Critically in the Age of AI?">Can We Still Think Critically in the Age of AI?</a><time datetime="2025-11-24T13:41:38.151Z" title="Created 2025-11-24 21:41:38">2025-11-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/11/24/Why-Reading-10-Pages-a-Day-Can-Transform-Your-Mind/" title="Why Reading 10 Pages a Day Can Transform Your Mind">Why Reading 10 Pages a Day Can Transform Your Mind</a><time datetime="2025-11-24T13:29:40.089Z" title="Created 2025-11-24 21:29:40">2025-11-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/11/24/Diagrammatic-Design-Process-N-djoe/" title="dJOE - design Jigsaw On sitE A Computational Interface of Displacing Ideas in the Design Productive Process">dJOE - design Jigsaw On sitE A Computational Interface of Displacing Ideas in the Design Productive Process</a><time datetime="2025-11-24T12:25:26.032Z" title="Created 2025-11-24 20:25:26">2025-11-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/11/24/Diagrammatic-Design-Process-N-03/" title="Visualising the Design Process with Dynamic Graph">Visualising the Design Process with Dynamic Graph</a><time datetime="2025-11-24T11:51:26.541Z" title="Created 2025-11-24 19:51:26">2025-11-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/11/24/Diagrammatic-Design-Process-N-02/" title="A is b, displacement">A is b, displacement</a><time datetime="2025-11-24T11:18:12.402Z" title="Created 2025-11-24 19:18:12">2025-11-24</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(https://images.unsplash.com/photo-1747119072012-825949dec726?ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;q=80&amp;w=1171);"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2019 - 2025 By YISHENG WU</span><span class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.2</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Reading Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="/"></script></div></body></html>
