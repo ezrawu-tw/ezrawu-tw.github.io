@@ -1,0 +1,277 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Anything LLM 製作高客製化的AI助理-教學篇 | EZRA BLOG</title><meta name="author" content="YISHENG WU"><meta name="copyright" content="YISHENG WU"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="什麼是AnythingLLMAnythingLLM 是一款強大的 full-stack AI 應用程式，它能將多種文件格式、資源或內容轉化為大型語言模型（LLM）可使用的查詢用文本。 這款工具不僅支持多用戶管理（對，等於直接有後台管理者），還提供多種 LLM 和向量資料庫的選擇，使其成為建構私有客製化 RAG 解決方案的好選擇，基本上用這套能夠把 RAG 的開發成本降得超低，而且採用 MIT Li">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Anything LLM 製作高客製化的AI助理-教學篇">
+<meta property="og:url" content="https://ezrawu-tw.github.io/2026/01/23/llm-rag-AnythingLLM/index.html">
+<meta property="og:site_name" content="EZRA BLOG">
+<meta property="og:description" content="什麼是AnythingLLMAnythingLLM 是一款強大的 full-stack AI 應用程式，它能將多種文件格式、資源或內容轉化為大型語言模型（LLM）可使用的查詢用文本。 這款工具不僅支持多用戶管理（對，等於直接有後台管理者），還提供多種 LLM 和向量資料庫的選擇，使其成為建構私有客製化 RAG 解決方案的好選擇，基本上用這套能夠把 RAG 的開發成本降得超低，而且採用 MIT Li">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://ezrawu-tw.github.io/photo/com01.jpg">
+<meta property="article:published_time" content="2026-01-23T03:10:00.000Z">
+<meta property="article:modified_time" content="2026-01-23T09:30:01.000Z">
+<meta property="article:author" content="YISHENG WU">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://ezrawu-tw.github.io/photo/com01.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Anything LLM 製作高客製化的AI助理-教學篇",
+  "url": "https://ezrawu-tw.github.io/2026/01/23/llm-rag-AnythingLLM/",
+  "image": "https://ezrawu-tw.github.io/photo/com01.jpg",
+  "datePublished": "2026-01-23T03:10:00.000Z",
+  "dateModified": "2026-01-23T09:30:01.000Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "YISHENG WU",
+      "url": "https://ezrawu-tw.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/happy.png"><link rel="canonical" href="https://ezrawu-tw.github.io/2026/01/23/llm-rag-AnythingLLM/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'medium_zoom',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Anything LLM 製作高客製化的AI助理-教學篇',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/photo/com01.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">47</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">43</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">11</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Timeline</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw fas fa-image"></i><span> Gallery</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Category</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About me</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">EZRA BLOG</span></a><a class="nav-page-title" href="/"><span class="site-name">Anything LLM 製作高客製化的AI助理-教學篇</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  Back to Home</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Timeline</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw fas fa-image"></i><span> Gallery</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Category</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About me</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">Anything LLM 製作高客製化的AI助理-教學篇</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2026-01-23T03:10:00.000Z" title="Created 2026-01-23 11:10:00">2026-01-23</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2026-01-23T09:30:01.000Z" title="Updated 2026-01-23 17:30:01">2026-01-23</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/AnythingLLM/">AnythingLLM</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/AnythingLLM/LLM-Learn/">LLM-Learn</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word Count:</span><span class="word-count">1.6k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading Time:</span><span>5mins</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="什麼是AnythingLLM"><a href="#什麼是AnythingLLM" class="headerlink" title="什麼是AnythingLLM"></a>什麼是AnythingLLM</h1><p>AnythingLLM 是一款強大的 full-stack AI 應用程式，它能將多種文件格式、資源或內容轉化為大型語言模型（LLM）可使用的查詢用文本。</p>
+<p>這款工具不僅支持多用戶管理（對，等於直接有後台管理者），還提供多種 LLM 和向量資料庫的選擇，使其成為建構私有客製化 RAG 解決方案的好選擇，基本上用這套能夠把 RAG 的開發成本降得超低，而且採用 MIT License 還可以直接修改及商用</p>
+<h2 id="為什麼選擇-AnythingLLM？"><a href="#為什麼選擇-AnythingLLM？" class="headerlink" title="為什麼選擇 AnythingLLM？"></a>為什麼選擇 AnythingLLM？</h2><p>最主要是使用上非常簡易方便，也可以參照官方寫的優點如下</p>
+<p>多用戶支持：無論是團隊合作還是個人使用，AnythingLLM 都能夠輕鬆管理多用戶的權限和操作。</p>
+<p>靈活的 LLM 和向量資料庫選擇：用戶可以根據需求選擇合適的 LLM 和向量資料庫，滿足不同的應用場景。</p>
+<p>高效的文件管理：支持多種文件類型，如 PDF、TXT、DOCX 等，並通過簡單的 UI 進行管理。（目前不支援DOC格式）</p>
+<p>自定義聊天小工具：可將聊天功能嵌入網站，提升互動體驗。</p>
+<p>兩種聊天模式：在保留上下文的會話模式(平常使用，沒資料就直接根據LLM的知識回應)和問答的查詢模式(較嚴格，查詢到資料才回答，更減低幻覺發生)之間靈活切換。</p>
+<p>還可以網頁文字爬取跟YouTube字幕擷取等功能，讓只會最基本的RAG幾乎沒生存空間了XD</p>
+<h2 id="RAG-是什麼"><a href="#RAG-是什麼" class="headerlink" title="RAG 是什麼?"></a>RAG 是什麼?</h2><p>RAG (Retrieval-Augmented Generation) 可以想像成是一個小抄或字典，透過向量資料庫檢索出來的資料跟使用者的問題一併告訴語言模型，讓語言模型能夠減低幻覺，根據資料回答問題。</p>
+<h1 id="製作專屬的AI-TA助教"><a href="#製作專屬的AI-TA助教" class="headerlink" title="製作專屬的AI TA助教"></a>製作專屬的AI TA助教</h1><ul>
+<li>情緒價值</li>
+<li>輸出是有書籍背書</li>
+<li>高度客製化</li>
+</ul>
+<h2 id="瀏覽器開啟"><a href="#瀏覽器開啟" class="headerlink" title="瀏覽器開啟"></a>瀏覽器開啟</h2><p>localhost:3001 </p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/image.png" class="" title="anythingLLM">
+
+<p>可以選擇要用哪個模型作為聊天處裡的服務<br>這邊我選ollama</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/image-2.png" class="">
+
+
+<p>並填入ollama 本地運行網址</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/image-3.png" class="">
+
+<p>下一步 選擇我得團隊<br>並設定管理員(你自己) 帳號及密碼來管理</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/image5.png" class="">
+
+<p>下一步 檢查配置</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/image6.png" class="">
+
+<h2 id="進入工作區域"><a href="#進入工作區域" class="headerlink" title="進入工作區域"></a>進入工作區域</h2><p>可以放專屬於你自己知識庫的助理<br>所有的RAG文件, 微調模型</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/i7.png" class="">
+
+<p>這裡我給它一個名字 “AI 數位體驗設計助教”</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/i8.png" class="">
+<p>紅色區域框起來 </p>
+<blockquote>
+<p>靠左邊的是導入文件在本地運用RAG的街口</p>
+</blockquote>
+<blockquote>
+<p>靠右邊則是設定及微調&#x2F;邀請等等後面會介紹</p>
+</blockquote>
+<p>我們先點選左邊按鈕 將體驗設計的相關文本進行導入</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/i9.png" class="">
+
+<p>你也可以透過網站連結導入<br>導入後，點選移動到工作區 </p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/i20.png" class="">
+
+<p>最後點選 儲存並嵌入<br>這樣一來你的工作區就會充滿這些文獻來支持你的應用了</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/I21.png" class="">
+<p>等它跑完 就能開始用了!</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/I22.png" class="">
+
+<h2 id="自訂聊天機器人的情緒價值"><a href="#自訂聊天機器人的情緒價值" class="headerlink" title="自訂聊天機器人的情緒價值"></a>自訂聊天機器人的情緒價值</h2><p>操作如圖說明:</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/i23.png" class="">
+
+
+<p>系統提示詞如下: </p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">你在此工作區中扮演 AI 助教（AI Teaching Assistant, AI TA）。</span><br><span class="line"></span><br><span class="line">回覆規則：</span><br><span class="line"></span><br><span class="line">回覆以繁體中文為主</span><br><span class="line"></span><br><span class="line">專有名詞首次出現需附英文原文</span><br><span class="line"></span><br><span class="line">回答保持清楚、結構化、專業</span><br><span class="line"></span><br><span class="line">行為約束：</span><br><span class="line"></span><br><span class="line">協助理解與思考，不直接代寫或產出可繳交的作業成果</span><br><span class="line"></span><br><span class="line">涉及評分或課程政策時，提醒以教師公告為準</span><br><span class="line"></span><br><span class="line">資訊不確定時需明確說明不確定性</span><br><span class="line"></span><br><span class="line">你的角色是輔助學習與理解的助教，不是教師。</span><br></pre></td></tr></table></figure>
+
+<p>而且記得設定對話模式 “查詢” 也就是我們輸入的文本內容</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/i24.png" class="">
+
+<p>更改完一樣 更新工作空間!</p>
+<p>恭喜你 已完成基礎的RAG及系統提示設定!!!<br>可以開始進行聊天了!</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/a1.png" class="">
+
+
+
+<h1 id="問與答"><a href="#問與答" class="headerlink" title="問與答"></a>問與答</h1><h2 id="找出對話下隱藏的設計謎題"><a href="#找出對話下隱藏的設計謎題" class="headerlink" title="找出對話下隱藏的設計謎題"></a>找出對話下隱藏的設計謎題</h2><p>我想了解團隊成員問了哪些有趣的問題(找出隱藏的設計拼圖)</p>
+<p>首先,點選紅色框起來的區域</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/a12.png" class="">
+
+<p>點選工作區對話紀錄<br>可以選擇 下載CSV&#x2F;JSON&#x2F;JSONL</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/a11.png" class="">
+
+<p>這樣你就能看到所有人問的問題了!</p>
+<h2 id="我想邀請其他人一起用我的AI-數位體驗設計助教"><a href="#我想邀請其他人一起用我的AI-數位體驗設計助教" class="headerlink" title="我想邀請其他人一起用我的AI 數位體驗設計助教"></a>我想邀請其他人一起用我的AI 數位體驗設計助教</h2><p>這裡分為使用者管理與邀請管理<br>這邊我建議使用 “使用者管理”<br>因為邀請管理是透過連結(自動生成 被邀請者用完就要產生新的邀請連結)<br>那如果使用”使用者管理” 助教就能先建立好一批學生帳號密碼清單,之後再發給同學們做使用</p>
+<p>而這邊我會先以”使用者管理” 進行教學</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/ini001.png" class="">
+
+<p>點按 add user<br>會跑出這個視窗<br>並填入使用者帳號&#x2F;密碼</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/ini002.png" class="">
+<p>Bio: 給敘述 方便識別該學生身分<br>Role: </p>
+<ul>
+<li>Default 純使用 無管理者</li>
+<li>Manager 可管理 但不是系統管理員</li>
+<li>Administrator 系統管理員 (危險)</li>
+</ul>
+<p>這裡我選Default身分<br>選好後按add user 即可<br>下方有每天限制訊息</p>
+<blockquote>
+<p>如果系統易卡頓建議還是打開限制訊息 避免被亂刷</p>
+</blockquote>
+<img src="/2026/01/23/llm-rag-AnythingLLM/ini003.png" class="">
+<p>可以限制一天能用多少額度<br>例如這邊是1天10次上限</p>
+<h2 id="如果你新增學生，學生反映登入後沒有顯示聊天機器人"><a href="#如果你新增學生，學生反映登入後沒有顯示聊天機器人" class="headerlink" title="如果你新增學生，學生反映登入後沒有顯示聊天機器人"></a>如果你新增學生，學生反映登入後沒有顯示聊天機器人</h2><p>因為我們還沒指派工作區給它<br>還沒指派畫面如下:</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/ini004.png" class="">
+
+<p>回到這裡 指派工作區給使用者</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/ini005.png" class="">
+
+<p>將想要指派的使用者 勾選起來就能讓他加入工作區</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/ini006.png" class="">
+
+<p>save完成後，回到A11223030使用者<br>刷新後，你就能看到</p>
+<img src="/2026/01/23/llm-rag-AnythingLLM/ini007.png" class="">
+<p>點進去就能開始對話啦!</p>
+<h1 id="知識補充"><a href="#知識補充" class="headerlink" title="知識補充"></a>知識補充</h1><h2 id="向量資料庫"><a href="#向量資料庫" class="headerlink" title="向量資料庫"></a>向量資料庫</h2><p>以下是幾個常見的向量資料庫<br>本篇使用LanceDB 並搭配簡單介紹 不著重在教學上</p>
+<h3 id="LanceDB"><a href="#LanceDB" class="headerlink" title="LanceDB"></a>LanceDB</h3><p>LanceDB is a multimodal lakehouse for AI, built on top of Lance, an open-source lakehouse format. Below, we list a few ways LanceDB can help you build and scale your AI and ML workloads.</p>
+<h3 id="PGvector"><a href="#PGvector" class="headerlink" title="PGvector"></a>PGvector</h3><p>pgvector is a Postgres extension for vector similarity search. It can also be used for storing embeddings. The name of pgvector’s Postgres extension is vector.</p>
+<h3 id="Weaviate"><a href="#Weaviate" class="headerlink" title="Weaviate"></a>Weaviate</h3><p>Weaviate (we-vee-eight) is an open-source, AI vector database. Use this documentation to get started with Weaviate and learn how to get the most out of Weaviate’s features.</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="https://ezrawu-tw.github.io">YISHENG WU</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="https://ezrawu-tw.github.io/2026/01/23/llm-rag-AnythingLLM/">https://ezrawu-tw.github.io/2026/01/23/llm-rag-AnythingLLM/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles on this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless otherwise stated.</span></div></div><div class="tag_share"><div class="post-share"><div class="social-share" data-image="/photo/com01.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related  no-desc" href="/2026/03/02/030226-book/" title="articulating design decisions"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">Previous</div><div class="info-item-2">articulating design decisions</div></div></div></a><a class="pagination-related" href="/2026/01/23/llm-rag-docker-2/" title="Anything LLM 安裝 MacOS 篇"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">Next</div><div class="info-item-2">Anything LLM 安裝 MacOS 篇</div></div><div class="info-2"><div class="info-item-1">MacOS 如何安裝 Anything LLM步驟 1：安裝 Homebrew（如未安裝）12/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;brew doctor  步驟 2：安裝 Docker Desktop for Mac12brew install --cask dockeropen -a Docker  # 啟動 Docker Desktop，首次啟動可能需手動授權  啟動後，請等候 Docker 小鯨魚圖示變成綠色，表示成功啟動。確認安裝成功： 1docker --version  步驟 3：安裝 Node.js 和 Yarn12brew install nodenpm install -g yarn  確認 Node.js 版本為 18 或以上： 1node -v  步驟 4：建立資料夾並拉取 AnythingLLM 映像檔1234export STORAGE_LOCATION=$HOME/anything...</div></div></div></a></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/photo/com01.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">YISHENG WU</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">47</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">43</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">11</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/ezrawu-tw"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">Anxiety Is the Dizziness of Freedom - Søren Kierkegaard</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Contents</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BB%80%E9%BA%BC%E6%98%AFAnythingLLM"><span class="toc-number">1.</span> <span class="toc-text">什麼是AnythingLLM</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%82%BA%E4%BB%80%E9%BA%BC%E9%81%B8%E6%93%87-AnythingLLM%EF%BC%9F"><span class="toc-number">1.1.</span> <span class="toc-text">為什麼選擇 AnythingLLM？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#RAG-%E6%98%AF%E4%BB%80%E9%BA%BC"><span class="toc-number">1.2.</span> <span class="toc-text">RAG 是什麼?</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%A3%BD%E4%BD%9C%E5%B0%88%E5%B1%AC%E7%9A%84AI-TA%E5%8A%A9%E6%95%99"><span class="toc-number">2.</span> <span class="toc-text">製作專屬的AI TA助教</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%80%8F%E8%A6%BD%E5%99%A8%E9%96%8B%E5%95%9F"><span class="toc-number">2.1.</span> <span class="toc-text">瀏覽器開啟</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%B2%E5%85%A5%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F"><span class="toc-number">2.2.</span> <span class="toc-text">進入工作區域</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%87%AA%E8%A8%82%E8%81%8A%E5%A4%A9%E6%A9%9F%E5%99%A8%E4%BA%BA%E7%9A%84%E6%83%85%E7%B7%92%E5%83%B9%E5%80%BC"><span class="toc-number">2.3.</span> <span class="toc-text">自訂聊天機器人的情緒價值</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%95%8F%E8%88%87%E7%AD%94"><span class="toc-number">3.</span> <span class="toc-text">問與答</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%89%BE%E5%87%BA%E5%B0%8D%E8%A9%B1%E4%B8%8B%E9%9A%B1%E8%97%8F%E7%9A%84%E8%A8%AD%E8%A8%88%E8%AC%8E%E9%A1%8C"><span class="toc-number">3.1.</span> <span class="toc-text">找出對話下隱藏的設計謎題</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%88%91%E6%83%B3%E9%82%80%E8%AB%8B%E5%85%B6%E4%BB%96%E4%BA%BA%E4%B8%80%E8%B5%B7%E7%94%A8%E6%88%91%E7%9A%84AI-%E6%95%B8%E4%BD%8D%E9%AB%94%E9%A9%97%E8%A8%AD%E8%A8%88%E5%8A%A9%E6%95%99"><span class="toc-number">3.2.</span> <span class="toc-text">我想邀請其他人一起用我的AI 數位體驗設計助教</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A6%82%E6%9E%9C%E4%BD%A0%E6%96%B0%E5%A2%9E%E5%AD%B8%E7%94%9F%EF%BC%8C%E5%AD%B8%E7%94%9F%E5%8F%8D%E6%98%A0%E7%99%BB%E5%85%A5%E5%BE%8C%E6%B2%92%E6%9C%89%E9%A1%AF%E7%A4%BA%E8%81%8A%E5%A4%A9%E6%A9%9F%E5%99%A8%E4%BA%BA"><span class="toc-number">3.3.</span> <span class="toc-text">如果你新增學生，學生反映登入後沒有顯示聊天機器人</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%9F%A5%E8%AD%98%E8%A3%9C%E5%85%85"><span class="toc-number">4.</span> <span class="toc-text">知識補充</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%91%E9%87%8F%E8%B3%87%E6%96%99%E5%BA%AB"><span class="toc-number">4.1.</span> <span class="toc-text">向量資料庫</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#LanceDB"><span class="toc-number">4.1.1.</span> <span class="toc-text">LanceDB</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#PGvector"><span class="toc-number">4.1.2.</span> <span class="toc-text">PGvector</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Weaviate"><span class="toc-number">4.1.3.</span> <span class="toc-text">Weaviate</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Posts</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/03/02/030226-book/" title="articulating design decisions">articulating design decisions</a><time datetime="2026-03-02T09:54:52.711Z" title="Created 2026-03-02 17:54:52">2026-03-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/01/23/llm-rag-AnythingLLM/" title="Anything LLM 製作高客製化的AI助理-教學篇">Anything LLM 製作高客製化的AI助理-教學篇</a><time datetime="2026-01-23T03:10:00.000Z" title="Created 2026-01-23 11:10:00">2026-01-23</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/01/23/llm-rag-docker/" title="Anything LLM 安裝 Windows 篇">Anything LLM 安裝 Windows 篇</a><time datetime="2026-01-23T03:00:00.000Z" title="Created 2026-01-23 11:00:00">2026-01-23</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/01/23/llm-rag-docker-2/" title="Anything LLM 安裝 MacOS 篇">Anything LLM 安裝 MacOS 篇</a><time datetime="2026-01-23T03:00:00.000Z" title="Created 2026-01-23 11:00:00">2026-01-23</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/11/25/IV-CLM/" title="Chameleon Learning Method, CLM">Chameleon Learning Method, CLM</a><time datetime="2025-11-25T02:10:06.346Z" title="Created 2025-11-25 10:10:06">2025-11-25</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(https://images.unsplash.com/photo-1747119072012-825949dec726?ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;q=80&amp;w=1171);"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2019 - 2026 By YISHENG WU</span><span class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.2</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Reading Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle Between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><div class="js-pjax"></div><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="/"></script></div></body></html>
