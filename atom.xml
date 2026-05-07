@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>Yi-Sheng (Ezra) Wu</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <icon>https://ezrawu-tw.github.io/icon.png</icon>
+  <id>https://ezrawu-tw.github.io/</id>
+  <link href="https://ezrawu-tw.github.io/" rel="alternate"/>
+  <link href="https://ezrawu-tw.github.io/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, Yi-Sheng (Ezra) Wu</rights>
+  <subtitle>When design responds to real human needs, technology gains the ability to carry emotion.</subtitle>
+  <title>Yi-Sheng (Ezra) Wu</title>
+  <updated>2026-05-07T00:48:09.364Z</updated>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="memory" scheme="https://ezrawu-tw.github.io/categories/memory/"/>
+    <id>https://ezrawu-tw.github.io/2026/05/07/history-prize-adventure/</id>
+    <link href="https://ezrawu-tw.github.io/2026/05/07/history-prize-adventure/"/>
+    <published>2026-05-07T00:45:13.889Z</published>
+    <summary>這裡放我做過的興趣成就</summary>
+    <title>興趣成就列表</title>
+    <updated>2026-05-07T00:48:09.364Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Good Start" scheme="https://ezrawu-tw.github.io/categories/Good-Start/"/>
+    <category term="Reading Reflection" scheme="https://ezrawu-tw.github.io/tags/Reading-Reflection/"/>
+    <id>https://ezrawu-tw.github.io/2026/05/07/Artificial/</id>
+    <link href="https://ezrawu-tw.github.io/2026/05/07/Artificial/"/>
+    <published>2026-05-06T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="甚麼是-Artifate"><a href="#甚麼是-Artifate" class="headerlink" title="甚麼是 Artifate"></a>甚麼是]]>
+    </summary>
+    <title>The Sciences of the Artificial - 人工科學讀後感</title>
+    <updated>2026-05-06T17:32:21.700Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Good Start" scheme="https://ezrawu-tw.github.io/categories/Good-Start/"/>
+    <category term="Design of Master" scheme="https://ezrawu-tw.github.io/categories/Good-Start/Design-of-Master/"/>
+    <id>https://ezrawu-tw.github.io/2026/05/07/exp-senior-design/</id>
+    <link href="https://ezrawu-tw.github.io/2026/05/07/exp-senior-design/"/>
+    <published>2026-05-06T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="技術交叉路口"><a href="#技術交叉路口" class="headerlink" title="技術交叉路口"></a>技術交叉路口</h1><p>我今天問學姊: 我感覺我卡在 退一步 裝置互動]]>
+    </summary>
+    <title>設計所學姐經驗談</title>
+    <updated>2026-05-06T17:25:44.753Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <id>https://ezrawu-tw.github.io/2026/05/06/eng-great/</id>
+    <link href="https://ezrawu-tw.github.io/2026/05/06/eng-great/"/>
+    <published>2026-05-06T03:20:44.173Z</published>
+    <summary>
+      <![CDATA[<h1 id="學習-要有耐心"><a href="#學習-要有耐心" class="headerlink" title="學習 要有耐心"></a>學習 要有耐心</h1><p>在 9貓 教學中<br>最後一張 就有提到<br>學習的重點]]>
+    </summary>
+    <title>20%-70% 英語理解</title>
+    <updated>2026-05-06T03:24:47.607Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Tool" scheme="https://ezrawu-tw.github.io/categories/Tool/"/>
+    <category term="Design of Master" scheme="https://ezrawu-tw.github.io/categories/Tool/Design-of-Master/"/>
+    <id>https://ezrawu-tw.github.io/2026/05/06/exp-seminar/</id>
+    <link href="https://ezrawu-tw.github.io/2026/05/06/exp-seminar/"/>
+    <published>2026-05-05T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>你可以找你那篇研討會歷年文章 一堆文獻篇名後 右鍵列印存網頁pdf 給Claude 看有沒有與你相符的文章<br>你可以問看看perplexity請他找相關的<br>不然你找看看有沒有問題點類似的</p>
+<p>可以先用 gemini 提取]]>
+    </summary>
+    <title>碩士工具經驗談</title>
+    <updated>2026-05-06T17:25:57.526Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Good Start" scheme="https://ezrawu-tw.github.io/categories/Good-Start/"/>
+    <id>https://ezrawu-tw.github.io/2026/05/06/stay-alive/</id>
+    <link href="https://ezrawu-tw.github.io/2026/05/06/stay-alive/"/>
+    <published>2026-05-05T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="生命誕生"><a href="#生命誕生" class="headerlink" title="生命誕生"></a>生命誕生</h1><p>一年一次的粉色珊瑚<br>在周末要進行排卵]]>
+    </summary>
+    <title>Ivan說 世界上不可能找到兩片一模一樣的樹葉</title>
+    <updated>2026-05-06T02:50:24.983Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Note" scheme="https://ezrawu-tw.github.io/categories/Note/"/>
+    <id>https://ezrawu-tw.github.io/2026/05/02/blogs/</id>
+    <link href="https://ezrawu-tw.github.io/2026/05/02/blogs/"/>
+    <published>2026-05-01T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="待讀清單"><a href="#待讀清單" class="headerlink" title="待讀清單"></a>待讀清單</h1><p><a]]>
+    </summary>
+    <title>wiwi 激發寫作的動力</title>
+    <updated>2026-05-06T17:30:57.203Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="memory" scheme="https://ezrawu-tw.github.io/categories/memory/"/>
+    <id>https://ezrawu-tw.github.io/2026/05/02/history-prize/</id>
+    <link href="https://ezrawu-tw.github.io/2026/05/02/history-prize/"/>
+    <published>2026-05-01T16:00:00.000Z</published>
+    <summary>這裡放我做過的學術成就</summary>
+    <title>學術成就列表</title>
+    <updated>2026-05-07T00:48:17.347Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Good Start" scheme="https://ezrawu-tw.github.io/categories/Good-Start/"/>
+    <category term="Design of Master" scheme="https://ezrawu-tw.github.io/categories/Good-Start/Design-of-Master/"/>
+    <id>https://ezrawu-tw.github.io/2026/05/01/caadria/</id>
+    <link href="https://ezrawu-tw.github.io/2026/05/01/caadria/"/>
+    <published>2026-04-30T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="盡力完成，隨時問有需要幫忙嗎"><a href="#盡力完成，隨時問有需要幫忙嗎" class="headerlink"]]>
+    </summary>
+    <title>七天六夜中我在國際研討會擔任主辦工作人員學到的事</title>
+    <updated>2026-05-06T17:26:19.083Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Good Start" scheme="https://ezrawu-tw.github.io/categories/Good-Start/"/>
+    <id>https://ezrawu-tw.github.io/2026/04/23/prep-CAADRIA-2026/</id>
+    <link href="https://ezrawu-tw.github.io/2026/04/23/prep-CAADRIA-2026/"/>
+    <published>2026-04-23T13:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="當自律成為日常：為了兩個月後的-CAADRIA，我選擇與世界同步"><a href="#當自律成為日常：為了兩個月後的-CAADRIA，我選擇與世界同步" class="headerlink" title="當自律成為日常：為了兩個月後的]]>
+    </summary>
+    <title>當自律成為日常：為了兩個月後的 CAADRIA，我選擇與世界同步</title>
+    <updated>2026-04-23T14:13:38.666Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Good Start" scheme="https://ezrawu-tw.github.io/categories/Good-Start/"/>
+    <id>https://ezrawu-tw.github.io/2026/04/21/0421/</id>
+    <link href="https://ezrawu-tw.github.io/2026/04/21/0421/"/>
+    <published>2026-04-20T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="體驗過寂靜黑暗的深海後，我意識到甚麼是生命的意義"><a href="#體驗過寂靜黑暗的深海後，我意識到甚麼是生命的意義" class="headerlink"]]>
+    </summary>
+    <title>體驗過寂靜黑暗的深海後，我意識到甚麼是生命的意義!</title>
+    <updated>2026-05-06T02:37:43.916Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Good Start" scheme="https://ezrawu-tw.github.io/categories/Good-Start/"/>
+    <id>https://ezrawu-tw.github.io/2026/04/18/Story/</id>
+    <link href="https://ezrawu-tw.github.io/2026/04/18/Story/"/>
+    <published>2026-04-17T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="Writing-My-Own-Story"><a href="#Writing-My-Own-Story" class="headerlink" title="Writing My Own Story"></a>Writing My Own]]>
+    </summary>
+    <title>Writing My Own Story</title>
+    <updated>2026-04-21T16:28:32.554Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Note" scheme="https://ezrawu-tw.github.io/categories/Note/"/>
+    <id>https://ezrawu-tw.github.io/2026/01/23/llm-rag-AnythingLLM/</id>
+    <link href="https://ezrawu-tw.github.io/2026/01/23/llm-rag-AnythingLLM/"/>
+    <published>2026-01-23T03:10:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="什麼是AnythingLLM"><a href="#什麼是AnythingLLM" class="headerlink" title="什麼是AnythingLLM"></a>什麼是AnythingLLM</h1><p>AnythingLLM 是一款強大的]]>
+    </summary>
+    <title>Anything LLM 製作高客製化的AI助理-教學篇</title>
+    <updated>2026-01-23T09:30:01.000Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Note" scheme="https://ezrawu-tw.github.io/categories/Note/"/>
+    <id>https://ezrawu-tw.github.io/2026/01/23/llm-rag-docker-2/</id>
+    <link href="https://ezrawu-tw.github.io/2026/01/23/llm-rag-docker-2/"/>
+    <published>2026-01-23T03:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="MacOS-如何安裝-Anything-LLM"><a href="#MacOS-如何安裝-Anything-LLM" class="headerlink" title="MacOS 如何安裝 Anything LLM"></a>MacOS 如何安裝]]>
+    </summary>
+    <title>Anything LLM 安裝 MacOS 篇</title>
+    <updated>2026-05-07T00:56:19.790Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Note" scheme="https://ezrawu-tw.github.io/categories/Note/"/>
+    <id>https://ezrawu-tw.github.io/2026/01/23/llm-rag-docker/</id>
+    <link href="https://ezrawu-tw.github.io/2026/01/23/llm-rag-docker/"/>
+    <published>2026-01-23T03:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="Windows-Install"><a href="#Windows-Install" class="headerlink" title="Windows Install"></a>Windows Install</h1><figure]]>
+    </summary>
+    <title>Anything LLM 安裝 Windows 篇</title>
+    <updated>2026-05-07T00:56:13.073Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <id>https://ezrawu-tw.github.io/2025/11/24/IV/</id>
+    <link href="https://ezrawu-tw.github.io/2025/11/24/IV/"/>
+    <published>2025-11-24T15:03:01.024Z</published>
+    <summary>
+      <![CDATA[<h1 id="similar-theme"><a href="#similar-theme" class="headerlink" title="similar theme"></a>similar theme</h1><blockquote>
+<p>Huang, H.-Y.]]>
+    </summary>
+    <title>International Conference Information Visualisation (IV)</title>
+    <updated>2025-11-24T15:39:28.813Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Diary" scheme="https://ezrawu-tw.github.io/categories/Diary/"/>
+    <id>https://ezrawu-tw.github.io/2025/11/24/mit-study-brain-chatgpt/</id>
+    <link href="https://ezrawu-tw.github.io/2025/11/24/mit-study-brain-chatgpt/"/>
+    <published>2025-11-24T13:41:38.151Z</published>
+    <summary>
+      <![CDATA[<h1 id="A-reflection-inspired-by-the-MIT-study-“Your-Brain-on-ChatGPT-”"><a]]>
+    </summary>
+    <title>Can We Still Think Critically in the Age of AI?</title>
+    <updated>2025-11-24T13:45:25.226Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Diagrammatic Design Process" scheme="https://ezrawu-tw.github.io/categories/Diagrammatic-Design-Process/"/>
+    <category term="Visualising Information" scheme="https://ezrawu-tw.github.io/tags/Visualising-Information/"/>
+    <id>https://ezrawu-tw.github.io/2025/11/24/Diagrammatic-Design-Process-N-djoe/</id>
+    <link href="https://ezrawu-tw.github.io/2025/11/24/Diagrammatic-Design-Process-N-djoe/"/>
+    <published>2025-11-24T12:25:26.032Z</published>
+    <summary>
+      <![CDATA[<h1 id="dJOE-design-Jigsaw-On-sitE"><a href="#dJOE-design-Jigsaw-On-sitE" class="headerlink" title="dJOE: design Jigsaw On sitE"></a>dJOE:]]>
+    </summary>
+    <title>dJOE - design Jigsaw On sitE A Computational Interface of Displacing Ideas in the Design Productive Process</title>
+    <updated>2025-11-24T12:40:42.976Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Diagrammatic Design Process" scheme="https://ezrawu-tw.github.io/categories/Diagrammatic-Design-Process/"/>
+    <category term="Visualising Information" scheme="https://ezrawu-tw.github.io/tags/Visualising-Information/"/>
+    <id>https://ezrawu-tw.github.io/2025/11/24/Diagrammatic-Design-Process-N-03/</id>
+    <link href="https://ezrawu-tw.github.io/2025/11/24/Diagrammatic-Design-Process-N-03/"/>
+    <published>2025-11-24T11:51:26.541Z</published>
+    <summary>
+      <![CDATA[<h1 id="Visualising-the-Design-Process-with-Dynamic-Graph"><a href="#Visualising-the-Design-Process-with-Dynamic-Graph" class="headerlink"]]>
+    </summary>
+    <title>Visualising the Design Process with Dynamic Graph</title>
+    <updated>2025-11-24T12:26:12.904Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Diagrammatic Design Process" scheme="https://ezrawu-tw.github.io/categories/Diagrammatic-Design-Process/"/>
+    <category term="ICF" scheme="https://ezrawu-tw.github.io/tags/ICF/"/>
+    <category term="DIM" scheme="https://ezrawu-tw.github.io/tags/DIM/"/>
+    <category term="ICFP" scheme="https://ezrawu-tw.github.io/tags/ICFP/"/>
+    <id>https://ezrawu-tw.github.io/2025/11/24/Diagrammatic-Design-Process-N-02/</id>
+    <link href="https://ezrawu-tw.github.io/2025/11/24/Diagrammatic-Design-Process-N-02/"/>
+    <published>2025-11-24T11:18:12.402Z</published>
+    <summary>
+      <![CDATA[<h1 id="A-is-B"><a href="#A-is-B" class="headerlink" title="A is B?"></a>A is B?</h1><p>Richards(1936) defines metaphor as the form “A is]]>
+    </summary>
+    <title>A is b, displacement</title>
+    <updated>2025-11-24T12:26:15.635Z</updated>
+  </entry>
+</feed>
