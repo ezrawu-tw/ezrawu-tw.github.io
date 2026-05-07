@@ -28,16 +28,14 @@
     <author>
       <name>Yi-Sheng (Ezra) Wu</name>
     </author>
-    <category term="Design of Master" scheme="https://ezrawu-tw.github.io/categories/Design-of-Master/"/>
-    <category term="Reading Reflection" scheme="https://ezrawu-tw.github.io/tags/Reading-Reflection/"/>
-    <id>https://ezrawu-tw.github.io/2026/05/07/Artificial/</id>
-    <link href="https://ezrawu-tw.github.io/2026/05/07/Artificial/"/>
+    <category term="Life" scheme="https://ezrawu-tw.github.io/categories/Life/"/>
+    <category term="personal" scheme="https://ezrawu-tw.github.io/tags/personal/"/>
+    <id>https://ezrawu-tw.github.io/2026/05/07/deletesocialmedia/</id>
+    <link href="https://ezrawu-tw.github.io/2026/05/07/deletesocialmedia/"/>
     <published>2026-05-06T16:00:00.000Z</published>
-    <summary>
-      <![CDATA[<h1 id="甚麼是-Artifate"><a href="#甚麼是-Artifate" class="headerlink" title="甚麼是 Artifate"></a>甚麼是]]>
-    </summary>
-    <title>The Sciences of the Artificial - 人工科學讀後感</title>
-    <updated>2026-05-07T09:57:22.728Z</updated>
+    <summary>關於我刪除社交媒體帳號的快樂</summary>
+    <title>前所未有的自由</title>
+    <updated>2026-05-07T11:24:59.889Z</updated>
   </entry>
   <entry>
     <author>
@@ -108,20 +106,6 @@
     </summary>
     <title>Ivan說 世界上不可能找到兩片一模一樣的樹葉</title>
     <updated>2026-05-07T09:57:22.731Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Yi-Sheng (Ezra) Wu</name>
-    </author>
-    <category term="Note" scheme="https://ezrawu-tw.github.io/categories/Note/"/>
-    <id>https://ezrawu-tw.github.io/2026/05/02/blogs/</id>
-    <link href="https://ezrawu-tw.github.io/2026/05/02/blogs/"/>
-    <published>2026-05-01T16:00:00.000Z</published>
-    <summary>
-      <![CDATA[<h1 id="待讀清單"><a href="#待讀清單" class="headerlink" title="待讀清單"></a>待讀清單</h1><p><a]]>
-    </summary>
-    <title>wiwi 激發寫作的動力</title>
-    <updated>2026-05-06T17:30:57.203Z</updated>
   </entry>
   <entry>
     <author>
@@ -288,5 +272,22 @@
     </summary>
     <title>Visualising the Design Process with Dynamic Graph</title>
     <updated>2025-11-24T12:26:12.904Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Diagrammatic Design Process" scheme="https://ezrawu-tw.github.io/categories/Diagrammatic-Design-Process/"/>
+    <category term="ICF" scheme="https://ezrawu-tw.github.io/tags/ICF/"/>
+    <category term="DIM" scheme="https://ezrawu-tw.github.io/tags/DIM/"/>
+    <category term="ICFP" scheme="https://ezrawu-tw.github.io/tags/ICFP/"/>
+    <id>https://ezrawu-tw.github.io/2025/11/24/Diagrammatic-Design-Process-N-02/</id>
+    <link href="https://ezrawu-tw.github.io/2025/11/24/Diagrammatic-Design-Process-N-02/"/>
+    <published>2025-11-24T11:18:12.402Z</published>
+    <summary>
+      <![CDATA[<h1 id="A-is-B"><a href="#A-is-B" class="headerlink" title="A is B?"></a>A is B?</h1><p>Richards(1936) defines metaphor as the form “A is]]>
+    </summary>
+    <title>A is b, displacement</title>
+    <updated>2025-11-24T12:26:15.635Z</updated>
   </entry>
 </feed>
