@@ -11,7 +11,22 @@
   <rights>All rights reserved 2026, Yi-Sheng (Ezra) Wu</rights>
   <subtitle>When design responds to real human needs, technology gains the ability to carry emotion.</subtitle>
   <title>Yi-Sheng (Ezra) Wu</title>
-  <updated>2026-05-07T10:04:00.162Z</updated>
+  <updated>2026-05-07T11:31:49.373Z</updated>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Life" scheme="https://ezrawu-tw.github.io/categories/Life/"/>
+    <id>https://ezrawu-tw.github.io/2026/05/08/friend-plus7/</id>
+    <link href="https://ezrawu-tw.github.io/2026/05/08/friend-plus7/"/>
+    <published>2026-05-07T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="來自-7-的信"><a href="#來自-7-的信" class="headerlink" title="來自 +7 的信"></a>來自 +7 的信</h1><p>2026.05.07<br>她說</p>
+<p>我想說的是<br>每次看到你把理想轉換成行動力]]>
+    </summary>
+    <title>一封來自高中好友的來信</title>
+    <updated>2026-05-07T11:31:49.373Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Yi-Sheng (Ezra) Wu</name>
@@ -35,7 +50,21 @@
     <published>2026-05-06T16:00:00.000Z</published>
     <summary>關於我刪除社交媒體帳號的快樂</summary>
     <title>前所未有的自由</title>
-    <updated>2026-05-07T11:24:59.889Z</updated>
+    <updated>2026-05-07T11:28:25.441Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Life" scheme="https://ezrawu-tw.github.io/categories/Life/"/>
+    <id>https://ezrawu-tw.github.io/2026/05/07/adventure-time/</id>
+    <link href="https://ezrawu-tw.github.io/2026/05/07/adventure-time/"/>
+    <published>2026-05-06T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="冒險系玩家"><a href="#冒險系玩家" class="headerlink" title="冒險系玩家"></a>冒險系玩家</h1><p>我愛戲稱]]>
+    </summary>
+    <title>冒險系玩家</title>
+    <updated>2026-05-07T11:30:55.224Z</updated>
   </entry>
   <entry>
     <author>
@@ -257,37 +286,5 @@
     </summary>
     <title>dJOE - design Jigsaw On sitE A Computational Interface of Displacing Ideas in the Design Productive Process</title>
     <updated>2025-11-24T12:40:42.976Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Yi-Sheng (Ezra) Wu</name>
-    </author>
-    <category term="Diagrammatic Design Process" scheme="https://ezrawu-tw.github.io/categories/Diagrammatic-Design-Process/"/>
-    <category term="Visualising Information" scheme="https://ezrawu-tw.github.io/tags/Visualising-Information/"/>
-    <id>https://ezrawu-tw.github.io/2025/11/24/Diagrammatic-Design-Process-N-03/</id>
-    <link href="https://ezrawu-tw.github.io/2025/11/24/Diagrammatic-Design-Process-N-03/"/>
-    <published>2025-11-24T11:51:26.541Z</published>
-    <summary>
-      <![CDATA[<h1 id="Visualising-the-Design-Process-with-Dynamic-Graph"><a href="#Visualising-the-Design-Process-with-Dynamic-Graph" class="headerlink"]]>
-    </summary>
-    <title>Visualising the Design Process with Dynamic Graph</title>
-    <updated>2025-11-24T12:26:12.904Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Yi-Sheng (Ezra) Wu</name>
-    </author>
-    <category term="Diagrammatic Design Process" scheme="https://ezrawu-tw.github.io/categories/Diagrammatic-Design-Process/"/>
-    <category term="ICF" scheme="https://ezrawu-tw.github.io/tags/ICF/"/>
-    <category term="DIM" scheme="https://ezrawu-tw.github.io/tags/DIM/"/>
-    <category term="ICFP" scheme="https://ezrawu-tw.github.io/tags/ICFP/"/>
-    <id>https://ezrawu-tw.github.io/2025/11/24/Diagrammatic-Design-Process-N-02/</id>
-    <link href="https://ezrawu-tw.github.io/2025/11/24/Diagrammatic-Design-Process-N-02/"/>
-    <published>2025-11-24T11:18:12.402Z</published>
-    <summary>
-      <![CDATA[<h1 id="A-is-B"><a href="#A-is-B" class="headerlink" title="A is B?"></a>A is B?</h1><p>Richards(1936) defines metaphor as the form “A is]]>
-    </summary>
-    <title>A is b, displacement</title>
-    <updated>2025-11-24T12:26:15.635Z</updated>
   </entry>
 </feed>
