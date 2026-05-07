@@ -221,20 +221,6 @@
       <name>Yi-Sheng (Ezra) Wu</name>
     </author>
     <category term="Note" scheme="https://ezrawu-tw.github.io/categories/Note/"/>
-    <id>https://ezrawu-tw.github.io/2026/01/23/llm-rag-docker/</id>
-    <link href="https://ezrawu-tw.github.io/2026/01/23/llm-rag-docker/"/>
-    <published>2026-01-23T03:00:00.000Z</published>
-    <summary>
-      <![CDATA[<h1 id="Windows-Install"><a href="#Windows-Install" class="headerlink" title="Windows Install"></a>Windows Install</h1><figure]]>
-    </summary>
-    <title>Anything LLM 安裝 Windows 篇</title>
-    <updated>2026-05-07T00:56:13.073Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Yi-Sheng (Ezra) Wu</name>
-    </author>
-    <category term="Note" scheme="https://ezrawu-tw.github.io/categories/Note/"/>
     <id>https://ezrawu-tw.github.io/2026/01/23/llm-rag-docker-2/</id>
     <link href="https://ezrawu-tw.github.io/2026/01/23/llm-rag-docker-2/"/>
     <published>2026-01-23T03:00:00.000Z</published>
@@ -243,6 +229,20 @@
     </summary>
     <title>Anything LLM 安裝 MacOS 篇</title>
     <updated>2026-05-07T00:56:19.790Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Note" scheme="https://ezrawu-tw.github.io/categories/Note/"/>
+    <id>https://ezrawu-tw.github.io/2026/01/23/llm-rag-docker/</id>
+    <link href="https://ezrawu-tw.github.io/2026/01/23/llm-rag-docker/"/>
+    <published>2026-01-23T03:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="Windows-Install"><a href="#Windows-Install" class="headerlink" title="Windows Install"></a>Windows Install</h1><figure]]>
+    </summary>
+    <title>Anything LLM 安裝 Windows 篇</title>
+    <updated>2026-05-07T00:56:13.073Z</updated>
   </entry>
   <entry>
     <author>
