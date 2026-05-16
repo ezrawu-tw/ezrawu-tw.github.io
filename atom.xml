@@ -11,7 +11,34 @@
   <rights>All rights reserved 2026, Yi-Sheng (Ezra) Wu</rights>
   <subtitle>When design responds to real human needs, technology gains the ability to carry emotion.</subtitle>
   <title>Yi-Sheng (Ezra) Wu</title>
-  <updated>2026-05-07T11:31:49.373Z</updated>
+  <updated>2026-05-16T08:37:44.417Z</updated>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <category term="Design of Master" scheme="https://ezrawu-tw.github.io/categories/Design-of-Master/"/>
+    <id>https://ezrawu-tw.github.io/2026/05/16/writting/</id>
+    <link href="https://ezrawu-tw.github.io/2026/05/16/writting/"/>
+    <published>2026-05-15T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<h1 id="退化成原始人"><a href="#退化成原始人" class="headerlink" title="退化成原始人"></a>退化成原始人</h1><p>在文獻回顧時<br>我發現我的寫作論述已經退化到<br>我需要打上碎片訊息<br>請AI]]>
+    </summary>
+    <title>五月十六日 在斗六的那個盛夏</title>
+    <updated>2026-05-16T08:37:44.417Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <id>https://ezrawu-tw.github.io/2026/05/08/0508/</id>
+    <link href="https://ezrawu-tw.github.io/2026/05/08/0508/"/>
+    <published>2026-05-08T11:00:01.054Z</published>
+    <summary>
+      <![CDATA[<h1 id="“《藥師少女的獨語》：致敬我有著亮光的朋友們”-alicehsu-blog-讀後感"><a href="#“《藥師少女的獨語》：致敬我有著亮光的朋友們”-alicehsu-blog-讀後感" class="headerlink"]]>
+    </summary>
+    <title>民國壹百壹拾伍年 伍月捌日</title>
+    <updated>2026-05-08T13:33:43.987Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Yi-Sheng (Ezra) Wu</name>
@@ -256,33 +283,5 @@
     </summary>
     <title>Anything LLM 安裝 Windows 篇</title>
     <updated>2026-05-07T00:56:13.073Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Yi-Sheng (Ezra) Wu</name>
-    </author>
-    <id>https://ezrawu-tw.github.io/2025/11/24/IV/</id>
-    <link href="https://ezrawu-tw.github.io/2025/11/24/IV/"/>
-    <published>2025-11-24T15:03:01.024Z</published>
-    <summary>
-      <![CDATA[<h1 id="similar-theme"><a href="#similar-theme" class="headerlink" title="similar theme"></a>similar theme</h1><blockquote>
-<p>Huang, H.-Y.]]>
-    </summary>
-    <title>International Conference Information Visualisation (IV)</title>
-    <updated>2025-11-24T15:39:28.813Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Yi-Sheng (Ezra) Wu</name>
-    </author>
-    <category term="nightmare" scheme="https://ezrawu-tw.github.io/categories/nightmare/"/>
-    <id>https://ezrawu-tw.github.io/2025/11/24/mit-study-brain-chatgpt/</id>
-    <link href="https://ezrawu-tw.github.io/2025/11/24/mit-study-brain-chatgpt/"/>
-    <published>2025-11-24T13:41:38.151Z</published>
-    <summary>
-      <![CDATA[<h1 id="A-reflection-inspired-by-the-MIT-study-“Your-Brain-on-ChatGPT-”"><a]]>
-    </summary>
-    <title>Can We Still Think Critically in the Age of AI?</title>
-    <updated>2026-05-07T10:00:42.055Z</updated>
   </entry>
 </feed>
