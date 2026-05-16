@@ -11,7 +11,22 @@
   <rights>All rights reserved 2026, Yi-Sheng (Ezra) Wu</rights>
   <subtitle>When design responds to real human needs, technology gains the ability to carry emotion.</subtitle>
   <title>Yi-Sheng (Ezra) Wu</title>
-  <updated>2026-05-16T08:37:44.417Z</updated>
+  <updated>2026-05-16T10:34:06.484Z</updated>
+  <entry>
+    <author>
+      <name>Yi-Sheng (Ezra) Wu</name>
+    </author>
+    <id>https://ezrawu-tw.github.io/2026/05/16/if/</id>
+    <link href="https://ezrawu-tw.github.io/2026/05/16/if/"/>
+    <published>2026-05-16T10:20:09.773Z</published>
+    <summary>
+      <![CDATA[<p>碩士生活已經過了.5年了<br>意味著離畢業剩下2年<br>HCI 夢想研究 也剩下兩年可以冒險</p>
+<p>我無法預見我未來會是怎樣的人<br>但我知道 我就是喜歡當下的moment</p>
+<p>與菲律賓的老師 練習small talke]]>
+    </summary>
+    <title>當暮然回首後，那年的一切成為不可遇的記憶</title>
+    <updated>2026-05-16T10:34:06.484Z</updated>
+  </entry>
   <entry>
     <author>
       <name>Yi-Sheng (Ezra) Wu</name>
@@ -269,19 +284,5 @@
     </summary>
     <title>Anything LLM 安裝 MacOS 篇</title>
     <updated>2026-05-07T00:56:19.790Z</updated>
-  </entry>
-  <entry>
-    <author>
-      <name>Yi-Sheng (Ezra) Wu</name>
-    </author>
-    <category term="Note" scheme="https://ezrawu-tw.github.io/categories/Note/"/>
-    <id>https://ezrawu-tw.github.io/2026/01/23/llm-rag-docker/</id>
-    <link href="https://ezrawu-tw.github.io/2026/01/23/llm-rag-docker/"/>
-    <published>2026-01-23T03:00:00.000Z</published>
-    <summary>
-      <![CDATA[<h1 id="Windows-Install"><a href="#Windows-Install" class="headerlink" title="Windows Install"></a>Windows Install</h1><figure]]>
-    </summary>
-    <title>Anything LLM 安裝 Windows 篇</title>
-    <updated>2026-05-07T00:56:13.073Z</updated>
   </entry>
 </feed>
