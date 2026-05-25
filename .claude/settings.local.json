@@ -2,7 +2,18 @@
   "permissions": {
     "allow": [
       "Bash(hugo build *)",
-      "WebFetch(domain:alicehsu.blog)"
+      "WebFetch(domain:alicehsu.blog)",
+      "Bash(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\Eason\\\\Documents\\\\GitHub\\\\mysite\\\\layouts\\\\_partials\\\\layout\\\\head\")",
+      "Bash(Out-Null)",
+      "Bash(Write-Output \"done\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\Eason\\\\Documents\\\\GitHub\\\\mysite\\\\layouts\\\\_partials\\\\layout\\\\head\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\Eason\\\\Documents\\\\GitHub\\\\mysite\\\\.github\\\\workflows\")",
+      "Bash(git -C \"c:/Users/Eason/Documents/GitHub/mysite\" submodule status)",
+      "Bash(git -C \"c:/Users/Eason/Documents/GitHub/mysite\" ls-files --stage themes/)",
+      "Bash(git -C \"c:/Users/Eason/Documents/GitHub/mysite/themes/hugo-narrow\" remote -v)",
+      "Bash(git -C \"c:/Users/Eason/Documents/GitHub/mysite\" add .gitmodules)",
+      "Bash(git -C \"c:/Users/Eason/Documents/GitHub/mysite\" status)",
+      "Bash(git -C c:/Users/Eason/Documents/GitHub/mysite commit -m ' *)"
     ]
   }
 }

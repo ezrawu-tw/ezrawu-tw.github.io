@@ -8,13 +8,6 @@
   "description": "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design.",
   "dir": "ltr",
   "display": "standalone",
-  "icons": [
-    {
-      "sizes": "any",
-      "src": "/happy.svg",
-      "type": "image/svg+xml"
-    }
-  ],
   "lang": "en",
   "name": "YiSheng's secret garden",
   "orientation": "portrait-primary",
