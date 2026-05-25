@@ -32,7 +32,7 @@ header:
     image: "/images/happy.svg" # Logo path relative to static folder, leave empty to use site title first letter
     link: "/" # Click to home page
   # UI Components Control (header controls)
-  showThemeSwitch: true # Set to false to hide theme style switcher (palette icon)
+  showThemeSwitch: false # Set to false to hide theme style switcher (palette icon)
   showDarkModeSwitch: true # Set to false to hide dark mode switcher (sun/moon icon)
   showLanguageSwitch: true # Set to false to hide language switcher
   languageSwitchMode: "cycle" # Language switch mode: "dropdown" (show panel) or "cycle" (direct cycle)
