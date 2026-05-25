@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ezrawu-tw.github.io/'
 locale = 'zh-tw'
 title = 'ezra的秘密基地'
 theme = 'hugo-narrow'
