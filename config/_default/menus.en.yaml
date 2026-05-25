@@ -1,0 +1,37 @@
+main:
+  - name: About
+    pageRef: /about/
+    weight: 10
+    params:
+      icon: about
+
+  - name: Memory
+    pageRef: /posts/
+    weight: 20
+    params:
+      icon: posts
+
+  - name: Categories
+    weight: 30
+    pageRef: /categories
+    params:
+      icon: categories
+
+footer:
+  - name: RSS Feed
+    url: /index.xml
+    weight: 30
+    params:
+      icon: rss
+
+social:
+  - name: GitHub
+    url: https://github.com/ezrawu-tw
+    weight: 10
+    params:
+      icon: github
+  - name: Email
+    url: mailto:ezrawu.tw@gmail.com
+    weight: 40
+    params:
+      icon: email
