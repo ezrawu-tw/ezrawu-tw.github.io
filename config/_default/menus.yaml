@@ -81,7 +81,7 @@ social:
     params:
       icon: github
   - name: Email
-    url: mailto:ezrawu.tw@example.com
+    url: mailto:ezrawu.tw@gmail.com
     weight: 40
     params:
       icon: email
