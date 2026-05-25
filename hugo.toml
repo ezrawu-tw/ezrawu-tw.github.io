@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+locale = 'zh-tw'
+title = 'ezra的秘密基地'
+theme = 'hugo-narrow'
+defaultContentLanguage = 'zh-tw'
+[languages]
+  [languages.zh-tw]
+    label = "繁體中文"
+    contentDir = "content/zh-tw"
+    weight = 1
+  [languages.en]
+    label = "English"
+    contentDir = "content/en"
+    weight = 2

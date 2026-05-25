@@ -1,0 +1,24 @@
+
+zh-tw:
+  locale: zh-tw
+  label: "繁體中文"
+  weight: 1
+en:
+  locale: en
+  label: "English"
+  weight: 2
+  # 可选：按语言覆盖站点级 params.yaml 中的 dateFormat
+  params:
+    dateFormat:
+      long: "January 2, 2006"
+      medium: "Jan 2, 2006"
+      short: "01/02"
+# es:
+#   locale: es-ES
+#   label: "Español"
+#   weight: 3
+
+# ru:
+#   locale: ru-RU
+#   label: "Русский"
+#   weight: 7
