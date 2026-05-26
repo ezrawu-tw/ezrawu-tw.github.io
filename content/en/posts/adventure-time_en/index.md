@@ -1,7 +1,7 @@
 ---
 slug: adventure-time_en
 copyright: true
-title: 冒險系玩家
+title: Adventure-Type Player
 date: 2026-05-07
 updated:
 tags:

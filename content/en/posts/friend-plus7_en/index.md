@@ -1,7 +1,7 @@
 ---
 slug: friend-plus7_en
 copyright: true
-title: 一封來自高中好友的來信
+title: A Letter from a High School Friend
 date: 2026-05-08
 updated:
 tags:

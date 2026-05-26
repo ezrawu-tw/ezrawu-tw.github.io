@@ -1,14 +1,14 @@
 ---
 slug: caadria_en
 copyright: true
-title: 在國際研討會擔任工作人員學到的事
+title: Things I Learned as Staff at an International Conference
 date: 2026-05-01
 updated:
 tags:
 categories: 
-- 工作體驗
+- Work Experience
 keywords:
-description: caadria 2026 的有趣紀錄
+description: Fun records from CAADRIA 2026
 top_img:
 cover:
 ---

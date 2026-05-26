@@ -1,6 +1,6 @@
 ---
 copyright: true
-title: 民國壹百壹拾伍年 伍月捌日
+title: "ROC Year 115, May 8th"
 date: 2026-05-08
 updated:
 tags:

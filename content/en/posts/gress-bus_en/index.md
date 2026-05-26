@@ -1,7 +1,7 @@
 ---
 slug: gress-bus_en
 copyright: true
-title: 失戀陣線聯盟 是來自泰國的音樂!
+title: "Lost Love Front Alliance" Is Music from Thailand!
 date: 2026-05-08
 updated:
 tags:

@@ -1,13 +1,13 @@
 ---
 slug: deletesocialmedia_en
 copyright: true
-title: 前所未有的自由
+title: Unprecedented Freedom
 date: 2026-05-07
 updated:
 
 categories: Life
 keywords: 
-description: 關於我刪除社交媒體帳號的快樂
+description: The joy of deleting my social media accounts
 top_img:
 cover:
 ---
