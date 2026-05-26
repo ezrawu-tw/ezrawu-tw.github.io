@@ -12,7 +12,6 @@ description: caadria 2026 的有趣紀錄
 top_img:
 cover:
 ---
-slug: caadria
 
 # 盡力完成，隨時問有需要幫忙嗎?
 這些是我學到的事

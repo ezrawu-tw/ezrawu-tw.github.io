@@ -6,55 +6,69 @@ date: 2026-05-01
 updated:
 tags:
 categories: 
-- Work Experience
+- Design of Master
 keywords:
 description: Fun records from CAADRIA 2026
 top_img:
 cover:
 ---
-slug: caadria_en
 
-# Do your best to complete it, and feel free to ask if you need help?
-These are the things I learned
-Actively participate in seminars and provide timely assistance to enhance interaction and visibility
-Carry your laptop with you and remain present in the office to show commitment and professionalism
-Establish familiarity through stable attendance and daily communication, laying the foundation for subsequent cooperation
-Prepare business cards to expand your network
-Even if the progress is limited, continue to participate and show up, and accumulate trust
-Be open to asking for benefits and learning
-Communicate with the mentor on a weekly basis to maintain a stable feedback mechanism.
+# Do Your Best, and Always Ask: "Is There Anything I Can Help With?"
 
-Everything has two sides
+These are the things I learned:
 
-See if any problems in the research have been solved
-There is a good way to solve the problem. Solution
-If the problem is not solved, it means that his technology is not enough to solve the problem.
+- Actively participate in the conference and offer timely assistance to increase interaction and visibility
+- Always carry your laptop and stay present in the office to show commitment and professionalism
+- Build familiarity through consistent attendance and daily conversations, laying the groundwork for future collaboration
+- Prepare business cards to help expand your network
+- Even when your contribution seems limited, keep showing up — trust accumulates over time
+- Stay open to asking questions and learning from others
+- Have regular weekly check-ins with your mentor to maintain a steady feedback loop
 
-A good way is to solve the problem
-(The teacher said you can’t say it to bluff 😂)
+![Check-in at CAADRIA 2026](check_in.jpg)
 
-Be serious and you will be seen
+## Every Coin Has Two Sides
 
-Later, I looked at my own photos
-I really feel that I am so handsome when I try my best.
-And also because of the law of attraction
-attract equally good people
-https://youtu.be/vL1OS1RpDgg?si=38okDKV4qKbHEcZU&t=90
+When evaluating research, ask whether the problem has actually been solved.
+If the problem is solved, that's a good method — a real solution.
+If the problem isn't solved, it means the technology simply isn't mature enough yet.
 
+A method that solves the problem is a good method.
+(My professor said: don't just talk big 😂)
 
-Days in the workshop
-Although NYCU said there is no need to ask us for help anymore
-But in fact, they themselves are also very busy
-So I learned
-How to trouble others with a thank you tone
-and go all out to hold seminars 
+## Show Up Seriously — and You Will Be Seen
 
+![At the conference](S__31227911_0.jpg)
 
-Because I am serious, I met you who is equally serious.
-This is the recognition of a boy from NYCU.
-He is an Indonesian named Hu Siwen
-He was the first to live in the North
-Are you willing to come down to the south and play with us?
-And during the seminar
-He was also very enthusiastic and took us around the laboratory
-and shared with us the school he loves
+Looking back at photos of myself from those days,
+I genuinely think: the version of me who gave everything looks pretty damn good.
+And because of the law of attraction,
+you draw in people who are equally driven.
+
+{{< youtube vL1OS1RpDgg >}}
+
+![Workshop days at CAADRIA 2026](S__31227909_0.jpg)
+
+During the workshop days,
+even though NYCU kept saying, "You don't need to help us anymore,"
+the truth was they were just as busy themselves.
+So I learned:
+how to ask for favors in a tone of genuine gratitude,
+and how to give everything you have when you're part of making a conference happen.
+
+![Conference moments](S__31227913_0.jpg)
+
+## Because I Was Serious, I Met Someone Just as Serious
+
+I got to know a civil engineering student from NYCU.
+He's Indonesian — his name is Hu Siwen.
+He was the first person from northern Taiwan
+willing to make the trip all the way south just to hang out with us.
+And during the conference,
+he enthusiastically took us on a tour of his lab
+and shared his deep love for his school.
+
+![Lab tour with Hu Siwen](S__31227915_0.jpg)
+![Lab tour with Hu Siwen](S__31227916_0.jpg)
+![Lab tour with Hu Siwen](S__31227918_0.jpg)
+![Lab tour with Hu Siwen](S__31227919_0.jpg)

@@ -30,13 +30,6 @@
       <description></description>
     </item>
     <item>
-      <title>Work Experience</title>
-      <link>http://localhost:1313/en/categories/work-experience/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/categories/work-experience/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Nightmare</title>
       <link>http://localhost:1313/en/categories/nightmare/</link>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
@@ -48,6 +41,13 @@
       <link>http://localhost:1313/en/categories/diagrammatic-design-process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/categories/diagrammatic-design-process/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Work Experience</title>
+      <link>http://localhost:1313/en/categories/work-experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/categories/work-experience/</guid>
       <description></description>
     </item>
     <item>
