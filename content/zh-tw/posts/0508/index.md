@@ -2,7 +2,7 @@
 slug: 0508
 copyright: true
 title: 民國壹百壹拾伍年 伍月捌日
-date:
+date: 2026-05-08
 updated:
 tags:
 categories:

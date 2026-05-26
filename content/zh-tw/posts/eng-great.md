@@ -2,7 +2,7 @@
 slug: eng-great
 copyright: true
 title: 20%-70% 英語理解
-date:
+date: 2026-05-20
 updated:
 tags:
 categories:
