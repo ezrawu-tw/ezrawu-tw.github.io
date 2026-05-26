@@ -1,61 +1,88 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Life on YiSheng&#39;s secret garden</title>
-    <link>http://localhost:1313/en/categories/life/</link>
-    <description>Recent content in Life on YiSheng&#39;s secret garden</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/categories/life/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>一封來自高中好友的來信</title>
-      <link>http://localhost:1313/en/posts/friend-plus7_en/</link>
-      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/friend-plus7_en/</guid>
-      <description>&lt;p&gt;slug: friend-plus7_en&lt;/p&gt;&#xA;&lt;h1 id=&#34;letter-from-7&#34;&gt;Letter from +7&lt;a href=&#34;#letter-from-7&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;2026.05.07&#xA;she said&lt;/p&gt;&#xA;&lt;p&gt;What I want to say is&#xA;Every time I see you convert your ideals into action, it drives me forward.&#xA;It&amp;rsquo;s amazing. We obviously don&amp;rsquo;t contact each other very often.&#xA;So you have always been a friend that I am very proud of.&#xA;You will attract equally good people as you said in your writing.&#xA;Like me :D)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>失戀陣線聯盟 是來自泰國的音樂!</title>
-      <link>http://localhost:1313/en/posts/gress-bus_en/</link>
-      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/gress-bus_en/</guid>
-      <description>&lt;p&gt;slug: gress-bus_en&lt;/p&gt;&#xA;&lt;h1 id=&#34;childhood-memories-flipped&#34;&gt;Childhood memories flipped!!!!!!&lt;a href=&#34;#childhood-memories-flipped&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;{% asset_img image.png %}&#xA;Today I am talking about music with Zhu Sirui (my Thai friend)&#xA;It turns out that the song &amp;ldquo;Lost Love Front Alliance&amp;rdquo; that I heard since I was a kid is a cover.&#xA;The original song is in Thai!!!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>民國壹百壹拾伍年 伍月捌日</title>
-      <link>http://localhost:1313/en/posts/0508/</link>
-      <pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/0508/</guid>
-      <description>&lt;p&gt;Read this today&#xA;&lt;a&#xA;    href=&#34;https://alicehsu.blog/zh-tw/posts/2026/02/the-apothecary-diaries/&#34;target=&#34;_blank&#34;&#xA;    class=&#34;inline-flex items-center gap-1&#34;&#xA;  &gt;https://alicehsu.blog/zh-tw/posts/2026/02/the-apothecary-diaries/&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;I also think about how I have some very good seniors.&#xA;I don’t care about being a roll king&#xA;But be good to your friends and the things you like too&lt;/p&gt;&#xA;&lt;p&gt;I was particularly impressed by these during my master&amp;rsquo;s degree&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>冒險系玩家</title>
-      <link>http://localhost:1313/en/posts/adventure-time_en/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/adventure-time_en/</guid>
-      <description>&lt;p&gt;slug: adventure-time_en&lt;/p&gt;&#xA;&lt;h1 id=&#34;adventure-gamers&#34;&gt;Adventure gamers&lt;a href=&#34;#adventure-gamers&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;I like to jokingly call myself an adventure player.&#xA;Because I look back carefully at my life path&#xA;It doesn&amp;rsquo;t matter&lt;/p&gt;&#xA;&#xA;  &lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&#xA;  &gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;Data processing department, carpentry, direct layout instructor, Thai\Spanish, VR developer, part-time assistant in the electrical department&#xA;Entrepreneurship, German, now a master&amp;rsquo;s student at a design institute, diving enthusiast, English,,,&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>前所未有的自由</title>
-      <link>http://localhost:1313/en/posts/deletesocialmedia_en/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/deletesocialmedia_en/</guid>
-      <description>&lt;p&gt;slug: deletesocialmedia_en&lt;/p&gt;&#xA;&lt;h1 id=&#34;disappear&#34;&gt;disappear?&lt;a href=&#34;#disappear&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;When I press delete fb/ig account&#xA;Representative I lost 78+ of my close friends&#xA;Photos and videos from nearly 9 years&#xA;A bunch of likes following accounts&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m realizing&#xA;I play ig late stage after 2024&#xA;I almost manage the personality&#xA;Not as simple and relaxed as before&#xA;Just the pressure to publish&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Academic Achievements</title>
-      <link>http://localhost:1313/en/posts/history-prize/</link>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/history-prize/</guid>
-      <description>&lt;p&gt;slug: history-prize&lt;/p&gt;&#xA;&lt;h2 id=&#34;education&#34;&gt;Education&lt;a href=&#34;#education&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;National Yunlin University of Science and Technology, NYUST&#xA;M.S. in Digital Media Design - Current&lt;/p&gt;&#xA;&lt;p&gt;National Yunlin University of Science and Technology, NYUST&#xA;B.S. in Information Management - Graduated&lt;/p&gt;&#xA;&lt;h2 id=&#34;seminar&#34;&gt;Seminar&lt;a href=&#34;#seminar&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The 9th IEEE International Conference on Multimedia Information Processing and Retrieval(IEEE MIPR), special session&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hobby Achievements</title>
-      <link>http://localhost:1313/en/posts/history-prize-adventure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/history-prize-adventure/</guid>
-      <description>&lt;p&gt;slug: history-prize-adventure&lt;/p&gt;&#xA;&lt;h1 id=&#34;sports&#34;&gt;Sports&lt;a href=&#34;#sports&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;ul&gt;&#xA;&lt;li&gt;Earned Advanced Open Water Diver certification 2026/04/09&lt;/li&gt;&#xA;&lt;li&gt;Earned Open Water Diver certification 2026/04/06&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;competitions&#34;&gt;Competitions&lt;a href=&#34;#competitions&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;ul&gt;&#xA;&lt;li&gt;Completed a triathlon 2025/06/10 (in place of graduation ceremony)&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Life on YiSheng's secret garden</title><link>https://ezrawu-tw.github.io/en/categories/life/</link><description>Recent content in Life on YiSheng's secret garden</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 08 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ezrawu-tw.github.io/en/categories/life/index.xml" rel="self" type="application/rss+xml"/><item><title>"Lost Love Front Alliance" Is Music from Thailand!</title><link>https://ezrawu-tw.github.io/en/posts/gress-bus_en/</link><pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate><guid>https://ezrawu-tw.github.io/en/posts/gress-bus_en/</guid><description>&lt;p&gt;slug: gress-bus_en&lt;/p&gt;
+&lt;h1 id="childhood-memories-flipped"&gt;Childhood memories flipped!!!!!!&lt;a href="#childhood-memories-flipped" class="heading-anchor" aria-label="Link to this section"&gt;&lt;svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"&gt;&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/&gt;&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;
+&lt;figure
+ class="image-figure not-prose my-8"
+ data-lightbox-enabled="
+ true
+ "
+ data-gallery-type="auto"
+ data-image-width="350"
+ data-image-height="350"
+ data-image-src="https://ezrawu-tw.github.io/en/posts/gress-bus_en/image.png"
+&gt;
+ &lt;div class="image-container"&gt;
+ &lt;img
+ src="https://ezrawu-tw.github.io/en/posts/gress-bus_en/image.png"
+ alt="Lost Love Front Alliance"
+ 
+ 
+ 
+ 
+ 
+ width="350" height="350"
+ 
+ 
+ 
+ loading="lazy"
+ decoding="async"
+ data-gallery-src="https://ezrawu-tw.github.io/en/posts/gress-bus_en/image.png"
+ data-gallery-alt="Lost Love Front Alliance"
+ data-gallery-title=""
+ /&gt;&lt;/div&gt;
+
+ &lt;/figure&gt;
+
+Today I am talking about music with Zhu Sirui (my Thai friend)
+It turns out that the song &amp;ldquo;Lost Love Front Alliance&amp;rdquo; that I heard since I was a kid is a cover.
+The original song is in Thai!!!&lt;/p&gt;</description></item><item><title>A Letter from a High School Friend</title><link>https://ezrawu-tw.github.io/en/posts/friend-plus7_en/</link><pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate><guid>https://ezrawu-tw.github.io/en/posts/friend-plus7_en/</guid><description>&lt;p&gt;slug: friend-plus7_en&lt;/p&gt;
+&lt;h1 id="letter-from-7"&gt;Letter from +7&lt;a href="#letter-from-7" class="heading-anchor" aria-label="Link to this section"&gt;&lt;svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"&gt;&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/&gt;&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;2026.05.07
+she said&lt;/p&gt;
+&lt;p&gt;What I want to say is
+Every time I see you convert your ideals into action, it drives me forward.
+It&amp;rsquo;s amazing. We obviously don&amp;rsquo;t contact each other very often.
+So you have always been a friend that I am very proud of.
+You will attract equally good people as you said in your writing.
+Like me :D)&lt;/p&gt;</description></item><item><title>ROC Year 115, May 8th</title><link>https://ezrawu-tw.github.io/en/posts/0508/</link><pubDate>Fri, 08 May 2026 00:00:00 +0000</pubDate><guid>https://ezrawu-tw.github.io/en/posts/0508/</guid><description>&lt;p&gt;Read this today
+&lt;a
+ href="https://alicehsu.blog/zh-tw/posts/2026/02/the-apothecary-diaries/"target="_blank"
+ class="inline-flex items-center gap-1"
+ &gt;https://alicehsu.blog/zh-tw/posts/2026/02/the-apothecary-diaries/&lt;svg class="h-3 w-3 flex-shrink-0" id="external-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/&gt;&lt;/svg&gt;
+ &lt;/a&gt;
+I also think about how I have some very good seniors.
+I don’t care about being a roll king
+But be good to your friends and the things you like too&lt;/p&gt;
+&lt;p&gt;I was particularly impressed by these during my master&amp;rsquo;s degree&lt;/p&gt;</description></item><item><title>Adventure-Type Player</title><link>https://ezrawu-tw.github.io/en/posts/adventure-time_en/</link><pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate><guid>https://ezrawu-tw.github.io/en/posts/adventure-time_en/</guid><description>&lt;p&gt;slug: adventure-time_en&lt;/p&gt;
+&lt;h1 id="adventure-gamers"&gt;Adventure gamers&lt;a href="#adventure-gamers" class="heading-anchor" aria-label="Link to this section"&gt;&lt;svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"&gt;&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/&gt;&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;I like to jokingly call myself an adventure player.
+Because I look back carefully at my life path
+It doesn&amp;rsquo;t matter&lt;/p&gt;
+
+ &lt;blockquote
+ class="border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1"
+ &gt;
+ &lt;div class="prose prose-sm max-w-none"&gt;
+ &lt;p&gt;Data processing department, carpentry, direct layout instructor, Thai\Spanish, VR developer, part-time assistant in the electrical department
+Entrepreneurship, German, now a master&amp;rsquo;s student at a design institute, diving enthusiast, English,,,&lt;/p&gt;</description></item><item><title>Unprecedented Freedom</title><link>https://ezrawu-tw.github.io/en/posts/deletesocialmedia_en/</link><pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate><guid>https://ezrawu-tw.github.io/en/posts/deletesocialmedia_en/</guid><description>&lt;p&gt;slug: deletesocialmedia_en&lt;/p&gt;
+&lt;h1 id="disappear"&gt;disappear?&lt;a href="#disappear" class="heading-anchor" aria-label="Link to this section"&gt;&lt;svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"&gt;&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/&gt;&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;When I press delete fb/ig account
+Representative I lost 78+ of my close friends
+Photos and videos from nearly 9 years
+A bunch of likes following accounts&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m realizing
+I play ig late stage after 2024
+I almost manage the personality
+Not as simple and relaxed as before
+Just the pressure to publish&lt;/p&gt;</description></item><item><title>Academic Achievements</title><link>https://ezrawu-tw.github.io/en/posts/history-prize/</link><pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate><guid>https://ezrawu-tw.github.io/en/posts/history-prize/</guid><description>&lt;p&gt;slug: history-prize&lt;/p&gt;
+&lt;h2 id="education"&gt;Education&lt;a href="#education" class="heading-anchor" aria-label="Link to this section"&gt;&lt;svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"&gt;&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/&gt;&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;National Yunlin University of Science and Technology, NYUST
+M.S. in Digital Media Design - Current&lt;/p&gt;
+&lt;p&gt;National Yunlin University of Science and Technology, NYUST
+B.S. in Information Management - Graduated&lt;/p&gt;
+&lt;h2 id="seminar"&gt;Seminar&lt;a href="#seminar" class="heading-anchor" aria-label="Link to this section"&gt;&lt;svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"&gt;&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/&gt;&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The 9th IEEE International Conference on Multimedia Information Processing and Retrieval(IEEE MIPR), special session&lt;/p&gt;</description></item><item><title>Hobby Achievements</title><link>https://ezrawu-tw.github.io/en/posts/history-prize-adventure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ezrawu-tw.github.io/en/posts/history-prize-adventure/</guid><description>&lt;p&gt;slug: history-prize-adventure&lt;/p&gt;
+&lt;h1 id="sports"&gt;Sports&lt;a href="#sports" class="heading-anchor" aria-label="Link to this section"&gt;&lt;svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"&gt;&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/&gt;&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Earned Advanced Open Water Diver certification 2026/04/09&lt;/li&gt;
+&lt;li&gt;Earned Open Water Diver certification 2026/04/06&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="competitions"&gt;Competitions&lt;a href="#competitions" class="heading-anchor" aria-label="Link to this section"&gt;&lt;svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"&gt;&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/&gt;&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Completed a triathlon 2025/06/10 (in place of graduation ceremony)&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

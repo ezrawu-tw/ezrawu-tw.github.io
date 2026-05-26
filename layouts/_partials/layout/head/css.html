@@ -1,0 +1,37 @@
+{{ if hugo.IsDevelopment }}
+  {{ with resources.Get "css/compiled.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" />
+  {{ end }}
+  {{ with resources.Get "css/chroma.css" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" />
+  {{ end }}
+{{ else }}
+  {{/* Bundle compiled.css + chroma.css into one request to eliminate the critical CSS chain */}}
+  {{ $compiled := resources.Get "css/compiled.css" }}
+  {{ $chroma := resources.Get "css/chroma.css" }}
+  {{ if and $compiled $chroma }}
+    {{ $bundle := resources.Concat "css/bundle.css" (slice $compiled $chroma) | minify | fingerprint }}
+    <link
+      rel="stylesheet"
+      href="{{ $bundle.RelPermalink }}"
+      integrity="{{ $bundle.Data.Integrity }}"
+      crossorigin="anonymous"
+    />
+  {{ end }}
+{{ end }}
+
+{{/* custom styles */}}
+{{ range (resources.Match "css/custom/*.css") }}
+  {{ if hugo.IsDevelopment }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" />
+  {{ else }}
+    {{ with . | minify | fingerprint }}
+      <link
+        rel="stylesheet"
+        href="{{ .RelPermalink }}"
+        integrity="{{ .Data.Integrity }}"
+        crossorigin="anonymous"
+      />
+    {{ end }}
+  {{ end }}
+{{ end }}
