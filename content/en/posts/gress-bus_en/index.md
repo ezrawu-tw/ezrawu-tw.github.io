@@ -13,7 +13,7 @@ cover:
 ---
 slug: gress-bus_en
 # Childhood memories flipped!!!!!!
-{% asset_img image.png %}
+![Lost Love Front Alliance](image.png)
 Today I am talking about music with Zhu Sirui (my Thai friend)
 It turns out that the song "Lost Love Front Alliance" that I heard since I was a kid is a cover.
 The original song is in Thai!!!
