@@ -1,7 +1,7 @@
 ---
 slug: gress-bus_en
 copyright: true
-title: "Lost Love Front Alliance" Is Music from Thailand!
+title: '"Lost Love Front Alliance" Is Music from Thailand!'
 date: 2026-05-08
 updated:
 tags:
