@@ -1,6 +1,6 @@
 <!doctype html>
-<html lang="zh-tw" data-theme="Sunset">
-  <head>
+<html lang="zh-tw" data-theme="Claude">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -26,31 +26,31 @@
   name="robots"
   content="index, follow"
 />
-<link rel="canonical" href="https://example.org/posts/" />
+<link rel="canonical" href="http://localhost:1313/posts/" />
 
 
-  <link rel="icon" type="image/svg+xml" href="/happy.svg" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="manifest" href="/site.webmanifest" />
-<meta property="og:url" content="https://example.org/posts/">
+<meta property="og:url" content="http://localhost:1313/posts/">
   <meta property="og:site_name" content="YiSheng&#39;s secret garden">
   <meta property="og:title" content="Posts">
   <meta property="og:description" content="A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design.">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="website">
-    <meta property="og:image" content="https://example.org/images/happy.png">
+    <meta property="og:image" content="http://localhost:1313/images/happy.png">
 
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://example.org/images/happy.png">
+  <meta name="twitter:image" content="http://localhost:1313/images/happy.png">
   <meta name="twitter:title" content="Posts">
   <meta name="twitter:description" content="A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design.">
 
 
   <meta itemprop="name" content="Posts">
   <meta itemprop="description" content="A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design.">
-  <meta itemprop="datePublished" content="2026-05-16T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2026-05-16T00:00:00+00:00">
-  <meta itemprop="image" content="https://example.org/images/happy.png">
+  <meta itemprop="datePublished" content="2026-05-26T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2026-05-26T00:00:00+00:00">
+  <meta itemprop="image" content="http://localhost:1313/images/happy.png">
 
 
 
@@ -58,7 +58,7 @@
     rel="alternate"
     type="application/rss+xml"
     title="YiSheng&#39;s secret garden"
-    href="https://example.org/posts/index.xml"
+    href="http://localhost:1313/posts/index.xml"
   />
 
 
@@ -67,32 +67,11 @@
 
 
 
-
-
-
   
-    
-      <link
-        rel="stylesheet"
-        href="/css/compiled.min.a839e5726932405222d1fbba2e652ebf6661406d11d4959053bb7f704f7e1b4e.css"
-        integrity="sha256-qDnlcmkyQFIi0fu6LmUuv2ZhQG0R1JWQU7t/cE9&#43;G04="
-        crossorigin="anonymous"
-      />
-    
+    <link rel="stylesheet" href="/css/compiled.css" />
   
-
-
-
-
   
-    
-      <link
-        rel="stylesheet"
-        href="/css/chroma.min.491df36221f739b5948a747a0351f100ee7ccaaf466d9f46288bf06de1d59123.css"
-        integrity="sha256-SR3zYiH3ObWUinR6A1HxAO58yq9GbZ9GKIvwbeHVkSM="
-        crossorigin="anonymous"
-      />
-    
+    <link rel="stylesheet" href="/css/chroma.css" />
   
 
 
@@ -100,33 +79,18 @@
 
 
 
-        <script
-          src="/js/main.f482676046fba6a50f6e6580bd1306489d4fea5f7144231757bf01af2498b168.js"
-          integrity="sha256-9IJnYEb7pqUPbmWAvRMGSJ1P6l9xRCMXV78BrySYsWg="
-          crossorigin="anonymous"
-          defer
-        ></script>
+      <script src="/js/main.js" defer></script>
 
 
 
 
 
 
-        <script
-          src="/js/search.33fef1d91398b17cbc46483d902493b800642d25754e7ff8e998b12499c7fde3.js"
-          integrity="sha256-M/7x2ROYsXy8Rkg9kCSTuABkLSV1Tn/46ZixJJnH/eM="
-          crossorigin="anonymous"
-          defer
-        ></script>
+      <script src="/js/search.js" defer></script>
 
 
 
-        <script
-          src="/js/dock.e64c343cfb2005ed990e1d3351817ee8732467879fb6c7f1e283abb31ffa975f.js"
-          integrity="sha256-5kw0PPsgBe2ZDh0zUYF&#43;6HMkZ4eftsfx4oOrsx/6l18="
-          crossorigin="anonymous"
-          defer
-        ></script>
+      <script src="/js/dock.js" defer></script>
 
 
 
@@ -139,10 +103,11 @@
 
 
 
+<link rel="icon" type="image/png" href="/images/happy.svg" />
 
 
     
-    <script>(function(){const e=localStorage.getItem("theme")||"system",n=localStorage.getItem("colorScheme")||"Sunset";document.documentElement.setAttribute("data-theme",n);function t(){e==="dark"||e==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}t(),e==="system"&&window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",t)})()</script>
+    <script>(function(){const e=localStorage.getItem("theme")||"system",n=localStorage.getItem("colorScheme")||"Claude";document.documentElement.setAttribute("data-theme",n);function t(){e==="dark"||e==="system"&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}t(),e==="system"&&window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",t)})()</script>
   </head><body class="bg-background text-foreground min-h-screen antialiased">
     <main class="mx-auto w-full" style="max-width: 56rem">
       <div
@@ -197,7 +162,7 @@
             aria-label="YiSheng&#39;s secret garden"
           >
             <img
-              src="/images/logo.svg"
+              src="/images/happy.svg"
               alt="YiSheng&#39;s secret garden"
               class="h-full w-full object-cover"
             />
@@ -295,10 +260,10 @@
       <a
         href="/en/posts/"
         class="language-cycle-btn border-border bg-background text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex h-10 w-10 items-center justify-center rounded-lg border transition-all duration-300 ease-out hover:scale-105 focus:ring-2 focus:outline-none active:scale-95"
-        aria-label=""
+        aria-label="切換語言"
         data-language-mode="cycle"
       >
-        <svg class="h-5 w-5 relative z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <svg class="h-5 w-5 relative z-10" aria-label="切換語言" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 8l6 6m-7 0l6-6l2-3M2 5h12M7 2h1m14 20l-5-10l-5 10m2-4h6" />
 </svg>
       </a>
@@ -315,18 +280,18 @@
       id="theme-toggle"
       class="dropdown-toggle border-border bg-background text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex h-10 w-10 items-center justify-center rounded-lg border transition-all duration-300 ease-out hover:scale-105 focus:ring-2 focus:outline-none active:scale-95"
       data-dropdown-type="theme"
-      aria-label=""
+      aria-label="切換模式"
       aria-expanded="false"
       aria-haspopup="true"
-    ><svg class="h-5 w-5 sun-icon hidden relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    ><svg class="h-5 w-5 sun-icon hidden relative z-10" aria-label="淺色" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
 </svg>
 
-        <svg class="h-5 w-5 moon-icon hidden relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg class="h-5 w-5 moon-icon hidden relative z-10" aria-label="深色" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
 </svg>
 
-        <svg class="h-5 w-5 system-icon hidden relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg class="h-5 w-5 system-icon hidden relative z-10" aria-label="系統" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 </svg>
 </button>
@@ -336,16 +301,16 @@
       class="dropdown-menu border-border bg-popover/95 w-40 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
       data-dropdown-type="theme"
       
-    ><button data-theme="light" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    ><button data-theme="light" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="淺色" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
 </svg>
-<span></span></button><button data-theme="dark" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<span>淺色</span></button><button data-theme="dark" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="深色" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
 </svg>
-<span></span></button><button data-theme="system" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<span>深色</span></button><button data-theme="system" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="系統" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 </svg>
-<span></span></button></div>
+<span>系統</span></button></div>
   </div>
       </div>
     </div>
@@ -357,11 +322,11 @@
 <button
   id="mobile-nav-toggle"
   class="nav-panel-toggle border-border bg-background text-muted-foreground hover:bg-accent hover:text-foreground flex h-10 w-10 items-center justify-center rounded-lg border transition-colors duration-200"
-  aria-label=""
+  aria-label="選單"
   aria-expanded="false"
   aria-controls="mobile-nav-panel"
 >
-  <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <svg class="h-5 w-5" aria-label="選單" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
 </svg>
 
@@ -376,10 +341,10 @@
       <a
         href="/en/posts/"
         class="language-cycle-btn border-border bg-background text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex h-10 w-10 items-center justify-center rounded-lg border transition-all duration-300 ease-out hover:scale-105 focus:ring-2 focus:outline-none active:scale-95"
-        aria-label=""
+        aria-label="切換語言"
         data-language-mode="cycle"
       >
-        <svg class="h-5 w-5 relative z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <svg class="h-5 w-5 relative z-10" aria-label="切換語言" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 	<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m5 8l6 6m-7 0l6-6l2-3M2 5h12M7 2h1m14 20l-5-10l-5 10m2-4h6" />
 </svg>
       </a>
@@ -396,18 +361,18 @@
       id="theme-toggle"
       class="dropdown-toggle border-border bg-background text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex h-10 w-10 items-center justify-center rounded-lg border transition-all duration-300 ease-out hover:scale-105 focus:ring-2 focus:outline-none active:scale-95"
       data-dropdown-type="theme"
-      aria-label=""
+      aria-label="切換模式"
       aria-expanded="false"
       aria-haspopup="true"
-    ><svg class="h-5 w-5 sun-icon hidden relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    ><svg class="h-5 w-5 sun-icon hidden relative z-10" aria-label="淺色" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
 </svg>
 
-        <svg class="h-5 w-5 moon-icon hidden relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg class="h-5 w-5 moon-icon hidden relative z-10" aria-label="深色" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
 </svg>
 
-        <svg class="h-5 w-5 system-icon hidden relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg class="h-5 w-5 system-icon hidden relative z-10" aria-label="系統" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 </svg>
 </button>
@@ -417,16 +382,16 @@
       class="dropdown-menu border-border bg-popover/95 w-40 absolute top-12 right-0 z-60 hidden rounded-lg border p-1 shadow-lg backdrop-blur-sm transition-all duration-200 ease-out"
       data-dropdown-type="theme"
       
-    ><button data-theme="light" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    ><button data-theme="light" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="淺色" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
 </svg>
-<span></span></button><button data-theme="dark" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<span>淺色</span></button><button data-theme="dark" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="深色" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
 </svg>
-<span></span></button><button data-theme="system" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+<span>深色</span></button><button data-theme="system" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none"><svg class="h-5 w-5 mr-3 h-4 w-4" aria-label="系統" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
 </svg>
-<span></span></button></div>
+<span>系統</span></button></div>
   </div>
       </div>
     </div>
@@ -438,7 +403,7 @@
   id="mobile-nav-panel"
   class="mt-2 hidden md:hidden"
   role="navigation"
-  aria-label=""
+  aria-label="選單"
   aria-hidden="true"
   tabindex="-1"
 >
@@ -540,7 +505,7 @@
 
       <div class="px-4 py-6">
         
-  <nav class="breadcrumb mb-4 py-1 md:mb-6" aria-label="">
+  <nav class="breadcrumb mb-4 py-1 md:mb-6" aria-label="麵包屑導航">
     <ol
       class="text-muted-foreground scrollbar-hide flex items-center space-x-1 overflow-x-auto py-1 text-sm whitespace-nowrap md:space-x-2"
     >
@@ -605,7 +570,7 @@
 </svg>
           <span>
             
-              
+              52 個頁面
             
           </span>
         </div>
@@ -618,7 +583,7 @@
 </svg>
             <span>
               9 /
-              10
+              9
             </span>
           </div>
         
@@ -637,7 +602,7 @@
 
 
 <article class="group">
-  <a href="/posts/the-coolest-thing-ive-ever-done/" class="block">
+  <a href="/posts/gcp/" class="block">
     <div
       class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
     >
@@ -647,14 +612,14 @@
         <h3
           class="text-foreground group-hover:text-primary text-xl leading-tight font-bold transition-colors duration-200"
         >
-          The Coolest Thing I&#39;ve Ever Done
+          gcp
         </h3>
 
         
         
           <p class="text-muted-foreground line-clamp-3 text-sm leading-relaxed md:line-clamp-2">
-            The Coolest Thing I&rsquo;ve Ever Done: Building an AI Learning Tool for Visually Impaired ChildrenBy Ezra Wu | April 5, 2025
-The Beginning: …
+            slug: gcp
+臨時抱佛腳-GCP競賽整理筆記-觀念釐清 
           </p>
         
 
@@ -667,8 +632,8 @@ The Beginning: …
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
 </svg>
 
-            <time datetime="2025-08-16" class="font-medium">
-              August 16, 2025
+            <time datetime="2025-10-28" class="font-medium">
+              October 28, 2025
             </time>
           </div>
 
@@ -680,7 +645,7 @@ The Beginning: …
 </svg>
 
               <span class="truncate font-medium"
-                ></span
+                >9 分鐘</span
               >
             </div>
           
@@ -693,13 +658,13 @@ The Beginning: …
                 <span
                   class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
                 >
-                  <span class="font-medium">AI</span>
+                  <span class="font-medium">google cloud</span>
                 </span>
               
                 <span
                   class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
                 >
-                  <span class="font-medium">Education</span>
+                  <span class="font-medium">google</span>
                 </span>
               
             </div>
@@ -717,7 +682,7 @@ The Beginning: …
 
 
 <article class="group">
-  <a href="/posts/the-birth-of-our-metaverse-english-club/" class="block">
+  <a href="/posts/mqtt-setting/" class="block">
     <div
       class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
     >
@@ -727,13 +692,14 @@ The Beginning: …
         <h3
           class="text-foreground group-hover:text-primary text-xl leading-tight font-bold transition-colors duration-200"
         >
-          The Birth of Our Metaverse English Club
+          mqtt_setting
         </h3>
 
         
         
           <p class="text-muted-foreground line-clamp-3 text-sm leading-relaxed md:line-clamp-2">
-            In 2024, I co-founded a club that quickly became one of my favorite projects: the Metaverse English Research Club. What makes this club …
+            slug: mqtt-setting
+MQTT 基本設定1. MQTT Broker 設定 (使用 Mosquitto) INI 摺疊 複製 # mosquitto.conf listener 1883 allow_anonymous true # mosquitto.conf …
           </p>
         
 
@@ -746,8 +712,8 @@ The Beginning: …
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
 </svg>
 
-            <time datetime="2024-06-28" class="font-medium">
-              June 28, 2024
+            <time datetime="2025-10-28" class="font-medium">
+              October 28, 2025
             </time>
           </div>
 
@@ -759,7 +725,7 @@ The Beginning: …
 </svg>
 
               <span class="truncate font-medium"
-                ></span
+                >1 分鐘</span
               >
             </div>
           
@@ -772,13 +738,7 @@ The Beginning: …
                 <span
                   class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
                 >
-                  <span class="font-medium">Education</span>
-                </span>
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">VR</span>
+                  <span class="font-medium">MQTT</span>
                 </span>
               
             </div>
@@ -796,7 +756,7 @@ The Beginning: …
 
 
 <article class="group">
-  <a href="/posts/20-70-%E8%8B%B1%E8%AA%9E%E7%90%86%E8%A7%A3/" class="block">
+  <a href="/posts/cdve-2025/" class="block">
     <div
       class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
     >
@@ -806,14 +766,80 @@ The Beginning: …
         <h3
           class="text-foreground group-hover:text-primary text-xl leading-tight font-bold transition-colors duration-200"
         >
-          20%-70% 英語理解
+          [泰國]首次參加國際研討會 CDVE 2025
         </h3>
 
         
         
           <p class="text-muted-foreground line-clamp-3 text-sm leading-relaxed md:line-clamp-2">
-            學習 要有耐心在 9貓 教學中 最後一張 就有提到 學習的重點 是耐心
+            [泰國]首次參加國際研討會 CDVE 2025
+          </p>
+        
 
+
+        
+        <div class="text-muted-foreground mt-2 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
+          
+          <div class="flex items-center gap-1.5">
+            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+            <time datetime="2025-10-19" class="font-medium">
+              October 19, 2025
+            </time>
+          </div>
+
+          
+          
+            <div class="flex items-center gap-1.5">
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+              <span class="truncate font-medium"
+                >1 分鐘</span
+              >
+            </div>
+          
+
+
+          
+          
+            <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
+              
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</article>
+
+          
+            
+
+
+
+
+<article class="group">
+  <a href="/posts/history-prize-adventure/" class="block">
+    <div
+      class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
+    >
+      
+      <div class="flex flex-1 flex-col justify-center gap-4 p-6">
+        
+        <h3
+          class="text-foreground group-hover:text-primary text-xl leading-tight font-bold transition-colors duration-200"
+        >
+          興趣成就列表
+        </h3>
+
+        
+        
+          <p class="text-muted-foreground line-clamp-3 text-sm leading-relaxed md:line-clamp-2">
+            這裡放我做過的興趣成就
           </p>
         
 
@@ -839,7 +865,7 @@ The Beginning: …
 </svg>
 
               <span class="truncate font-medium"
-                ></span
+                >1 分鐘</span
               >
             </div>
           
@@ -848,232 +874,6 @@ The Beginning: …
           
           
             <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
-              
-            </div>
-          
-        </div>
-      </div>
-    </div>
-  </a>
-</article>
-
-          
-            
-
-
-
-
-<article class="group">
-  <a href="/posts/a-is-b-displacement/" class="block">
-    <div
-      class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
-    >
-      
-      <div class="flex flex-1 flex-col justify-center gap-4 p-6">
-        
-        <h3
-          class="text-foreground group-hover:text-primary text-xl leading-tight font-bold transition-colors duration-200"
-        >
-          A is b, displacement
-        </h3>
-
-        
-        
-          <p class="text-muted-foreground line-clamp-3 text-sm leading-relaxed md:line-clamp-2">
-            A is B?Richards(1936) defines metaphor as the form “A is B”. a graph-like knowledge represents the individual memories with the nodes and …
-          </p>
-        
-
-
-        
-        <div class="text-muted-foreground mt-2 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-          
-          <div class="flex items-center gap-1.5">
-            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-</svg>
-
-            <time datetime="0001-01-01" class="font-medium">
-              January 1, 1
-            </time>
-          </div>
-
-          
-          
-            <div class="flex items-center gap-1.5">
-              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
-
-              <span class="truncate font-medium"
-                ></span
-              >
-            </div>
-          
-
-
-          
-          
-            <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">ICF</span>
-                </span>
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">DIM</span>
-                </span>
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">ICFP</span>
-                </span>
-              
-            </div>
-          
-        </div>
-      </div>
-    </div>
-  </a>
-</article>
-
-          
-            
-
-
-
-
-<article class="group">
-  <a href="/posts/can-we-still-think-critically-in-the-age-of-ai/" class="block">
-    <div
-      class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
-    >
-      
-      <div class="flex flex-1 flex-col justify-center gap-4 p-6">
-        
-        <h3
-          class="text-foreground group-hover:text-primary text-xl leading-tight font-bold transition-colors duration-200"
-        >
-          Can We Still Think Critically in the Age of AI?
-        </h3>
-
-        
-        
-          <p class="text-muted-foreground line-clamp-3 text-sm leading-relaxed md:line-clamp-2">
-            A reflection inspired by the MIT study “Your Brain on ChatGPT.”Recently, I started reading a large number of academic papers for my courses. …
-          </p>
-        
-
-
-        
-        <div class="text-muted-foreground mt-2 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-          
-          <div class="flex items-center gap-1.5">
-            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-</svg>
-
-            <time datetime="0001-01-01" class="font-medium">
-              January 1, 1
-            </time>
-          </div>
-
-          
-          
-            <div class="flex items-center gap-1.5">
-              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
-
-              <span class="truncate font-medium"
-                ></span
-              >
-            </div>
-          
-
-
-          
-          
-            <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
-              
-            </div>
-          
-        </div>
-      </div>
-    </div>
-  </a>
-</article>
-
-          
-            
-
-
-
-
-<article class="group">
-  <a href="/posts/djoe-design-jigsaw-on-site-a-computational-interface-of-displacing-ideas-in-the-design-productive-process/" class="block">
-    <div
-      class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
-    >
-      
-      <div class="flex flex-1 flex-col justify-center gap-4 p-6">
-        
-        <h3
-          class="text-foreground group-hover:text-primary text-xl leading-tight font-bold transition-colors duration-200"
-        >
-          dJOE - design Jigsaw On sitE A Computational Interface of Displacing Ideas in the Design Productive Process
-        </h3>
-
-        
-        
-          <p class="text-muted-foreground line-clamp-3 text-sm leading-relaxed md:line-clamp-2">
-            dJOE: design Jigsaw On sitEA Computational Interface of Displacing Ideas in the Design Productive Process
-focus on how designer’s process of …
-          </p>
-        
-
-
-        
-        <div class="text-muted-foreground mt-2 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-          
-          <div class="flex items-center gap-1.5">
-            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-</svg>
-
-            <time datetime="0001-01-01" class="font-medium">
-              January 1, 1
-            </time>
-          </div>
-
-          
-          
-            <div class="flex items-center gap-1.5">
-              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
-
-              <span class="truncate font-medium"
-                ></span
-              >
-            </div>
-          
-
-
-          
-          
-            <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">Visualising Information</span>
-                </span>
               
             </div>
           
@@ -1097,7 +897,7 @@ focus on how designer’s process of …
 
   <nav
     class="pagination mt-12"
-    aria-label=""
+    aria-label="第 9 頁，共 9 頁"
   >
     <div class="flex items-center justify-center gap-2">
       
@@ -1105,12 +905,12 @@ focus on how designer’s process of …
         <a
           href="/posts/page/8/"
           class="bg-card border-border hover:bg-accent/50 hover:border-primary/20 inline-flex items-center gap-2 rounded-lg border px-4 py-2 font-medium transition-all duration-300"
-          aria-label=""
+          aria-label="上一頁"
         >
           <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
 </svg>
-          <span class="hidden sm:inline"></span>
+          <span class="hidden sm:inline">上一頁</span>
         </a>
       
 
@@ -1194,19 +994,6 @@ focus on how designer’s process of …
             
           
         
-          
-          
-            
-              
-              <a
-                href="/posts/page/10/"
-                class="border-border hover:bg-accent/50 hover:border-primary/20 flex h-10 w-10 items-center justify-center rounded-lg border font-medium transition-all duration-300"
-              >
-                10
-              </a>
-            
-          
-        
 
 
         
@@ -1215,16 +1002,14 @@ focus on how designer’s process of …
 
       
       
-        <a
-          href="/posts/page/10/"
-          class="bg-card border-border hover:bg-accent/50 hover:border-primary/20 inline-flex items-center gap-2 rounded-lg border px-4 py-2 font-medium transition-all duration-300"
-          aria-label=""
+        <span
+          class="bg-muted/30 border-border/50 text-muted-foreground inline-flex cursor-not-allowed items-center gap-2 rounded-lg border px-4 py-2"
         >
-          <span class="hidden sm:inline"></span>
+          <span class="hidden sm:inline">下一頁</span>
           <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
 </svg>
-        </a>
+        </span>
       
 
     </div>
@@ -1319,7 +1104,7 @@ focus on how designer’s process of …
           </a>
         
           <a
-            href="mailto:ezrawu.tw@example.com"
+            href="mailto:ezrawu.tw@gmail.com"
             
             class="text-muted-foreground hover:text-primary focus:ring-primary/20 rounded-lg p-1 transition-all duration-300 ease-out hover:scale-110 focus:ring-2 focus:outline-none"
             title="Email"
@@ -1350,7 +1135,7 @@ focus on how designer’s process of …
   class="pointer-events-none fixed bottom-4 left-1/2 z-9999 w-fit -translate-x-1/2 translate-y-24 opacity-0 transition-all duration-300 ease-out sm:right-0 sm:left-0 sm:mx-auto sm:translate-x-0"
   data-dock-mode="float"
   role="toolbar"
-  aria-label=""
+  aria-label="快捷操作工具列"
 >
   <nav
     class="border-border bg-card/80 scrollbar-hide xs:px-3 xs:py-2 mx-auto flex max-w-[calc(100vw-2rem)] min-w-fit items-center justify-center overflow-x-auto rounded-2xl border px-4 py-3 shadow-lg backdrop-blur-sm sm:px-4 sm:py-3"
@@ -1360,15 +1145,15 @@ focus on how designer’s process of …
       <button
         id="dock-back"
         class="text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 xs:px-2 xs:py-1.5 flex shrink-0 items-center gap-2 rounded-lg px-3 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none sm:px-3 sm:py-2"
-        title=""
-        aria-label=""
+        title="返回"
+        aria-label="返回"
       >
         <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="m12 19-7-7 7-7"/>
   <path d="M19 12H5"/>
 </svg>
 
-        <span class="hidden sm:inline"></span>
+        <span class="hidden sm:inline">返回</span>
       </button>
 
       
@@ -1379,14 +1164,14 @@ focus on how designer’s process of …
     <button
       id="dock-search"
       class="text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 xs:px-3 xs:py-1.5 flex shrink-0 items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none sm:px-4 sm:py-2"
-      title=""
-      aria-label=""
+      title="搜尋"
+      aria-label="搜尋"
     >
       <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m21 21-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
 </svg>
 
-      <span class="hidden md:inline"></span>
+      <span class="hidden md:inline">搜尋</span>
     </button>
 
     
@@ -1401,14 +1186,14 @@ focus on how designer’s process of …
     <button
       id="dock-top"
       class="text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 xs:px-2 xs:py-1.5 flex shrink-0 items-center gap-2 rounded-lg px-3 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none sm:px-3 sm:py-2"
-      title=""
-      aria-label=""
+      title="返回頂部"
+      aria-label="返回頂部"
     >
       <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="m18 15-6-6-6 6"/>
 </svg>
 
-      <span class="hidden sm:inline"></span>
+      <span class="hidden sm:inline">頂部</span>
     </button>
   </nav>
 </div>
@@ -1458,7 +1243,7 @@ focus on how designer’s process of …
 </svg>
 
     </div>
-    <h2 id="search-title" class="sr-only"></h2>
+    <h2 id="search-title" class="sr-only">搜尋</h2>
 
     
     <div class="relative flex-1">
@@ -1466,8 +1251,8 @@ focus on how designer’s process of …
       <button
         id="search-clear"
         class="text-muted-foreground hover:text-foreground hover:bg-muted/50 pointer-events-none absolute top-1/2 left-0 z-10 h-5 w-5 -translate-y-1/2 rounded opacity-0 transition-all duration-200"
-        title=""
-        aria-label=""
+        title="清空"
+        aria-label="清空"
       >
         <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -1479,7 +1264,7 @@ focus on how designer’s process of …
       <input
         id="search-input"
         type="text"
-        placeholder=""
+        placeholder="搜尋文章..."
         class="text-foreground placeholder:text-muted-foreground w-full border-none bg-transparent pl-8 text-lg outline-none"
         autocomplete="off"
         spellcheck="false"
@@ -1490,8 +1275,8 @@ focus on how designer’s process of …
     <button
       id="search-close"
       class="text-muted-foreground hover:text-foreground hover:bg-muted/50 flex h-6 w-6 items-center justify-center rounded-md p-0.5 transition-all duration-200"
-      title=""
-      aria-label=""
+      title="關閉"
+      aria-label="關閉"
     >
       <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -1511,7 +1296,7 @@ focus on how designer’s process of …
 
       </div>
       <h3 class="text-foreground mb-2 text-lg font-semibold">
-        
+        開始搜尋
       </h3>
     </div>
 
@@ -1520,7 +1305,7 @@ focus on how designer’s process of …
       <div
         class="mr-3 h-6 w-6 animate-spin rounded-full border-2 border-current border-t-transparent"
       ></div>
-      <span class="text-muted-foreground"></span>
+      <span class="text-muted-foreground">搜尋中...</span>
     </div>
 
     
@@ -1536,7 +1321,7 @@ focus on how designer’s process of …
 
       </div>
       <h3 class="text-foreground mb-2 text-lg font-semibold">
-        
+        未找到結果
       </h3>
     </div>
 
@@ -1546,7 +1331,7 @@ focus on how designer’s process of …
       <div
         id="search-stats"
         class="text-muted-foreground border-border border-b px-4 py-3 text-sm"
-        data-count-other=""
+        data-count-other="找到 %d"
       ></div>
 
       
@@ -1561,20 +1346,20 @@ focus on how designer’s process of …
       <div class="flex items-center gap-2 md:gap-4">
         <div class="flex items-center gap-1">
           <kbd class="bg-muted border-border rounded border px-1.5 py-0.5 text-xs">↑↓</kbd>
-          <span class="hidden sm:inline"></span>
+          <span class="hidden sm:inline">導航</span>
         </div>
         <div class="flex items-center gap-1">
           <kbd class="bg-muted border-border rounded border px-1.5 py-0.5 text-xs">↵</kbd>
-          <span class="hidden sm:inline"></span>
+          <span class="hidden sm:inline">選擇</span>
         </div>
         <div class="flex items-center gap-1">
           <kbd class="bg-muted border-border rounded border px-1.5 py-0.5 text-xs">ESC</kbd>
-          <span class="hidden sm:inline"></span>
+          <span class="hidden sm:inline">關閉</span>
         </div>
       </div>
       <div class="search-hint-desktop flex items-center gap-1">
         <kbd class="bg-muted border-border rounded border px-1.5 py-0.5 text-xs">⌘K</kbd>
-        <span></span>
+        <span>快捷鍵</span>
       </div>
     </div>
   </div>
