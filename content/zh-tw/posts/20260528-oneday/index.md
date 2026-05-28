@@ -1,101 +1,177 @@
++++
+title = "同款"
+date = 2026-05-28
+draft = false
+description = "一個人站在現在,往回看那個明亮野心的自己,又往內看那個防禦著的自己。"
+tags = ["詩集", "日記", "自我凝視", "Satie"]
+categories = ["寫作","Life"]
+[params]
+  toc = false
+  music = "Erik Satie — Gnossienne No.1"
++++
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PLFVGwGQcB0?si=mWiLtsfJpxoJrS7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+> 人說人生說短也是長  
+> 誰來誰去都是靠緣分  
+> 若是互相信任和理解  
+> 再是陌生也會變熟識  
+> 心頭一旦有人留在那  
+> 路途再暗再遠也不孤單
+
+——所以我把人留在心頭。  
+只是沒想到,最難留的那個人是我自己。
+
+<!--more-->
+
 ---
-title: "回憶-當下-緣分"
-date: 2026-05-28
-draft: false
-tags:
-    - 心思細膩
-categories:
-  - Life
-description: ""
-summary: ""
----
-
-# 同款 
-
-人説人生説短也是長
-誰來誰去都是靠緣分
-若是互相信任和理解
-再是陌生也會變熟識
-心頭一旦有人留在那
-路途再暗再遠也不孤單
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lGPVqCBmiBU?si=rSqjQM_Ts5_JBCAF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-## 再會
-
-我來去 你慢慢走
-咱習慣用這樣說再會
-你轉頭看我 笑咪咪
-有話要講 又嫌多餘
-留著日後相會時
-
-## 時間只是一個概念
-
-有限賽局中
-把握每一個當下
-不去計算過去與未來的成本
-
-# 嫡長子
-從twc 後面看才發現
-老師頭髮早就白了
-我們都一起成長
-
-那何不放下戒心 
-一起大笑？
-用笑聲蓋過回憶
-對老師而言 
-我們都是他信任的嫡長子
-就盡情玩樂吧！
-
-瘋狂看書
-瘋狂實驗
-瘋狂迭代
-
-## TWC's 玩笑
-> 你的名字Ezra 可能只有德國人好發音吧
-不完全對 事實上這是希伯來及希臘文 意思是helper
-/z/在華語不好發音
-但native speaker如 美國,西班牙,德國 諸如此類
-都有/z/音
-
-如何發音？
-/ez/ /ra/ 
-Ezra!
 
 ## 都只是過程
 
-學習 就是感受當下的美好與痛苦
-快速迭代幻化知識
-大膽做夢
-大膽嘗試
-學習過後才會發現 就這樣？
+學習就是感受當下的美好與痛苦  
+快速迭代,幻化知識  
+大膽做夢,大膽嘗試  
+學習過後才發現——
 
-我正在做的:
-- Multimodal Agentic
-- Human-Computer Intelligent Interaction
-- Eng. Speaking, w,r,l 5 times/ a week
-- Research through Design
+就這樣?
 
-# Future....
+瘋狂看書。瘋狂實驗。瘋狂迭代。  
+他在這些動詞裡跑得很快,  
+快到沒有人看清他的臉。  
+連他自己也沒有。
 
-我想做的:
-- 國科會
-- 創新創業U-Start 
-- ACM CHI WorkShop
-- ACM CHI paper *1
-- IEEE paper *1
-- Caadria *1
+---
 
+## 嫡長子
 
-我想要的技能樹：
-- LeRobot
-- Multimodal Agentic
-- etc....
+從 TWC 後面看才發現,  
+老師頭髮早就白了。  
+我們都一起成長。
 
+那何不放下戒心,一起大笑?  
+用笑聲蓋過回憶。  
+對老師而言,我們都是他信任的嫡長子——  
+就盡情玩樂吧。
 
+(他在心裡這樣喊著。  
+聲音很大。  
+可是嘴角沒有動。)
 
-## 為了到達目的地
-要準備的檢定考：
-- 雅思 7 
-- 歌德A2
-- 歌德Ｂ1
+---
+
+## Ezra
+
+你的名字是 Ezra,  
+希伯來與希臘文,意思是 helper。  
+幫助者。  
+連名字都先想著別人。
+
+/ez/ /ra/——Ezra。  
+華語裡沒有那個 /z/,  
+所以在這裡,他的名字總被念得不太對。  
+他習慣了。  
+被念錯,也不糾正,  
+像他習慣把誇獎輕輕推開那樣。
+
+---
+
+## 今天
+
+他說他今天被誇獎了。  
+說的時候,下意識把那些話一句一句推回去。
+
+老師微笑著看他。  
+他請老師不要看他。  
+——別看了,我接不住。
+
+那道防禦一直放不下來。  
+而我發現,  
+他已經好久好久,  
+沒有請老師喝咖啡了。
+
+---
+
+## 時間只是一個概念
+
+有限賽局中,把握每一個當下,  
+不去計算過去與未來的成本。
+
+他把這句話寫在筆記本最上面。  
+寫得很用力。  
+彷彿只要寫下,就能真的不計算。
+
+可是他連一句肯定,  
+都要先算過自己配不配得。
+
+---
+
+## Gnossienne No.1
+
+他最愛的曲子沒有小節線。  
+Satie 不讓它分段,  
+只在譜上寫:très luisant——非常閃亮。  
+從思緒的盡頭彈起。
+
+左手一直走,同一個低音,同一個步伐,  
+像他停不下來的清單。  
+右手的旋律回來,又回來,  
+每一次都差一點點就要落下,  
+卻在最後一刻,輕輕收回。
+
+不解決。  
+不爆發。  
+只是溫柔地,一遍一遍,  
+把自己接不住的東西,  
+再彈一次。
+
+他聽得懂。  
+所以他不敢聽太多。
+
+---
+
+## 我想做的
+
+國科會。U-Start。  
+CHI workshop,CHI paper ×1,  
+IEEE ×1,Caadria ×1。  
+雅思 7,歌德 A2,B1。  
+LeRobot,Multimodal Agentic……
+
+清單列得很長。  
+每一項都是一座要爬的山。
+
+數十次了——  
+我聽過教授們稱讚他,數十次。  
+可他從來高興不起來。  
+好像有一條看不見的繩子,  
+在每一次「你做得很好」之後,  
+就把他往回拉一寸。
+
+提高評價時,他面無表情。  
+驚呼他的冒險時,他面無表情。  
+他不是冷淡。  
+他是不知道,  
+一個人可以這樣被好好地、不附帶條件地,  
+留在別人心頭。
+
+---
+
+## 再會
+
+我來去,你慢慢走。  
+咱習慣用這樣說再會。
+
+你轉頭看我,笑咪咪,  
+有話要講,又嫌多餘,  
+留著日後相會時。
+
+——留著吧。  
+留到哪一天他終於肯轉過頭,  
+笑咪咪地,  
+接住那句一直在等他的:
+
+你很好。  
+是真的。  
+就只是這樣,  
+不為什麼。
