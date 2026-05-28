@@ -1,75 +1,80 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Design of Master on YiSheng&#39;s secret garden</title>
-    <link>http://localhost:1313/en/categories/design-of-master/</link>
-    <description>Recent content in Design of Master on YiSheng&#39;s secret garden</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 16 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/categories/design-of-master/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>May 16th — A Midsummer Day in Douliu</title>
-      <link>http://localhost:1313/en/posts/writting/</link>
-      <pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/writting/</guid>
-      <description>&lt;p&gt;slug: writting&lt;/p&gt;&#xA;&lt;h1 id=&#34;regressing-to-a-primitive-state&#34;&gt;Regressing to a Primitive State&lt;a href=&#34;#regressing-to-a-primitive-state&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;While doing my literature review,&#xA;I realized my writing and argumentation had degraded to the point where&#xA;I needed to type out fragmented notes&#xA;and ask AI to assemble them into sentences for me.&#xA;I would read them, understand them, then go back and revise.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Senior Lab Mates Share Their Design School Experience</title>
-      <link>http://localhost:1313/en/posts/exp-senior-design/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/exp-senior-design/</guid>
-      <description>&lt;p&gt;slug: exp-senior-design&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-technical-crossroads&#34;&gt;The Technical Crossroads&lt;a href=&#34;#the-technical-crossroads&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Today I asked my senior lab mates: &amp;ldquo;I feel stuck at a crossroads — one step back is device interaction, one step forward is artificial intelligence. How did you figure out which of the thousands of papers you actually wanted to study?&amp;rdquo;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Graduate Tools — Tips from Experience</title>
-      <link>http://localhost:1313/en/posts/exp-seminar/</link>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/exp-seminar/</guid>
-      <description>&lt;p&gt;slug: exp-seminar&lt;/p&gt;&#xA;&lt;p&gt;You can find past papers from a conference you&amp;rsquo;re interested in, right-click and print the page as a PDF for a bunch of paper titles, then give it to Claude to see if any match your topic.&#xA;You can also ask Perplexity to search for related ones.&#xA;Otherwise, look for papers with similar problem statements.&lt;/p&gt;&#xA;&lt;p&gt;You can first use Gemini to extract summary keywords —&#xA;10 from an engineering perspective and 10 from a design perspective, then organize the most important ones.&#xA;After the analysis, give it the full text for a more accurate result.&#xA;For the filtered papers, you don&amp;rsquo;t have to translate them one by one yourself.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ivan Said — No Two Leaves in the World Are Exactly the Same</title>
-      <link>http://localhost:1313/en/posts/stay-alive/</link>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/stay-alive/</guid>
-      <description>&lt;p&gt;slug: stay-alive&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-birth-of-life&#34;&gt;The Birth of Life&lt;a href=&#34;#the-birth-of-life&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Once a year, pink coral&#xA;spawns on the weekend — 05.09.26.&#xA;Late at night, I saw this news in the group chat&#xA;and a thought suddenly came to me:&lt;/p&gt;&#xA;&lt;p&gt;I want to go witness the birth of life,&#xA;because it is truly beautiful.&#xA;&#xA;&lt;figure&#xA;  class=&#34;image-figure not-prose my-8&#34;&#xA;  data-lightbox-enabled=&#34;&#xA;    true&#xA;  &#34;&#xA;  data-gallery-type=&#34;auto&#34;&#xA;  data-image-width=&#34;1360&#34;&#xA;  data-image-height=&#34;903&#34;&#xA;  data-image-src=&#34;http://localhost:1313/en/posts/stay-alive/corak.jpg&#34;&#xA;&gt;&#xA;  &lt;div class=&#34;image-container&#34;&gt;&#xA;    &lt;img&#xA;    src=&#34;http://localhost:1313/en/posts/stay-alive/corak.jpg&#34;&#xA;    alt=&#34;&#34;&#xA;    &#xA;    &#xA;      &#xA;      &#xA;        &#xA;          width=&#34;1360&#34; height=&#34;903&#34;&#xA;        &#xA;      &#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    decoding=&#34;async&#34;&#xA;    data-gallery-src=&#34;http://localhost:1313/en/posts/stay-alive/corak.jpg&#34;&#xA;    data-gallery-alt=&#34;&#34;&#xA;    data-gallery-title=&#34;&#34;&#xA;  /&gt;&lt;/div&gt;&#xA;&#xA;  &lt;/figure&gt;&#xA;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Things I Learned as Staff at an International Conference</title>
-      <link>http://localhost:1313/en/posts/caadria_en/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/caadria_en/</guid>
-      <description>&lt;h1 id=&#34;do-your-best-and-always-ask-is-there-anything-i-can-help-with&#34;&gt;Do Your Best, and Always Ask: &amp;ldquo;Is There Anything I Can Help With?&amp;rdquo;&lt;a href=&#34;#do-your-best-and-always-ask-is-there-anything-i-can-help-with&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;These are the things I learned:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Actively participate in the conference and offer timely assistance to increase interaction and visibility&lt;/li&gt;&#xA;&lt;li&gt;Always carry your laptop and stay present in the office to show commitment and professionalism&lt;/li&gt;&#xA;&lt;li&gt;Build familiarity through consistent attendance and daily conversations, laying the groundwork for future collaboration&lt;/li&gt;&#xA;&lt;li&gt;Prepare business cards to help expand your network&lt;/li&gt;&#xA;&lt;li&gt;Even when your contribution seems limited, keep showing up — trust accumulates over time&lt;/li&gt;&#xA;&lt;li&gt;Stay open to asking questions and learning from others&lt;/li&gt;&#xA;&lt;li&gt;Have regular weekly check-ins with your mentor to maintain a steady feedback loop&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&#xA;&lt;figure&#xA;  class=&#34;image-figure not-prose my-8&#34;&#xA;  data-lightbox-enabled=&#34;&#xA;    true&#xA;  &#34;&#xA;  data-gallery-type=&#34;auto&#34;&#xA;  data-image-width=&#34;1567&#34;&#xA;  data-image-height=&#34;1045&#34;&#xA;  data-image-src=&#34;http://localhost:1313/en/posts/caadria_en/check_in.jpg&#34;&#xA;&gt;&#xA;  &lt;div class=&#34;image-container&#34;&gt;&#xA;    &lt;img&#xA;    src=&#34;http://localhost:1313/en/posts/caadria_en/check_in.jpg&#34;&#xA;    alt=&#34;Check-in at CAADRIA 2026&#34;&#xA;    &#xA;    &#xA;      &#xA;      &#xA;        &#xA;          width=&#34;1567&#34; height=&#34;1045&#34;&#xA;        &#xA;      &#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    decoding=&#34;async&#34;&#xA;    data-gallery-src=&#34;http://localhost:1313/en/posts/caadria_en/check_in.jpg&#34;&#xA;    data-gallery-alt=&#34;Check-in at CAADRIA 2026&#34;&#xA;    data-gallery-title=&#34;&#34;&#xA;  /&gt;&lt;/div&gt;&#xA;&#xA;  &lt;/figure&gt;&#xA;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>When Discipline Becomes Routine: Preparing for CAADRIA Two Months Out, I Chose to Sync with the World</title>
-      <link>http://localhost:1313/en/posts/prep-caadria-2026/</link>
-      <pubDate>Thu, 23 Apr 2026 21:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/prep-caadria-2026/</guid>
-      <description>&lt;p&gt;slug: prep-CAADRIA-2026&lt;/p&gt;&#xA;&lt;h1 id=&#34;when-discipline-becomes-routine-preparing-for-caadria-two-months-out-i-chose-to-sync-with-the-world&#34;&gt;When Discipline Becomes Routine: Preparing for CAADRIA Two Months Out, I Chose to Sync with the World&lt;a href=&#34;#when-discipline-becomes-routine-preparing-for-caadria-two-months-out-i-chose-to-sync-with-the-world&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;h2 id=&#34;translation-is-not-enough&#34;&gt;Translation Is Not Enough&lt;a href=&#34;#translation-is-not-enough&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Preparatory study to reduce the cognitive gap.&#xA;Many people say, &amp;ldquo;Just use body language or a translation app to chat.&amp;rdquo;&#xA;But having managed cross-national team collaboration before, I know that is far from enough.&#xA;Pronunciation, regional language isolation (different countries have different vocabulary preferences — even the same language can be incomprehensible), and beyond that, one-to-one translation wastes so much time.&#xA;&#xA;&lt;figure&#xA;  class=&#34;image-figure not-prose my-8&#34;&#xA;  data-lightbox-enabled=&#34;&#xA;    true&#xA;  &#34;&#xA;  data-gallery-type=&#34;auto&#34;&#xA;  data-image-width=&#34;832&#34;&#xA;  data-image-height=&#34;432&#34;&#xA;  data-image-src=&#34;http://localhost:1313/en/posts/prep-caadria-2026/morty.png&#34;&#xA;&gt;&#xA;  &lt;div class=&#34;image-container&#34;&gt;&#xA;    &lt;img&#xA;    src=&#34;http://localhost:1313/en/posts/prep-caadria-2026/morty.png&#34;&#xA;    alt=&#34;&#34;&#xA;    &#xA;    &#xA;      &#xA;      &#xA;        &#xA;          width=&#34;832&#34; height=&#34;432&#34;&#xA;        &#xA;      &#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    decoding=&#34;async&#34;&#xA;    data-gallery-src=&#34;http://localhost:1313/en/posts/prep-caadria-2026/morty.png&#34;&#xA;    data-gallery-alt=&#34;&#34;&#xA;    data-gallery-title=&#34;&#34;&#xA;  /&gt;&lt;/div&gt;&#xA;&#xA;  &lt;/figure&gt;&#xA;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>After Experiencing the Silent Darkness of the Deep Sea, I Realized What the Meaning of Life Is!</title>
-      <link>http://localhost:1313/en/posts/273/</link>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/273/</guid>
-      <description>&lt;p&gt;slug: 0421&lt;/p&gt;&#xA;&lt;h1 id=&#34;after-experiencing-the-silent-darkness-of-the-deep-sea-i-realized-what-the-meaning-of-life-is&#34;&gt;After Experiencing the Silent Darkness of the Deep Sea, I Realized What the Meaning of Life Is!&lt;a href=&#34;#after-experiencing-the-silent-darkness-of-the-deep-sea-i-realized-what-the-meaning-of-life-is&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Before the boat dive, I couldn&amp;rsquo;t quite feel it —&#xA;Why am I here?&#xA;What am I supposed to be doing here?&#xA;Why am I confining myself to NYUST?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Writing My Own Story</title>
-      <link>http://localhost:1313/en/posts/story/</link>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/story/</guid>
-      <description>&lt;p&gt;slug: Story&lt;/p&gt;&#xA;&lt;h1 id=&#34;writing-my-own-story&#34;&gt;Writing My Own Story&lt;a href=&#34;#writing-my-own-story&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;I believe life is less about finding yourself and more about creating yourself. At 20, I transitioned from seeing life through a lens of limitation to embracing the role of the protagonist in my own journey. This shift sparked a decade of entrepreneurship, international collaboration, and a relentless pursuit of excellence.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The 22nd International conference on Cooperative Design Visualization and Engineering</title>
-      <link>http://localhost:1313/en/posts/cdve2025/</link>
-      <pubDate>Sat, 08 Nov 2025 18:44:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/cdve2025/</guid>
-      <description>&lt;h1 id=&#34;from-cooperation-to-emotion-reflections-on-cdve-2025&#34;&gt;From Cooperation to Emotion: Reflections on CDVE 2025&lt;a href=&#34;#from-cooperation-to-emotion-reflections-on-cdve-2025&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;The &lt;strong&gt;22nd International Conference on Cooperative Design, Visualization, and Engineering (CDVE 2025)&lt;/strong&gt; will take place in &lt;strong&gt;Bangkok, Thailand&lt;/strong&gt;, from &lt;strong&gt;October 19–22, 2025&lt;/strong&gt;.&lt;br&gt;&#xA;This year’s theme centers on &lt;em&gt;“cooperation”&lt;/em&gt; — not only between systems, but between people, ideas, and disciplines.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Design of Master on YiSheng&#39;s secret garden</title>
+		<link>http://localhost:1313/en/categories/design-of-master/</link>
+		<description>Recent content in Design of Master on YiSheng&#39;s secret garden</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 16 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/en/categories/design-of-master/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>May 16th — A Midsummer Day in Douliu</title>
+				<link>http://localhost:1313/en/posts/writting/</link>
+				<pubDate>Sat, 16 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/posts/writting/</guid>
+				<description>&lt;p&gt;slug: writting&lt;/p&gt;&#xA;&lt;h1 id=&#34;regressing-to-a-primitive-state&#34;&gt;Regressing to a Primitive State&lt;/h1&gt;&#xA;&lt;p&gt;While doing my literature review,&#xA;I realized my writing and argumentation had degraded to the point where&#xA;I needed to type out fragmented notes&#xA;and ask AI to assemble them into sentences for me.&#xA;I would read them, understand them, then go back and revise.&lt;/p&gt;&#xA;&lt;p&gt;I started wondering — the day I cancel my AI subscription,&#xA;what will be left that is truly my own voice?&#xA;My advisor reminded me too: my own voice matters.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Senior Lab Mates Share Their Design School Experience</title>
+				<link>http://localhost:1313/en/posts/exp-senior-design/</link>
+				<pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/posts/exp-senior-design/</guid>
+				<description>&lt;p&gt;slug: exp-senior-design&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-technical-crossroads&#34;&gt;The Technical Crossroads&lt;/h1&gt;&#xA;&lt;p&gt;Today I asked my senior lab mates: &amp;ldquo;I feel stuck at a crossroads — one step back is device interaction, one step forward is artificial intelligence. How did you figure out which of the thousands of papers you actually wanted to study?&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;They said:&lt;/p&gt;&#xA;&lt;p&gt;Actually, what you&amp;rsquo;re calling device interaction and AI + design are just tools.&#xA;You shouldn&amp;rsquo;t get lost in the tools right now. The real question is: what is your research question? What problem do you actually want to solve?&#xA;Device interaction and AI + design aren&amp;rsquo;t two separate paths — they&amp;rsquo;re tools you can use together.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Graduate Tools — Tips from Experience</title>
+				<link>http://localhost:1313/en/posts/exp-seminar/</link>
+				<pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/posts/exp-seminar/</guid>
+				<description>&lt;p&gt;slug: exp-seminar&lt;/p&gt;&#xA;&lt;p&gt;You can find past papers from a conference you&amp;rsquo;re interested in, right-click and print the page as a PDF for a bunch of paper titles, then give it to Claude to see if any match your topic.&#xA;You can also ask Perplexity to search for related ones.&#xA;Otherwise, look for papers with similar problem statements.&lt;/p&gt;&#xA;&lt;p&gt;You can first use Gemini to extract summary keywords —&#xA;10 from an engineering perspective and 10 from a design perspective, then organize the most important ones.&#xA;After the analysis, give it the full text for a more accurate result.&#xA;For the filtered papers, you don&amp;rsquo;t have to translate them one by one yourself.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Ivan Said — No Two Leaves in the World Are Exactly the Same</title>
+				<link>http://localhost:1313/en/posts/stay-alive/</link>
+				<pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/posts/stay-alive/</guid>
+				<description>&lt;p&gt;slug: stay-alive&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-birth-of-life&#34;&gt;The Birth of Life&lt;/h1&gt;&#xA;&lt;p&gt;Once a year, pink coral&#xA;spawns on the weekend — 05.09.26.&#xA;Late at night, I saw this news in the group chat&#xA;and a thought suddenly came to me:&lt;/p&gt;&#xA;&lt;p&gt;I want to go witness the birth of life,&#xA;because it is truly beautiful.&#xA;&lt;img src=&#34;http://localhost:1313/en/posts/stay-alive/corak.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;if-money-allows-and-time-allows--what-else-is-holding-me-back&#34;&gt;If Money Allows and Time Allows — What Else Is Holding Me Back?&lt;/h2&gt;&#xA;&lt;p&gt;Memories and fantasies about the future —&#xA;nothing is stopping me.&#xA;It is all just my own imagination.&#xA;If I want to go, just go.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Things I Learned as Staff at an International Conference</title>
+				<link>http://localhost:1313/en/posts/caadria_en/</link>
+				<pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/posts/caadria_en/</guid>
+				<description>&lt;h1 id=&#34;do-your-best-and-always-ask-is-there-anything-i-can-help-with&#34;&gt;Do Your Best, and Always Ask: &amp;ldquo;Is There Anything I Can Help With?&amp;rdquo;&lt;/h1&gt;&#xA;&lt;p&gt;These are the things I learned:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Actively participate in the conference and offer timely assistance to increase interaction and visibility&lt;/li&gt;&#xA;&lt;li&gt;Always carry your laptop and stay present in the office to show commitment and professionalism&lt;/li&gt;&#xA;&lt;li&gt;Build familiarity through consistent attendance and daily conversations, laying the groundwork for future collaboration&lt;/li&gt;&#xA;&lt;li&gt;Prepare business cards to help expand your network&lt;/li&gt;&#xA;&lt;li&gt;Even when your contribution seems limited, keep showing up — trust accumulates over time&lt;/li&gt;&#xA;&lt;li&gt;Stay open to asking questions and learning from others&lt;/li&gt;&#xA;&lt;li&gt;Have regular weekly check-ins with your mentor to maintain a steady feedback loop&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/en/posts/caadria_en/check_in.jpg&#34; alt=&#34;Check-in at CAADRIA 2026&#34;&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>When Discipline Becomes Routine: Preparing for CAADRIA Two Months Out, I Chose to Sync with the World</title>
+				<link>http://localhost:1313/en/posts/prep-caadria-2026/</link>
+				<pubDate>Thu, 23 Apr 2026 21:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/posts/prep-caadria-2026/</guid>
+				<description>&lt;p&gt;slug: prep-CAADRIA-2026&lt;/p&gt;&#xA;&lt;h1 id=&#34;when-discipline-becomes-routine-preparing-for-caadria-two-months-out-i-chose-to-sync-with-the-world&#34;&gt;When Discipline Becomes Routine: Preparing for CAADRIA Two Months Out, I Chose to Sync with the World&lt;/h1&gt;&#xA;&lt;h2 id=&#34;translation-is-not-enough&#34;&gt;Translation Is Not Enough&lt;/h2&gt;&#xA;&lt;p&gt;Preparatory study to reduce the cognitive gap.&#xA;Many people say, &amp;ldquo;Just use body language or a translation app to chat.&amp;rdquo;&#xA;But having managed cross-national team collaboration before, I know that is far from enough.&#xA;Pronunciation, regional language isolation (different countries have different vocabulary preferences — even the same language can be incomprehensible), and beyond that, one-to-one translation wastes so much time.&#xA;&lt;img src=&#34;http://localhost:1313/en/posts/prep-caadria-2026/morty.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>After Experiencing the Silent Darkness of the Deep Sea, I Realized What the Meaning of Life Is!</title>
+				<link>http://localhost:1313/en/posts/273/</link>
+				<pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/posts/273/</guid>
+				<description>&lt;p&gt;slug: 0421&lt;/p&gt;&#xA;&lt;h1 id=&#34;after-experiencing-the-silent-darkness-of-the-deep-sea-i-realized-what-the-meaning-of-life-is&#34;&gt;After Experiencing the Silent Darkness of the Deep Sea, I Realized What the Meaning of Life Is!&lt;/h1&gt;&#xA;&lt;p&gt;Before the boat dive, I couldn&amp;rsquo;t quite feel it —&#xA;Why am I here?&#xA;What am I supposed to be doing here?&#xA;Why am I confining myself to NYUST?&lt;/p&gt;&#xA;&lt;p&gt;But after experiencing a world where everything around me was nothing but darkness, guided only by the faint beam of a flashlight through the deep sea,&#xA;and feeling nothing in that moment except the sound of my own breathing and my partner&amp;rsquo;s —&#xA;everything that had felt meaningless&#xA;suddenly became meaningful.&#xA;Breathing, gestures, seawater, light, nature, fish — all of it became meaning.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Writing My Own Story</title>
+				<link>http://localhost:1313/en/posts/story/</link>
+				<pubDate>Sat, 18 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/posts/story/</guid>
+				<description>&lt;p&gt;slug: Story&lt;/p&gt;&#xA;&lt;h1 id=&#34;writing-my-own-story&#34;&gt;Writing My Own Story&lt;/h1&gt;&#xA;&lt;p&gt;I believe life is less about finding yourself and more about creating yourself. At 20, I transitioned from seeing life through a lens of limitation to embracing the role of the protagonist in my own journey. This shift sparked a decade of entrepreneurship, international collaboration, and a relentless pursuit of excellence.&lt;/p&gt;&#xA;&lt;h2 id=&#34;building-bridges--breaking-barriers&#34;&gt;Building Bridges &amp;amp; Breaking Barriers&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/en/posts/story/india.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;My professional journey is rooted in social impact and education. Alongside a global team of Canadian and Indian partners, I co-founded a project dedicated to providing accessible education for blind children. Driven by the belief that communication should never be a &amp;ldquo;wall,&amp;rdquo; I also founded an English learning community to help others find their voice in a second language—a challenge I once faced and overcame myself.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>The 22nd International conference on Cooperative Design Visualization and Engineering</title>
+				<link>http://localhost:1313/en/posts/cdve2025/</link>
+				<pubDate>Sat, 08 Nov 2025 18:44:00 +0000</pubDate>
+				<guid>http://localhost:1313/en/posts/cdve2025/</guid>
+				<description>&lt;h1 id=&#34;from-cooperation-to-emotion-reflections-on-cdve-2025&#34;&gt;From Cooperation to Emotion: Reflections on CDVE 2025&lt;/h1&gt;&#xA;&lt;p&gt;The &lt;strong&gt;22nd International Conference on Cooperative Design, Visualization, and Engineering (CDVE 2025)&lt;/strong&gt; will take place in &lt;strong&gt;Bangkok, Thailand&lt;/strong&gt;, from &lt;strong&gt;October 19–22, 2025&lt;/strong&gt;.&lt;br&gt;&#xA;This year’s theme centers on &lt;em&gt;“cooperation”&lt;/em&gt; — not only between systems, but between people, ideas, and disciplines.&lt;/p&gt;&#xA;&lt;p&gt;As someone deeply interested in &lt;strong&gt;interdisciplinary collaboration&lt;/strong&gt; and &lt;strong&gt;emotional visualization&lt;/strong&gt;, I see CDVE as more than an academic venue.&lt;br&gt;&#xA;It’s a stage where design meets engineering, where emotion finds form through visualization, and where collaboration transforms into tangible innovation.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

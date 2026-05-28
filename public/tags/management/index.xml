@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Management on YiSheng&#39;s secret garden</title>
-    <link>http://localhost:1313/tags/management/</link>
-    <description>Recent content in Management on YiSheng&#39;s secret garden</description>
-    <generator>Hugo</generator>
-    <language>zh-tw</language>
-    <lastBuildDate>Tue, 28 Oct 2025 12:12:19 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/management/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>management</title>
-      <link>http://localhost:1313/posts/management/</link>
-      <pubDate>Tue, 28 Oct 2025 12:12:19 +0000</pubDate>
-      <guid>http://localhost:1313/posts/management/</guid>
-      <description>&lt;p&gt;slug: management&lt;/p&gt;&#xA;&lt;h1 id=&#34;管理學&#34;&gt;管理學&lt;a href=&#34;#%e7%ae%a1%e7%90%86%e5%ad%b8&#34; class=&#34;heading-anchor&#34; aria-label=&#34;連結到此部分&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;h3 id=&#34;企業是什麼&#34;&gt;企業是什麼?&lt;a href=&#34;#%e4%bc%81%e6%a5%ad%e6%98%af%e4%bb%80%e9%ba%bc&#34; class=&#34;heading-anchor&#34; aria-label=&#34;連結到此部分&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&#34;企業-是由個人或一群人組成&#34;&gt;企業 是由個人或一群人組成&lt;a href=&#34;#%e4%bc%81%e6%a5%ad-%e6%98%af%e7%94%b1%e5%80%8b%e4%ba%ba%e6%88%96%e4%b8%80%e7%be%a4%e4%ba%ba%e7%b5%84%e6%88%90&#34; class=&#34;heading-anchor&#34; aria-label=&#34;連結到此部分&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;主要活動&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Management on YiSheng&#39;s secret garden</title>
+		<link>http://localhost:1313/tags/management/</link>
+		<description>Recent content in Management on YiSheng&#39;s secret garden</description>
+		<generator>Hugo</generator>
+		<language>zh-tw</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 28 Oct 2025 12:12:19 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/management/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>management</title>
+				<link>http://localhost:1313/posts/management/</link>
+				<pubDate>Tue, 28 Oct 2025 12:12:19 +0000</pubDate>
+				<guid>http://localhost:1313/posts/management/</guid>
+				<description>&lt;p&gt;slug: management&lt;/p&gt;&#xA;&lt;h1 id=&#34;管理學&#34;&gt;管理學&lt;/h1&gt;&#xA;&lt;h3 id=&#34;企業是什麼&#34;&gt;企業是什麼?&lt;/h3&gt;&#xA;&lt;h4 id=&#34;企業-是由個人或一群人組成&#34;&gt;企業 是由個人或一群人組成&lt;/h4&gt;&#xA;&lt;p&gt;主要活動&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;取得並運用生產要素，進行產品或服務的交易與銷售，滿足消費者需求並藉此獲取利潤&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;生產要素&#34;&gt;生產要素&lt;/h4&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;自然資源&lt;/li&gt;&#xA;&lt;li&gt;人力資源&#xA;&lt;ul&gt;&#xA;&lt;li&gt;勞心或勞力的工作者&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;資本設備&#xA;&lt;ul&gt;&#xA;&lt;li&gt;人造的{生產工具}&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;企業家精神&#xA;&lt;ul&gt;&#xA;&lt;li&gt;創業精神&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h4 id=&#34;滿足消費者需求的產品與服務&#34;&gt;滿足消費者需求的產品與服務&lt;/h4&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;有形的產品&lt;/li&gt;&#xA;&lt;li&gt;無形的服務 -&amp;gt; 嘉惠客戶的活動 : 服務業&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;營利事業與非營利事業&#34;&gt;營利事業與非營利事業&lt;/h3&gt;&#xA;&lt;h3 id=&#34;企業功能與管理功能&#34;&gt;企業功能與管理功能&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;企業功能&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;管理功能&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;生產功能&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;規劃&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;行銷功能&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;組織&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;人力資源功能&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;領導&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;研究與發展功能&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;控制&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;財務功能&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;資訊功能&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;規劃: 未來組織績效訂出目標&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

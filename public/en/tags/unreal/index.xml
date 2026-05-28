@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Unreal on YiSheng&#39;s secret garden</title>
-    <link>http://localhost:1313/en/tags/unreal/</link>
-    <description>Recent content in Unreal on YiSheng&#39;s secret garden</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 28 Oct 2025 12:16:21 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/unreal/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Unreal Sequencer</title>
-      <link>http://localhost:1313/en/posts/sequencer/</link>
-      <pubDate>Tue, 28 Oct 2025 12:16:21 +0000</pubDate>
-      <guid>http://localhost:1313/en/posts/sequencer/</guid>
-      <description>&lt;p&gt;slug: Sequencer&lt;/p&gt;&#xA;&lt;h1 id=&#34;unreal-sequencer&#34;&gt;Unreal Sequencer&lt;a href=&#34;#unreal-sequencer&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Creating a Level Sequence&#xA;A Level Sequence is the &amp;ldquo;container&amp;rdquo; for your cinematic scene. You must create one before you can start working in the Sequencer Editor. You can create a Level Sequence directly from the &lt;strong&gt;Toolbar&lt;/strong&gt; under &lt;strong&gt;Cinematics&lt;/strong&gt; (as shown below).&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Unreal on YiSheng&#39;s secret garden</title>
+		<link>http://localhost:1313/en/tags/unreal/</link>
+		<description>Recent content in Unreal on YiSheng&#39;s secret garden</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 28 Oct 2025 12:16:21 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/en/tags/unreal/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Unreal Sequencer</title>
+				<link>http://localhost:1313/en/posts/sequencer/</link>
+				<pubDate>Tue, 28 Oct 2025 12:16:21 +0000</pubDate>
+				<guid>http://localhost:1313/en/posts/sequencer/</guid>
+				<description>&lt;p&gt;slug: Sequencer&lt;/p&gt;&#xA;&lt;h1 id=&#34;unreal-sequencer&#34;&gt;Unreal Sequencer&lt;/h1&gt;&#xA;&lt;p&gt;Creating a Level Sequence&#xA;A Level Sequence is the &amp;ldquo;container&amp;rdquo; for your cinematic scene. You must create one before you can start working in the Sequencer Editor. You can create a Level Sequence directly from the &lt;strong&gt;Toolbar&lt;/strong&gt; under &lt;strong&gt;Cinematics&lt;/strong&gt; (as shown below).&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/SJtlgsxB2.png&#34; alt=&#34;&#34;&gt;&#xA;You can also access Cinematics and the Sequencer through the &lt;strong&gt;Window&lt;/strong&gt; menu.&#xA;&lt;img src=&#34;https://hackmd.io/_uploads/rkZWxigr2.png&#34; alt=&#34;&#34;&gt;&#xA;&lt;img src=&#34;https://hackmd.io/_uploads/Hy5-gixrn.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Any of the above methods will add a sequence to the Level. Once added, you can select it and manipulate its properties in the &lt;strong&gt;Details&lt;/strong&gt; panel (similar to a Matinee Actor). In the Details panel (shown below), you can define whether the Level Sequence plays automatically when the Level starts, whether the Sequence should loop, the Play Rate for the Sequence, and other settings.&#xA;&lt;img src=&#34;https://hackmd.io/_uploads/ryrMeilrh.png&#34; alt=&#34;&#34;&gt;&#xA;Unlike Matinee, a Level Sequence is a self-contained asset — you can embed one Level Sequence inside another. For example, you can create a Level Sequence with animated characters and cameras as a single scene, which is then part of a larger cinematic sequence.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
