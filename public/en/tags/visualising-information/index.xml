@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Visualising Information on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/en/tags/visualising-information/</link>
+		<link>https://ezrawu-tw.github.io/en/tags/visualising-information/</link>
 		<description>Recent content in Visualising Information on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -10,19 +10,19 @@
 		
 		
 		
-			<atom:link href="http://localhost:1313/en/tags/visualising-information/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/en/tags/visualising-information/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>dJOE - design Jigsaw On sitE A Computational Interface of Displacing Ideas in the Design Productive Process</title>
-				<link>http://localhost:1313/en/posts/diagrammatic-design-process-n-djoe/</link>
+				<link>https://ezrawu-tw.github.io/en/posts/diagrammatic-design-process-n-djoe/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/en/posts/diagrammatic-design-process-n-djoe/</guid>
+				<guid>https://ezrawu-tw.github.io/en/posts/diagrammatic-design-process-n-djoe/</guid>
 				<description>&lt;p&gt;slug: Diagrammatic-Design-Process-N-djoe&lt;/p&gt;&#xA;&lt;h1 id=&#34;djoe-design-jigsaw-on-site&#34;&gt;dJOE: design Jigsaw On sitE&lt;/h1&gt;&#xA;&lt;p&gt;A Computational Interface of Displacing Ideas in the Design Productive Process&lt;/p&gt;&#xA;&lt;p&gt;focus on how designer’s process of displacing&#xA;ideas in the design productive phase and how to represent it on interface.&lt;/p&gt;&#xA;&lt;p&gt;Oxman (2004) claimed that only through a concept structure of the entire knowledge linking network can we understand the analogy reasoning pattern in the thinking process.&lt;/p&gt;&#xA;&lt;h1 id=&#34;ref&#34;&gt;Ref&lt;/h1&gt;&#xA;&lt;p&gt;Chia-Hui Nico Lo1, I.-C. L., and Teng-Wen Chang2 (2013). &amp;ldquo;dJOE: design Jigsaw On sitE&#xA;A Computational Interface of Displacing Ideas in the Design Productive Process.&amp;rdquo;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Visualising the Design Process with Dynamic Graph</title>
-				<link>http://localhost:1313/en/posts/diagrammatic-design-process-n-03/</link>
+				<link>https://ezrawu-tw.github.io/en/posts/diagrammatic-design-process-n-03/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/en/posts/diagrammatic-design-process-n-03/</guid>
+				<guid>https://ezrawu-tw.github.io/en/posts/diagrammatic-design-process-n-03/</guid>
 				<description>&lt;p&gt;slug: Diagrammatic-Design-Process-N-03&lt;/p&gt;&#xA;&lt;h1 id=&#34;visualising-the-design-process-with-dynamic-graph&#34;&gt;Visualising the Design Process with Dynamic Graph&lt;/h1&gt;&#xA;&lt;h2 id=&#34;concept&#34;&gt;concept&lt;/h2&gt;&#xA;&lt;p&gt;Designers have often forgotten after the completion of the design, but throughout viewing these recorded graphics can evoke their memory, and provide more inspiration to and thoughts.&lt;/p&gt;&#xA;&lt;h1 id=&#34;why-designers-forget-or-lose-information&#34;&gt;Why Designers Forget or Lose Information&lt;/h1&gt;&#xA;&lt;p&gt;Design work is a continuous decision-making process. However, in reality, designers often jump from one state to another instead of changing things step-by-step.&#xA;Because of this “jumping” process, some important information is easily lost. Examples include:&lt;/p&gt;</description>
 			</item>
 	</channel>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Three.js on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/tags/three.js/</link>
+		<link>https://ezrawu-tw.github.io/tags/three.js/</link>
 		<description>Recent content in Three.js on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>zh-tw</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 28 Oct 2025 12:21:08 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/three.js/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/tags/three.js/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Three.js</title>
-				<link>http://localhost:1313/posts/three-js/</link>
+				<link>https://ezrawu-tw.github.io/posts/three-js/</link>
 				<pubDate>Tue, 28 Oct 2025 12:21:08 +0000</pubDate>
-				<guid>http://localhost:1313/posts/three-js/</guid>
+				<guid>https://ezrawu-tw.github.io/posts/three-js/</guid>
 				<description>&lt;p&gt;slug: Three-js&lt;/p&gt;&#xA;&lt;h1 id=&#34;淺談threejs&#34;&gt;淺談Three.js&lt;/h1&gt;&#xA;&lt;p&gt;Three.js 是一個開源的 JavaScript 庫，基於 WebGL API 所開發，將 WebGL 上複雜的操作包裝成易上手的 API，方便開發者在網頁瀏覽器中建立 3D 場景、動畫。&lt;/p&gt;&#xA;&lt;h1 id=&#34;探討-threejs-的發展&#34;&gt;探討 Three.js 的發展&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/fqoubAn.png&#34; alt=&#34;&#34;&gt;&#xA;Three.js 是基於 WebGL 發展而來、WebGL 是基於 OpenGL ES 2.0 發展而來、而 OpenGL ES（OpenGL for Embedded Systems） 是 OpenGL 為嵌入式系統特製的版本。&lt;/p&gt;</description>
 			</item>
 	</channel>

@@ -3,922 +3,974 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+    <loc>https://ezrawu-tw.github.io/categories/</loc>
+    <lastmod>2026-05-29T08:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/categories/"
+                href="https://ezrawu-tw.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://ezrawu-tw.github.io/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/design-of-master/</loc>
-    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+    <loc>https://ezrawu-tw.github.io/tags/picasso/</loc>
+    <lastmod>2026-05-29T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/posts/</loc>
+    <lastmod>2026-05-29T08:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/categories/design-of-master/"
+                href="https://ezrawu-tw.github.io/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/design-of-master/"
+                href="https://ezrawu-tw.github.io/en/posts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+    <loc>https://ezrawu-tw.github.io/series/</loc>
+    <lastmod>2026-05-29T08:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/"
+                href="https://ezrawu-tw.github.io/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/"
+                href="https://ezrawu-tw.github.io/en/series/"
                 />
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+    <loc>https://ezrawu-tw.github.io/tags/</loc>
+    <lastmod>2026-05-29T08:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/"
+                href="https://ezrawu-tw.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://ezrawu-tw.github.io/en/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/senior_graduate/</loc>
-    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/ieee-mipr-2026/</loc>
-    <lastmod>2026-05-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/ipo-architecture/</loc>
-    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ai-%E5%8D%94%E4%BD%9C/</loc>
-    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/hrv/</loc>
-    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ieee/</loc>
-    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/ieee-author-block-five-authors/</loc>
-    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/ieee-conference-paper-revision/</loc>
-    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ieeetran/</loc>
-    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/latex/</loc>
-    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/mipr/</loc>
-    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/research-through-design/</loc>
-    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+    <loc>https://ezrawu-tw.github.io/</loc>
+    <lastmod>2026-05-29T08:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/"
+                href="https://ezrawu-tw.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://ezrawu-tw.github.io/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/claude-translation-workflow/</loc>
+    <loc>https://ezrawu-tw.github.io/categories/%E5%BF%83%E7%90%86/</loc>
+    <lastmod>2026-05-29T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/tags/%E6%97%A5%E8%A8%98/</loc>
+    <lastmod>2026-05-29T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/tags/%E5%8D%A1%E7%B9%86/</loc>
+    <lastmod>2026-05-29T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/tags/%E5%AD%98%E5%9C%A8%E4%B8%BB%E7%BE%A9/</loc>
+    <lastmod>2026-05-29T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/tags/%E6%8A%95%E5%B0%84/</loc>
+    <lastmod>2026-05-29T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/tags/%E6%B2%99%E7%89%B9/</loc>
+    <lastmod>2026-05-29T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/posts/%E5%AF%86%E5%AE%A4%E8%88%87%E8%92%BC%E8%A0%85%E5%98%94%E5%90%90%E9%82%84%E6%9C%89%E7%9F%B3%E9%A0%AD/</loc>
+    <lastmod>2026-05-29T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/series/%E8%88%87%E8%87%AA%E5%B7%B1%E8%AB%87%E8%A9%B1/</loc>
+    <lastmod>2026-05-29T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/tags/%E8%88%87%E8%87%AA%E5%B7%B1%E8%AB%87%E8%A9%B1/</loc>
+    <lastmod>2026-05-29T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/posts/%E7%9D%A1%E9%86%92%E5%BE%8C/</loc>
+    <lastmod>2026-05-29T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/categories/design-of-master/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://ezrawu-tw.github.io/categories/design-of-master/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://ezrawu-tw.github.io/en/categories/design-of-master/"
+                />
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/tags/satie/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/posts/%E5%90%8C%E6%AC%BE/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%85%8B/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/tags/%E8%87%AA%E6%88%91%E5%87%9D%E8%A6%96/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/tags/%E5%9D%82%E6%9C%AC%E9%BE%8D%E4%B8%80/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/tags/%E5%BF%AB%E9%80%9F%E8%BF%AD%E4%BB%A3/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/tags/%E7%B3%BB%E7%B5%B1%E8%A8%AD%E8%A8%88/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/tags/%E7%A0%94%E7%A9%B6%E5%BF%83%E5%BE%97/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/categories/%E7%A0%94%E7%A9%B6%E7%AD%86%E8%A8%98/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/tags/%E9%BB%91%E6%BD%AE/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/tags/%E8%A9%A9%E9%9B%86/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/categories/%E5%AF%AB%E4%BD%9C/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/tags/%E8%AB%96%E6%96%87%E7%AD%86%E8%A8%98/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/posts/senior_graduate/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/posts/%E9%97%9C%E6%96%BC%E6%88%91%E5%85%A9%E9%80%B1%E5%81%9A%E5%AE%8Cieee-mipr-ssp2%E7%84%B6%E5%BE%8C%E6%95%99%E6%8E%88%E8%AA%AA%E6%88%91%E9%80%B2%E6%AD%A5%E4%BA%86-%E4%B8%80%E5%A0%B4%E5%B0%B1%E9%80%99%E7%9A%84%E4%BA%8B%E5%BE%8C%E7%9B%A4%E9%BB%9E/</loc>
+    <lastmod>2026-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/posts/ipo-architecture/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%A4%9A%E6%A8%A1%E6%85%8B/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/ai-%E5%8D%94%E4%BD%9C/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%A4%9A%E6%A8%A1%E6%85%8B%E6%83%85%E6%84%9F%E9%81%8B%E7%AE%97/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/hrv/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E7%B3%BB%E7%B5%B1%E8%A8%AD%E8%A8%88/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/ieee/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%9E%B6%E6%A7%8B%E8%A8%AD%E8%A8%88/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/ieee-author-block-five-authors/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E7%A0%94%E7%A9%B6%E7%AD%86%E8%A8%98/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/ieee-conference-paper-revision/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%8B%B1%E6%96%87%E4%BF%AE%E8%BE%AD/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/ieeetran/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%83%85%E6%84%9F%E9%81%8B%E7%AE%97/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/latex/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%B7%A8%E9%A0%98%E5%9F%9F%E5%8D%94%E4%BD%9C/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/mipr/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ieee-paper-revision-notes/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/research-through-design/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%AB%96%E6%96%87%E7%AD%86%E8%A8%98/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/%E5%A4%9A%E6%A8%A1%E6%85%8B%E6%83%85%E6%84%9F%E9%81%8B%E7%AE%97/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%AB%96%E6%96%87%E5%AF%AB%E4%BD%9C/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/%E6%9E%B6%E6%A7%8B%E8%A8%AD%E8%A8%88/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/rtd-colon-sentence/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/%E8%8B%B1%E6%96%87%E4%BF%AE%E8%BE%AD/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/%E8%B7%A8%E9%A0%98%E5%9F%9F%E5%8D%94%E4%BD%9C/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E7%BF%BB%E8%AD%AF/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/ieee-paper-revision-notes/</loc>
     <lastmod>2026-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/eng-great/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/%E8%AB%96%E6%96%87%E5%AF%AB%E4%BD%9C/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/posts/rtd-colon-sentence/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/tags/%E5%AD%B8%E8%A1%93%E5%AF%AB%E4%BD%9C/</loc>
+    <lastmod>2026-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ezrawu-tw.github.io/posts/eng-great/</loc>
     <lastmod>2026-05-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/eng-great/"
+                href="https://ezrawu-tw.github.io/posts/eng-great/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/eng-great/"
+                href="https://ezrawu-tw.github.io/en/posts/eng-great/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/if/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/if/</loc>
     <lastmod>2026-05-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/if/"
+                href="https://ezrawu-tw.github.io/posts/if/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/if/"
+                href="https://ezrawu-tw.github.io/en/posts/if/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/south-palace/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/south-palace/</loc>
     <lastmod>2026-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E5%8F%B0%E7%81%A3%E6%97%85%E9%81%8A/</loc>
+    <loc>https://ezrawu-tw.github.io/categories/%E5%8F%B0%E7%81%A3%E6%97%85%E9%81%8A/</loc>
     <lastmod>2026-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/writting/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/writting/</loc>
     <lastmod>2026-05-16T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/writting/"
+                href="https://ezrawu-tw.github.io/posts/writting/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/writting/"
+                href="https://ezrawu-tw.github.io/en/posts/writting/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/liuqiu-coral/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/liuqiu-coral/</loc>
     <lastmod>2026-05-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/life/</loc>
+    <loc>https://ezrawu-tw.github.io/categories/life/</loc>
     <lastmod>2026-05-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/categories/life/"
+                href="https://ezrawu-tw.github.io/categories/life/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/life/"
+                href="https://ezrawu-tw.github.io/en/categories/life/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/friend-plus7/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/friend-plus7/</loc>
     <lastmod>2026-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/gress-bus/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/gress-bus/</loc>
     <lastmod>2026-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/0508/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/0508/</loc>
     <lastmod>2026-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://ezrawu-tw.github.io/about/</loc>
     <lastmod>2026-05-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/about/"
+                href="https://ezrawu-tw.github.io/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/about/"
+                href="https://ezrawu-tw.github.io/en/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/note/</loc>
+    <loc>https://ezrawu-tw.github.io/categories/note/</loc>
     <lastmod>2026-05-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/categories/note/"
+                href="https://ezrawu-tw.github.io/categories/note/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/note/"
+                href="https://ezrawu-tw.github.io/en/categories/note/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/personal/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/personal/</loc>
     <lastmod>2026-05-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/personal/"
+                href="https://ezrawu-tw.github.io/tags/personal/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/personal/"
+                href="https://ezrawu-tw.github.io/en/tags/personal/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/rss/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/rss/</loc>
     <lastmod>2026-05-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/rss/"
+                href="https://ezrawu-tw.github.io/posts/rss/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/rss/"
+                href="https://ezrawu-tw.github.io/en/posts/rss/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/adventure-time/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/adventure-time/</loc>
     <lastmod>2026-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/deletesocialmedia/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/deletesocialmedia/</loc>
     <lastmod>2026-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/exp-senior-design/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/exp-senior-design/</loc>
     <lastmod>2026-05-07T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/exp-senior-design/"
+                href="https://ezrawu-tw.github.io/posts/exp-senior-design/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/exp-senior-design/"
+                href="https://ezrawu-tw.github.io/en/posts/exp-senior-design/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/stay-alive/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/stay-alive/</loc>
     <lastmod>2026-05-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/stay-alive/"
+                href="https://ezrawu-tw.github.io/posts/stay-alive/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/stay-alive/"
+                href="https://ezrawu-tw.github.io/en/posts/stay-alive/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/exp-seminar/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/exp-seminar/</loc>
     <lastmod>2026-05-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/exp-seminar/"
+                href="https://ezrawu-tw.github.io/posts/exp-seminar/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/exp-seminar/"
+                href="https://ezrawu-tw.github.io/en/posts/exp-seminar/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/history-prize/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/history-prize/</loc>
     <lastmod>2026-05-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/history-prize/"
+                href="https://ezrawu-tw.github.io/posts/history-prize/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/history-prize/"
+                href="https://ezrawu-tw.github.io/en/posts/history-prize/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/caadria/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/caadria/</loc>
     <lastmod>2026-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/prep-caadria-2026/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/prep-caadria-2026/</loc>
     <lastmod>2026-04-23T21:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/prep-caadria-2026/"
+                href="https://ezrawu-tw.github.io/posts/prep-caadria-2026/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/prep-caadria-2026/"
+                href="https://ezrawu-tw.github.io/en/posts/prep-caadria-2026/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/273/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/273/</loc>
     <lastmod>2026-04-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/273/"
+                href="https://ezrawu-tw.github.io/posts/273/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/273/"
+                href="https://ezrawu-tw.github.io/en/posts/273/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/firefly/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/firefly/</loc>
     <lastmod>2026-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/llm-rag-anythingllm/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/llm-rag-anythingllm/</loc>
     <lastmod>2026-01-23T11:10:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/llm-rag-anythingllm/"
+                href="https://ezrawu-tw.github.io/posts/llm-rag-anythingllm/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/llm-rag-anythingllm/"
+                href="https://ezrawu-tw.github.io/en/posts/llm-rag-anythingllm/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/llm-rag-docker-2/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/llm-rag-docker-2/</loc>
     <lastmod>2026-01-23T11:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/llm-rag-docker-2/"
+                href="https://ezrawu-tw.github.io/posts/llm-rag-docker-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/llm-rag-docker-2/"
+                href="https://ezrawu-tw.github.io/en/posts/llm-rag-docker-2/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/llm-rag-docker/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/llm-rag-docker/</loc>
     <lastmod>2026-01-23T11:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/llm-rag-docker/"
+                href="https://ezrawu-tw.github.io/posts/llm-rag-docker/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/llm-rag-docker/"
+                href="https://ezrawu-tw.github.io/en/posts/llm-rag-docker/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/linux/</loc>
     <lastmod>2025-10-28T12:31:14+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/linux/"
+                href="https://ezrawu-tw.github.io/tags/linux/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/linux/"
+                href="https://ezrawu-tw.github.io/en/tags/linux/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/linux-build-safety-wordpress/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/linux-build-safety-wordpress/</loc>
     <lastmod>2025-10-28T12:31:14+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/linux-build-safety-wordpress/"
+                href="https://ezrawu-tw.github.io/posts/linux-build-safety-wordpress/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/linux-build-safety-wordpress/"
+                href="https://ezrawu-tw.github.io/en/posts/linux-build-safety-wordpress/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/wordpress/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/wordpress/</loc>
     <lastmod>2025-10-28T12:31:14+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/wordpress/"
+                href="https://ezrawu-tw.github.io/tags/wordpress/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/wordpress/"
+                href="https://ezrawu-tw.github.io/en/tags/wordpress/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/data_analyist/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/data_analyist/</loc>
     <lastmod>2025-10-28T12:29:55+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/data_analyist/"
+                href="https://ezrawu-tw.github.io/tags/data_analyist/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/data_analyist/"
+                href="https://ezrawu-tw.github.io/en/tags/data_analyist/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/python/</loc>
     <lastmod>2025-10-28T12:29:55+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/python/"
+                href="https://ezrawu-tw.github.io/tags/python/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/python/"
+                href="https://ezrawu-tw.github.io/en/tags/python/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/python-pandas/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/python-pandas/</loc>
     <lastmod>2025-10-28T12:29:55+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/python-pandas/"
+                href="https://ezrawu-tw.github.io/posts/python-pandas/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/python-pandas/"
+                href="https://ezrawu-tw.github.io/en/posts/python-pandas/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/wokwi/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/wokwi/</loc>
     <lastmod>2025-10-28T12:29:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/wokwi/"
+                href="https://ezrawu-tw.github.io/posts/wokwi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/wokwi/"
+                href="https://ezrawu-tw.github.io/en/posts/wokwi/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/javascript/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/javascript/</loc>
     <lastmod>2025-10-28T12:27:20+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/javascript/"
+                href="https://ezrawu-tw.github.io/tags/javascript/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/javascript/"
+                href="https://ezrawu-tw.github.io/en/tags/javascript/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/next.js/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/next.js/</loc>
     <lastmod>2025-10-28T12:27:20+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/next.js/"
+                href="https://ezrawu-tw.github.io/tags/next.js/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/next.js/"
+                href="https://ezrawu-tw.github.io/en/tags/next.js/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/next-js/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/next-js/</loc>
     <lastmod>2025-10-28T12:27:20+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/next-js/"
+                href="https://ezrawu-tw.github.io/posts/next-js/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/next-js/"
+                href="https://ezrawu-tw.github.io/en/posts/next-js/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/pico/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/pico/</loc>
     <lastmod>2025-10-28T12:25:56+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/pico/"
+                href="https://ezrawu-tw.github.io/posts/pico/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/pico/"
+                href="https://ezrawu-tw.github.io/en/posts/pico/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/raspberry/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/raspberry/</loc>
     <lastmod>2025-10-28T12:25:56+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/raspberry/"
+                href="https://ezrawu-tw.github.io/tags/raspberry/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/raspberry/"
+                href="https://ezrawu-tw.github.io/en/tags/raspberry/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/git/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/git/</loc>
     <lastmod>2025-10-28T12:25:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/git/"
+                href="https://ezrawu-tw.github.io/posts/git/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/git/"
+                href="https://ezrawu-tw.github.io/en/posts/git/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/git/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/git/</loc>
     <lastmod>2025-10-28T12:25:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/git/"
+                href="https://ezrawu-tw.github.io/tags/git/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/git/"
+                href="https://ezrawu-tw.github.io/en/tags/git/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/version_control/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/version_control/</loc>
     <lastmod>2025-10-28T12:25:03+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/version_control/"
+                href="https://ezrawu-tw.github.io/tags/version_control/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/version_control/"
+                href="https://ezrawu-tw.github.io/en/tags/version_control/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/google/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/google/</loc>
     <lastmod>2025-10-28T12:23:53+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/google/"
+                href="https://ezrawu-tw.github.io/tags/google/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/google/"
+                href="https://ezrawu-tw.github.io/en/tags/google/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/google-sheet-database/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/google-sheet-database/</loc>
     <lastmod>2025-10-28T12:23:53+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/google-sheet-database/"
+                href="https://ezrawu-tw.github.io/posts/google-sheet-database/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/google-sheet-database/"
+                href="https://ezrawu-tw.github.io/en/posts/google-sheet-database/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/cad/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/cad/</loc>
     <lastmod>2025-10-28T12:22:27+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/cad/"
+                href="https://ezrawu-tw.github.io/tags/cad/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/cad/"
+                href="https://ezrawu-tw.github.io/en/tags/cad/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/tinkercad/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/tinkercad/</loc>
     <lastmod>2025-10-28T12:22:27+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/tinkercad/"
+                href="https://ezrawu-tw.github.io/posts/tinkercad/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/tinkercad/"
+                href="https://ezrawu-tw.github.io/en/posts/tinkercad/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/js/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/js/</loc>
     <lastmod>2025-10-28T12:21:08+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/js/"
+                href="https://ezrawu-tw.github.io/tags/js/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/js/"
+                href="https://ezrawu-tw.github.io/en/tags/js/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/three-js/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/three-js/</loc>
     <lastmod>2025-10-28T12:21:08+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/three-js/"
+                href="https://ezrawu-tw.github.io/posts/three-js/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/three-js/"
+                href="https://ezrawu-tw.github.io/en/posts/three-js/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/three.js/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/three.js/</loc>
     <lastmod>2025-10-28T12:21:08+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/three.js/"
+                href="https://ezrawu-tw.github.io/tags/three.js/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/three.js/"
+                href="https://ezrawu-tw.github.io/en/tags/three.js/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/gcp-02/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/gcp-02/</loc>
     <lastmod>2025-10-28T12:20:12+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/gcp-02/"
+                href="https://ezrawu-tw.github.io/posts/gcp-02/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/gcp-02/"
+                href="https://ezrawu-tw.github.io/en/posts/gcp-02/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/google-cloud/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/google-cloud/</loc>
     <lastmod>2025-10-28T12:20:12+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/google-cloud/"
+                href="https://ezrawu-tw.github.io/tags/google-cloud/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/google-cloud/"
+                href="https://ezrawu-tw.github.io/en/tags/google-cloud/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/arduino/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/arduino/</loc>
     <lastmod>2025-10-28T12:17:54+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/arduino/"
+                href="https://ezrawu-tw.github.io/tags/arduino/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/arduino/"
+                href="https://ezrawu-tw.github.io/en/tags/arduino/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/arduino-relay/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/arduino-relay/</loc>
     <lastmod>2025-10-28T12:17:54+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/arduino-relay/"
+                href="https://ezrawu-tw.github.io/posts/arduino-relay/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/arduino-relay/"
+                href="https://ezrawu-tw.github.io/en/posts/arduino-relay/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/unreal/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/unreal/</loc>
     <lastmod>2025-10-28T12:16:21+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/unreal/"
+                href="https://ezrawu-tw.github.io/tags/unreal/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/unreal/"
+                href="https://ezrawu-tw.github.io/en/tags/unreal/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/sequencer/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/sequencer/</loc>
     <lastmod>2025-10-28T12:16:21+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/sequencer/"
+                href="https://ezrawu-tw.github.io/posts/sequencer/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/sequencer/"
+                href="https://ezrawu-tw.github.io/en/posts/sequencer/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/arduino-unreal/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/arduino-unreal/</loc>
     <lastmod>2025-10-28T12:13:31+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/arduino-unreal/"
+                href="https://ezrawu-tw.github.io/posts/arduino-unreal/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/arduino-unreal/"
+                href="https://ezrawu-tw.github.io/en/posts/arduino-unreal/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/ue4/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/ue4/</loc>
     <lastmod>2025-10-28T12:13:31+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/ue4/"
+                href="https://ezrawu-tw.github.io/tags/ue4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/ue4/"
+                href="https://ezrawu-tw.github.io/en/tags/ue4/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/management/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/management/</loc>
     <lastmod>2025-10-28T12:12:19+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/management/"
+                href="https://ezrawu-tw.github.io/posts/management/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/management/"
+                href="https://ezrawu-tw.github.io/en/posts/management/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/management/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/management/</loc>
     <lastmod>2025-10-28T12:12:19+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/management/"
+                href="https://ezrawu-tw.github.io/tags/management/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/management/"
+                href="https://ezrawu-tw.github.io/en/tags/management/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/database/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/database/</loc>
     <lastmod>2025-10-28T12:11:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/database/"
+                href="https://ezrawu-tw.github.io/tags/database/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/database/"
+                href="https://ezrawu-tw.github.io/en/tags/database/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/er-database/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/er-database/</loc>
     <lastmod>2025-10-28T12:11:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/er-database/"
+                href="https://ezrawu-tw.github.io/posts/er-database/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/er-database/"
+                href="https://ezrawu-tw.github.io/en/posts/er-database/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/software-engineer-at-google/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/software-engineer-at-google/</loc>
     <lastmod>2025-10-28T12:09:27+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/software-engineer-at-google/"
+                href="https://ezrawu-tw.github.io/posts/software-engineer-at-google/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/software-engineer-at-google/"
+                href="https://ezrawu-tw.github.io/en/posts/software-engineer-at-google/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/gcp/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/gcp/</loc>
     <lastmod>2025-10-28T12:07:45+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/gcp/"
+                href="https://ezrawu-tw.github.io/posts/gcp/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/gcp/"
+                href="https://ezrawu-tw.github.io/en/posts/gcp/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/mqtt/</loc>
+    <loc>https://ezrawu-tw.github.io/tags/mqtt/</loc>
     <lastmod>2025-10-28T12:05:43+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/tags/mqtt/"
+                href="https://ezrawu-tw.github.io/tags/mqtt/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/mqtt/"
+                href="https://ezrawu-tw.github.io/en/tags/mqtt/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/mqtt-setting/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/mqtt-setting/</loc>
     <lastmod>2025-10-28T12:05:43+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/posts/mqtt-setting/"
+                href="https://ezrawu-tw.github.io/posts/mqtt-setting/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/posts/mqtt-setting/"
+                href="https://ezrawu-tw.github.io/en/posts/mqtt-setting/"
                 />
   </url><url>
-    <loc>http://localhost:1313/posts/cdve-2025/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/cdve-2025/</loc>
     <lastmod>2025-10-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://ezrawu-tw.github.io/posts/history-prize-adventure/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-tw"
-                href="http://localhost:1313/series/"
+                href="https://ezrawu-tw.github.io/posts/history-prize-adventure/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/series/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/posts/history-prize-adventure/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="http://localhost:1313/posts/history-prize-adventure/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/posts/history-prize-adventure/"
+                href="https://ezrawu-tw.github.io/en/posts/history-prize-adventure/"
                 />
   </url>
 </urlset>

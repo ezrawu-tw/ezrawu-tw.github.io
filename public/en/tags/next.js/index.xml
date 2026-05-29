@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Next.js on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/en/tags/next.js/</link>
+		<link>https://ezrawu-tw.github.io/en/tags/next.js/</link>
 		<description>Recent content in Next.js on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 28 Oct 2025 12:27:20 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/en/tags/next.js/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/en/tags/next.js/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>what is next.js</title>
-				<link>http://localhost:1313/en/posts/next-js/</link>
+				<link>https://ezrawu-tw.github.io/en/posts/next-js/</link>
 				<pubDate>Tue, 28 Oct 2025 12:27:20 +0000</pubDate>
-				<guid>http://localhost:1313/en/posts/next-js/</guid>
+				<guid>https://ezrawu-tw.github.io/en/posts/next-js/</guid>
 				<description>&lt;p&gt;slug: next-js&lt;/p&gt;&#xA;&lt;h1 id=&#34;a-brief-introduction-to-nextjs&#34;&gt;A Brief Introduction to Next.js&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;What is Next.js?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A Framework for React&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Function:&lt;/strong&gt; Renders your app on the Server&#xA;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Traditional React, Angular, and Vue are SPAs (Single Page Applications) that switch between pages by using JavaScript to update the view rather than downloading the entire page from the server, making navigation faster.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Drawback: Sometimes data needs to be fetched on the client side, meaning the SPA uses JS to fetch data from the server only when the user opens the page. If Google tries to crawl your page, it won&amp;rsquo;t find any content because the data is fetched only when a user opens the page. Next.js solves this problem.&lt;/p&gt;</description>
 			</item>
 	</channel>

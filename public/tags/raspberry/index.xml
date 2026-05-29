@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Raspberry on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/tags/raspberry/</link>
+		<link>https://ezrawu-tw.github.io/tags/raspberry/</link>
 		<description>Recent content in Raspberry on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>zh-tw</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 28 Oct 2025 12:25:56 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/raspberry/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/tags/raspberry/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Pico</title>
-				<link>http://localhost:1313/posts/pico/</link>
+				<link>https://ezrawu-tw.github.io/posts/pico/</link>
 				<pubDate>Tue, 28 Oct 2025 12:25:56 +0000</pubDate>
-				<guid>http://localhost:1313/posts/pico/</guid>
+				<guid>https://ezrawu-tw.github.io/posts/pico/</guid>
 				<description>&lt;p&gt;slug: Pico&lt;/p&gt;&#xA;&lt;h1 id=&#34;raspberry-pico&#34;&gt;Raspberry Pico&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico&lt;/li&gt;&#xA;&lt;li&gt;使用 Pico + 1602 LCD 顯示內建溫度感測器讀取到的溫度資料&lt;/li&gt;&#xA;&lt;li&gt;使用 Raspberry Pi 燒錄/除錯 Pico 程式(All)&#xA;&lt;img src=&#34;https://i.imgur.com/C09WwSI.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;getTemp.py&lt;/li&gt;&#xA;&lt;li&gt;取溫度程式&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-Python=&#34; data-lang=&#34;Python=&#34;&gt;import utime&#xA;from machine import I2C, Pin, ADC&#xA;from lcd_api import LcdApi&#xA;from pico_i2c_lcd import I2cLcd&#xA;I2C_ADDR     = 63&#xA;I2C_NUM_ROWS = 2&#xA;I2C_NUM_COLS = 16&#xA;&#xA;i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000)&#xA;lcd = I2cLcd(i2c, I2C_ADDR, I2C_NUM_ROWS, I2C_NUM_COLS)&#xA;def read_temp():&#xA;    sensor_temp = ADC(4)&#xA;    conversion_factor = 3.3 / (65535)&#xA;    reading = sensor_temp.read_u16() * conversion_factor &#xA;    temperature = 27 - (reading - 0.706)/0.001721&#xA;    formatted_temperature = &amp;#34;{:.2f}&amp;#34;.format(temperature)&#xA;    string_temperature = str(&amp;#34;Temp:&amp;#34; + formatted_temperature)&#xA;    print(string_temperature)&#xA;    utime.sleep(2)&#xA;    return string_temperature&#xA;while True:&#xA;    temperature = read_temp()&#xA;    lcd.move_to(0,0)&#xA;    lcd.putstr(temperature)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ol start=&#34;4&#34;&gt;&#xA;&lt;li&gt;使用 VSCode 搭配 Pico 開發 MicroPython 程式&#xA;&lt;img src=&#34;https://i.imgur.com/8RmvIhI.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/ez2V7OS.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>

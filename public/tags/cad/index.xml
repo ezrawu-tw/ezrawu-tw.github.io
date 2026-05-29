@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>CAD on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/tags/cad/</link>
+		<link>https://ezrawu-tw.github.io/tags/cad/</link>
 		<description>Recent content in CAD on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>zh-tw</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 28 Oct 2025 12:22:27 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/cad/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/tags/cad/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Tinkercad</title>
-				<link>http://localhost:1313/posts/tinkercad/</link>
+				<link>https://ezrawu-tw.github.io/posts/tinkercad/</link>
 				<pubDate>Tue, 28 Oct 2025 12:22:27 +0000</pubDate>
-				<guid>http://localhost:1313/posts/tinkercad/</guid>
+				<guid>https://ezrawu-tw.github.io/posts/tinkercad/</guid>
 				<description>&lt;p&gt;slug: Tinkercad&lt;/p&gt;&#xA;&lt;h1 id=&#34;tinkercad-線上3d軟體介紹&#34;&gt;Tinkercad 線上3D軟體介紹&lt;/h1&gt;&#xA;&lt;p&gt;連結：&#xA;&lt;a href=&#34;https://www.tinkercad.com/login?next=%2Fthings%2FgyAdNPIC5oD-incredible-leelo%2Fedit&#34;&gt;https://www.tinkercad.com/login?next=%2Fthings%2FgyAdNPIC5oD-incredible-leelo%2Fedit&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;第一次使用者!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/rSRZUjw.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;點選Persoal account&lt;/p&gt;&#xA;&lt;p&gt;功能介紹：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;設計Arduino電路&lt;/li&gt;&#xA;&lt;li&gt;3D列印模型設計&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;設計arduino電路&#34;&gt;設計Arduino電路&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/nosivTs.png&#34; alt=&#34;&#34;&gt;&#xA;設計你要測試的線路(這邊使用官方給的範例)&#xA;CODE也可以直接測試&lt;/p&gt;</description>
 			</item>
 	</channel>

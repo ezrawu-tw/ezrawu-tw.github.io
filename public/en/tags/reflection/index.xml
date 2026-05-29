@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Reflection on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/en/tags/reflection/</link>
+		<link>https://ezrawu-tw.github.io/en/tags/reflection/</link>
 		<description>Recent content in Reflection on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/en/tags/reflection/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/en/tags/reflection/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>115 Graduate Interview — Design &amp; Art Master’s Programs</title>
-				<link>http://localhost:1313/en/posts/design-master-interview/</link>
+				<link>https://ezrawu-tw.github.io/en/posts/design-master-interview/</link>
 				<pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/en/posts/design-master-interview/</guid>
+				<guid>https://ezrawu-tw.github.io/en/posts/design-master-interview/</guid>
 				<description>&lt;p&gt;slug: Design-Master-interview&lt;/p&gt;&#xA;&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;&#xA;&lt;h2 id=&#34;academic-background&#34;&gt;Academic Background&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;B.S. in Information Management, minor in Business Administration, NYUST&lt;/li&gt;&#xA;&lt;li&gt;Five-year program in Information Applications (Elite Program), NTCUST&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;other &lt;a href=&#34;https://ezrawu-tw.github.io/about/&#34;&gt;background&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;nyust-interview-reflection&#34;&gt;NYUST Interview Reflection&lt;/h1&gt;&#xA;&lt;p&gt;Three familiar professors greeted me: TWC, CMW, and LSL.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;TWC:&lt;/strong&gt; &lt;em&gt;“Keep it concise. I have a lot of questions for you.” 😈&lt;/em&gt;&lt;br&gt;&#xA;&lt;strong&gt;CMW:&lt;/strong&gt; &lt;em&gt;“Besides my class and TWC’s, which course impressed you the most?”&lt;/em&gt;&lt;br&gt;&#xA;&lt;strong&gt;EZRA:&lt;/strong&gt; OMO Marketing — its service design process aligns with my project cycles.&lt;/p&gt;</description>
 			</item>
 	</channel>

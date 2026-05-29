@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Management on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/tags/management/</link>
+		<link>https://ezrawu-tw.github.io/tags/management/</link>
 		<description>Recent content in Management on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>zh-tw</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 28 Oct 2025 12:12:19 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/management/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/tags/management/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>management</title>
-				<link>http://localhost:1313/posts/management/</link>
+				<link>https://ezrawu-tw.github.io/posts/management/</link>
 				<pubDate>Tue, 28 Oct 2025 12:12:19 +0000</pubDate>
-				<guid>http://localhost:1313/posts/management/</guid>
+				<guid>https://ezrawu-tw.github.io/posts/management/</guid>
 				<description>&lt;p&gt;slug: management&lt;/p&gt;&#xA;&lt;h1 id=&#34;管理學&#34;&gt;管理學&lt;/h1&gt;&#xA;&lt;h3 id=&#34;企業是什麼&#34;&gt;企業是什麼?&lt;/h3&gt;&#xA;&lt;h4 id=&#34;企業-是由個人或一群人組成&#34;&gt;企業 是由個人或一群人組成&lt;/h4&gt;&#xA;&lt;p&gt;主要活動&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;取得並運用生產要素，進行產品或服務的交易與銷售，滿足消費者需求並藉此獲取利潤&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;生產要素&#34;&gt;生產要素&lt;/h4&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;自然資源&lt;/li&gt;&#xA;&lt;li&gt;人力資源&#xA;&lt;ul&gt;&#xA;&lt;li&gt;勞心或勞力的工作者&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;資本設備&#xA;&lt;ul&gt;&#xA;&lt;li&gt;人造的{生產工具}&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;企業家精神&#xA;&lt;ul&gt;&#xA;&lt;li&gt;創業精神&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h4 id=&#34;滿足消費者需求的產品與服務&#34;&gt;滿足消費者需求的產品與服務&lt;/h4&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;有形的產品&lt;/li&gt;&#xA;&lt;li&gt;無形的服務 -&amp;gt; 嘉惠客戶的活動 : 服務業&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;營利事業與非營利事業&#34;&gt;營利事業與非營利事業&lt;/h3&gt;&#xA;&lt;h3 id=&#34;企業功能與管理功能&#34;&gt;企業功能與管理功能&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;企業功能&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;管理功能&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;生產功能&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;規劃&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;行銷功能&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;組織&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;人力資源功能&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;領導&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;研究與發展功能&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;控制&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;財務功能&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;資訊功能&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;規劃: 未來組織績效訂出目標&lt;/p&gt;</description>
 			</item>
 	</channel>

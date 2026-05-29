@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>MQTT on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/tags/mqtt/</link>
+		<link>https://ezrawu-tw.github.io/tags/mqtt/</link>
 		<description>Recent content in MQTT on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>zh-tw</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 28 Oct 2025 12:05:43 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/mqtt/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/tags/mqtt/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>mqtt_setting</title>
-				<link>http://localhost:1313/posts/mqtt-setting/</link>
+				<link>https://ezrawu-tw.github.io/posts/mqtt-setting/</link>
 				<pubDate>Tue, 28 Oct 2025 12:05:43 +0000</pubDate>
-				<guid>http://localhost:1313/posts/mqtt-setting/</guid>
+				<guid>https://ezrawu-tw.github.io/posts/mqtt-setting/</guid>
 				<description>&lt;p&gt;slug: mqtt-setting&lt;/p&gt;&#xA;&lt;h1 id=&#34;mqtt-基本設定&#34;&gt;MQTT 基本設定&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-mqtt-broker-設定-使用-mosquitto&#34;&gt;1. MQTT Broker 設定 (使用 Mosquitto)&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# mosquitto.conf&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;listener 1883&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;allow_anonymous true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;舉手轉頭次數會由pytnon這邊直接存進資料庫&lt;/p&gt;&#xA;&lt;p&gt;這應該就是我說的訓練開始對吧，那除了這個以外，結束也需傳一個，我有寫在下面&lt;/p&gt;</description>
 			</item>
 	</channel>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Arduino on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/en/tags/arduino/</link>
+		<link>https://ezrawu-tw.github.io/en/tags/arduino/</link>
 		<description>Recent content in Arduino on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -12,19 +12,19 @@
 		
 			<lastBuildDate>Tue, 28 Oct 2025 12:17:54 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/en/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/en/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>arduino_Relay</title>
-				<link>http://localhost:1313/en/posts/arduino-relay/</link>
+				<link>https://ezrawu-tw.github.io/en/posts/arduino-relay/</link>
 				<pubDate>Tue, 28 Oct 2025 12:17:54 +0000</pubDate>
-				<guid>http://localhost:1313/en/posts/arduino-relay/</guid>
+				<guid>https://ezrawu-tw.github.io/en/posts/arduino-relay/</guid>
 				<description>&lt;p&gt;slug: arduino-Relay&lt;/p&gt;&#xA;&lt;h1 id=&#34;introduction-to-arduino-relay&#34;&gt;Introduction to Arduino Relay&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/SyiMqqeB2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Arduino Uno can only supply 5V or 3.3V DC to external devices. When you need higher voltages or AC power — for example, to control an electric fan or a desk lamp — you need a relay. Just like a switch, a relay lets you turn a circuit on or off from your program. If you want to build smart home appliances, a relay is absolutely essential!&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>arduino_unreal</title>
-				<link>http://localhost:1313/en/posts/arduino-unreal/</link>
+				<link>https://ezrawu-tw.github.io/en/posts/arduino-unreal/</link>
 				<pubDate>Tue, 28 Oct 2025 12:13:31 +0000</pubDate>
-				<guid>http://localhost:1313/en/posts/arduino-unreal/</guid>
+				<guid>https://ezrawu-tw.github.io/en/posts/arduino-unreal/</guid>
 				<description>&lt;p&gt;slug: arduino-unreal&lt;/p&gt;&#xA;&lt;h1 id=&#34;arduino--unreal&#34;&gt;Arduino &amp;amp; Unreal&lt;/h1&gt;&#xA;&lt;p&gt;A plugin for controlling Arduino from Unreal Engine.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Clone the repository and place it inside your Unreal project folder.&#xA;&lt;a href=&#34;https://github.com/RVillani/UE4Duino&#34;&gt;https://github.com/RVillani/UE4Duino&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;tutorial&#34;&gt;Tutorial&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Set the port number to match your Arduino&amp;rsquo;s port number.&#xA;&lt;img src=&#34;https://hackmd.io/_uploads/ByFo6qxSn.png&#34; alt=&#34;&#34;&gt;&lt;/li&gt;&#xA;&lt;li&gt;Configure the USB port number for the connection.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/ByeLaclBn.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/rJGPacgH2.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/SJOwaqgBh.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/Hy3DpqxSn.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/BJZ_65lrh.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Usage examples:&lt;/p&gt;&#xA;&lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/XvfG56fa_Lk?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/NXbJPScS5fI?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/ElM9EQVjR-8?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;&#x9;&#x9;&#x9;&lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/EuMarb76dG0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;&#x9;&#x9;&lt;/div&gt;&#xA;&lt;/p&gt;</description>
 			</item>
 	</channel>

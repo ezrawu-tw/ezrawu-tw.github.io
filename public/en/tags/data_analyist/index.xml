@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Data_analyist on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/en/tags/data_analyist/</link>
+		<link>https://ezrawu-tw.github.io/en/tags/data_analyist/</link>
 		<description>Recent content in Data_analyist on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 28 Oct 2025 12:29:55 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/en/tags/data_analyist/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/en/tags/data_analyist/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Python_Pandas</title>
-				<link>http://localhost:1313/en/posts/python-pandas/</link>
+				<link>https://ezrawu-tw.github.io/en/posts/python-pandas/</link>
 				<pubDate>Tue, 28 Oct 2025 12:29:55 +0000</pubDate>
-				<guid>http://localhost:1313/en/posts/python-pandas/</guid>
+				<guid>https://ezrawu-tw.github.io/en/posts/python-pandas/</guid>
 				<description>&lt;p&gt;slug: Python-Pandas&lt;/p&gt;&#xA;&lt;h1 id=&#34;python-pandas-data-analysis&#34;&gt;Python Pandas Data Analysis&lt;/h1&gt;&#xA;&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;h4 id=&#34;simply-put-pandas-is-like-the-spreadsheet-software-we-use-in-everyday-life&#34;&gt;Simply put, Pandas is like the spreadsheet software we use in everyday life.&lt;/h4&gt;&#xA;&lt;p&gt;First, you need to import the module to use it:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import pandas as pd&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;for-one-dimensional-data-use-series&#34;&gt;For &amp;ldquo;one-dimensional data&amp;rdquo;, use Series&lt;/h1&gt;&#xA;&lt;p&gt;Based on &lt;strong&gt;list data&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import pandas as pd&#xA;s = pd.Series([1, 2, 3, 4])&#xA;print(s.max())&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;for-two-dimensional-data-use-dataframe&#34;&gt;For &amp;ldquo;two-dimensional data&amp;rdquo;, use DataFrame&lt;/h1&gt;&#xA;&lt;p&gt;Based on &lt;strong&gt;dictionary data&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The DataFrame constructor parameters are as follows:&#xA;pandas.DataFrame( data, index, columns, dtype, copy)&#xA;Parameter descriptions:&#xA;data: a set of data (ndarray, series, map, lists, dict).&#xA;index: index values, also known as row labels.&#xA;columns: column labels, defaults to RangeIndex (0, 1, 2, …, n).&#xA;dtype: data type.&#xA;copy: copy data, defaults to False.&lt;/p&gt;</description>
 			</item>
 	</channel>

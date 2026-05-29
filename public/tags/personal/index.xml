@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Personal on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/tags/personal/</link>
+		<link>https://ezrawu-tw.github.io/tags/personal/</link>
 		<description>Recent content in Personal on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>zh-tw</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/tags/personal/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>前所未有的自由</title>
-				<link>http://localhost:1313/posts/deletesocialmedia/</link>
+				<link>https://ezrawu-tw.github.io/posts/deletesocialmedia/</link>
 				<pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/posts/deletesocialmedia/</guid>
+				<guid>https://ezrawu-tw.github.io/posts/deletesocialmedia/</guid>
 				<description>&lt;p&gt;slug: deletesocialmedia&lt;/p&gt;&#xA;&lt;h1 id=&#34;消失&#34;&gt;消失?&lt;/h1&gt;&#xA;&lt;p&gt;當我按下刪除fb/ig 帳號&#xA;代表 我失去了我的78+不太熟的朋友&#xA;將近9年的照片及影片&#xA;一堆喜歡的追蹤帳號&lt;/p&gt;&#xA;&lt;p&gt;我在意識到&#xA;我玩ig後期 2024年後&#xA;我幾乎是以 經營 人設的方式&#xA;沒有以前的單純與輕鬆&#xA;只有發文的壓力&lt;/p&gt;</description>
 			</item>
 	</channel>

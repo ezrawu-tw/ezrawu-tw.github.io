@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Git on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/tags/git/</link>
+		<link>https://ezrawu-tw.github.io/tags/git/</link>
 		<description>Recent content in Git on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>zh-tw</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 28 Oct 2025 12:25:03 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>git</title>
-				<link>http://localhost:1313/posts/git/</link>
+				<link>https://ezrawu-tw.github.io/posts/git/</link>
 				<pubDate>Tue, 28 Oct 2025 12:25:03 +0000</pubDate>
-				<guid>http://localhost:1313/posts/git/</guid>
+				<guid>https://ezrawu-tw.github.io/posts/git/</guid>
 				<description>&lt;p&gt;slug: git&lt;/p&gt;&#xA;&lt;h1 id=&#34;git&#34;&gt;git&lt;/h1&gt;&#xA;&lt;h1 id=&#34;基本介紹-git-簡略歷史使用緣由何為版本控制&#34;&gt;基本介紹 GIT 簡略歷史、使用緣由、何為版本控制？&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;歷史：於2005年以GPL授權條款釋出，由林納斯·托瓦茲創作&lt;/li&gt;&#xA;&lt;li&gt;使用緣由：如果團隊協作時，只要使用git指令，就能做到即時更新，不用像傳統還要特別丟到雲端，再download下來，那麼麻煩。&lt;/li&gt;&#xA;&lt;li&gt;版本控制：一段時間內協助追蹤程式碼變更的軟體&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;版本控制的邏輯說明&#34;&gt;版本控制的邏輯說明&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/Sokaxmb.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>

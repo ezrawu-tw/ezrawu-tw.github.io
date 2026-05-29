@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Education on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/en/tags/education/</link>
+		<link>https://ezrawu-tw.github.io/en/tags/education/</link>
 		<description>Recent content in Education on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -12,19 +12,19 @@
 		
 			<lastBuildDate>Sat, 16 Aug 2025 14:11:41 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/en/tags/education/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/en/tags/education/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>The Coolest Thing I&#39;ve Ever Done</title>
-				<link>http://localhost:1313/en/posts/the-coolest-thing-i-ve-ever-done/</link>
+				<link>https://ezrawu-tw.github.io/en/posts/the-coolest-thing-i-ve-ever-done/</link>
 				<pubDate>Sat, 16 Aug 2025 14:11:41 +0000</pubDate>
-				<guid>http://localhost:1313/en/posts/the-coolest-thing-i-ve-ever-done/</guid>
+				<guid>https://ezrawu-tw.github.io/en/posts/the-coolest-thing-i-ve-ever-done/</guid>
 				<description>&lt;p&gt;slug: The-Coolest-Thing-I-ve-Ever-Done&lt;/p&gt;&#xA;&lt;h1 id=&#34;the-coolest-thing-ive-ever-done-building-an-ai-learning-tool-for-visually-impaired-children&#34;&gt;The Coolest Thing I&amp;rsquo;ve Ever Done: Building an AI Learning Tool for Visually Impaired Children&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;By Ezra Wu | April 5, 2025&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-beginning-a-spark-of-an-idea&#34;&gt;The Beginning: A Spark of an Idea&lt;/h2&gt;&#xA;&lt;p&gt;In October 2024, I saw the announcement for the &lt;strong&gt;Microsoft Imagine Cup&lt;/strong&gt;. A thought flashed through my mind: &lt;em&gt;What if we could really use technology to change the world?&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;The first prize was a whopping $100,000, but more than the money, what drew me in was the possibility of &lt;strong&gt;making a real impact&lt;/strong&gt;.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>The Birth of Our Metaverse English Club</title>
-				<link>http://localhost:1313/en/posts/the-birth-of-our-metaverse-english-club/</link>
+				<link>https://ezrawu-tw.github.io/en/posts/the-birth-of-our-metaverse-english-club/</link>
 				<pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/en/posts/the-birth-of-our-metaverse-english-club/</guid>
+				<guid>https://ezrawu-tw.github.io/en/posts/the-birth-of-our-metaverse-english-club/</guid>
 				<description>&lt;p&gt;slug: The-Birth-of-Our-Metaverse-English-Club&lt;/p&gt;&#xA;&lt;p&gt;In 2024, I co-founded a club that quickly became one of my favorite projects: the &lt;strong&gt;Metaverse English Research Club&lt;/strong&gt;. What makes this club special is its commitment to creating a fun, interactive, and immersive learning environment. We wanted to break the fear often associated with learning English, replacing it with curiosity and joy.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://miro.medium.com/v2/resize:fit:1100/format:webp/1*wE1tThuwR_9woGiKdj-V7A.png&#34; alt=&#34;VR English Club&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Our approach is playful and innovative. Through &lt;strong&gt;gamified teaching&lt;/strong&gt;, &lt;strong&gt;virtual reality (VR) experiences&lt;/strong&gt;, and even &lt;strong&gt;board games&lt;/strong&gt;, members engage with English in ways that feel natural, tangible, and exciting. Every session is designed so that learning feels less like a task and more like an adventure.&lt;/p&gt;</description>
 			</item>
 	</channel>

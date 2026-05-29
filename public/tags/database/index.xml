@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Database on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/tags/database/</link>
+		<link>https://ezrawu-tw.github.io/tags/database/</link>
 		<description>Recent content in Database on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>zh-tw</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 28 Oct 2025 12:11:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/database/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/tags/database/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>er_database</title>
-				<link>http://localhost:1313/posts/er-database/</link>
+				<link>https://ezrawu-tw.github.io/posts/er-database/</link>
 				<pubDate>Tue, 28 Oct 2025 12:11:00 +0000</pubDate>
-				<guid>http://localhost:1313/posts/er-database/</guid>
+				<guid>https://ezrawu-tw.github.io/posts/er-database/</guid>
 				<description>&lt;p&gt;slug: er-database&lt;/p&gt;&#xA;&lt;h1 id=&#34;er-資料庫正規化&#34;&gt;ER 資料庫正規化&lt;/h1&gt;&#xA;&lt;h2 id=&#34;目的留言編輯此處&#34;&gt;&lt;strong&gt;目的 留言 編輯此處&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;其目的是為了降低資料的「重覆性」與避免「更新異常」的情況發生。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://hackmd.io/_uploads/SJUsusQ4a.png&#34; alt=&#34;Untitled&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;1NF(First normal form)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;一格(每一列每一欄)只能有一筆資料&lt;/li&gt;&#xA;&lt;li&gt;每筆資料都有一個唯一的主鍵作為識別&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;2NF (Second normal form)&lt;/p&gt;</description>
 			</item>
 	</channel>

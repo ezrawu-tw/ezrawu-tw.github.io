@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Environmental Justice on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/en/tags/environmental-justice/</link>
+		<link>https://ezrawu-tw.github.io/en/tags/environmental-justice/</link>
 		<description>Recent content in Environmental Justice on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Sat, 08 Nov 2025 18:30:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/en/tags/environmental-justice/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/en/tags/environmental-justice/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Carbon Emissions, Carbon Taxes, and Class - Who Is Paying for Whose Emissions?</title>
-				<link>http://localhost:1313/en/posts/carbon-emissions/</link>
+				<link>https://ezrawu-tw.github.io/en/posts/carbon-emissions/</link>
 				<pubDate>Sat, 08 Nov 2025 18:30:00 +0000</pubDate>
-				<guid>http://localhost:1313/en/posts/carbon-emissions/</guid>
+				<guid>https://ezrawu-tw.github.io/en/posts/carbon-emissions/</guid>
 				<description>&lt;p&gt;slug: Carbon-Emissions&lt;/p&gt;&#xA;&lt;h1 id=&#34;carbon-emissions-carbon-taxes-and-class-who-is-paying-for-whose-emissions&#34;&gt;Carbon Emissions, Carbon Taxes, and Class: Who Is Paying for Whose Emissions?&lt;/h1&gt;&#xA;&lt;p&gt;The global decarbonization movement is no longer just an environmental issue; it has become a central force shaping economic and social structures.&#xA;While corporations hire consultants to optimize emission strategies or purchase carbon credits to reduce tax burdens, ordinary people silently bear the rising costs of electricity, fuel, and everyday living.&#xA;Carbon emissions are becoming a new form of class divide.&lt;/p&gt;</description>
 			</item>
 	</channel>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Data_analyist on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/tags/data_analyist/</link>
+		<link>https://ezrawu-tw.github.io/tags/data_analyist/</link>
 		<description>Recent content in Data_analyist on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>zh-tw</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 28 Oct 2025 12:29:55 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/data_analyist/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/tags/data_analyist/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Python_Pandas</title>
-				<link>http://localhost:1313/posts/python-pandas/</link>
+				<link>https://ezrawu-tw.github.io/posts/python-pandas/</link>
 				<pubDate>Tue, 28 Oct 2025 12:29:55 +0000</pubDate>
-				<guid>http://localhost:1313/posts/python-pandas/</guid>
+				<guid>https://ezrawu-tw.github.io/posts/python-pandas/</guid>
 				<description>&lt;p&gt;slug: Python-Pandas&lt;/p&gt;&#xA;&lt;h1 id=&#34;python-pandas-資料分析&#34;&gt;Python Pandas 資料分析&lt;/h1&gt;&#xA;&lt;h3 id=&#34;前言&#34;&gt;前言&lt;/h3&gt;&#xA;&lt;h4 id=&#34;pandas-簡單來說就是我們生活中使用是試算表&#34;&gt;Pandas 簡單來說就是我們生活中使用是試算表&lt;/h4&gt;&#xA;&lt;p&gt;首先要使用必須載入模組&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import pandas as pd&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;如果是-一維資料--用series&#34;&gt;如果是 &amp;ldquo;一維資料&amp;rdquo; ， 用Series&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;串列資料&lt;/strong&gt;為底&lt;/p&gt;</description>
 			</item>
 	</channel>

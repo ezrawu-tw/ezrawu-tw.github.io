@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Ue4 on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/tags/ue4/</link>
+		<link>https://ezrawu-tw.github.io/tags/ue4/</link>
 		<description>Recent content in Ue4 on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>zh-tw</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 28 Oct 2025 12:13:31 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/ue4/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/tags/ue4/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>arduino_unreal</title>
-				<link>http://localhost:1313/posts/arduino-unreal/</link>
+				<link>https://ezrawu-tw.github.io/posts/arduino-unreal/</link>
 				<pubDate>Tue, 28 Oct 2025 12:13:31 +0000</pubDate>
-				<guid>http://localhost:1313/posts/arduino-unreal/</guid>
+				<guid>https://ezrawu-tw.github.io/posts/arduino-unreal/</guid>
 				<description>&lt;p&gt;slug: arduino-unreal&lt;/p&gt;&#xA;&lt;h1 id=&#34;arduino--unreal&#34;&gt;Arduino &amp;amp; Unreal&lt;/h1&gt;&#xA;&lt;p&gt;使用Unreal 控制Arduino的外掛&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;clone git 放到你的unreal專案之中&#xA;&lt;a href=&#34;https://github.com/RVillani/UE4Duino&#34;&gt;https://github.com/RVillani/UE4Duino&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;使用教學&#34;&gt;使用教學&lt;/h1&gt;&#xA;&lt;p&gt;１. 設定port號 = Arduino 的port號&#xA;&lt;img src=&#34;https://hackmd.io/_uploads/ByFo6qxSn.png&#34; alt=&#34;&#34;&gt;&#xA;２．　設定連接的ｐｏｒｔ號　ｕｓｂ　ｐｏｒｔ&lt;/p&gt;</description>
 			</item>
 	</channel>

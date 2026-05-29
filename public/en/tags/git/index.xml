@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Git on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/en/tags/git/</link>
+		<link>https://ezrawu-tw.github.io/en/tags/git/</link>
 		<description>Recent content in Git on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 28 Oct 2025 12:25:03 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/en/tags/git/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/en/tags/git/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>git</title>
-				<link>http://localhost:1313/en/posts/git/</link>
+				<link>https://ezrawu-tw.github.io/en/posts/git/</link>
 				<pubDate>Tue, 28 Oct 2025 12:25:03 +0000</pubDate>
-				<guid>http://localhost:1313/en/posts/git/</guid>
+				<guid>https://ezrawu-tw.github.io/en/posts/git/</guid>
 				<description>&lt;p&gt;slug: git&lt;/p&gt;&#xA;&lt;h1 id=&#34;git&#34;&gt;git&lt;/h1&gt;&#xA;&lt;h1 id=&#34;introduction-to-git---brief-history-reasons-for-use-and-what-is-version-control&#34;&gt;Introduction to Git - Brief History, Reasons for Use, and What is Version Control?&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;History: Released under the GPL license in 2005, created by Linus Torvalds.&lt;/li&gt;&#xA;&lt;li&gt;Reason for use: When collaborating as a team, using git commands enables real-time updates without the hassle of the traditional method of uploading to the cloud and then downloading again.&lt;/li&gt;&#xA;&lt;li&gt;Version control: Software that helps track code changes over a period of time.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;explanation-of-version-control-logic&#34;&gt;Explanation of Version Control Logic&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/Sokaxmb.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>

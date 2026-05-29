@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>ICFP on YiSheng&#39;s secret garden</title>
-		<link>http://localhost:1313/en/tags/icfp/</link>
+		<link>https://ezrawu-tw.github.io/en/tags/icfp/</link>
 		<description>Recent content in ICFP on YiSheng&#39;s secret garden</description>
 		<generator>Hugo</generator>
 		<language>en</language>
@@ -10,12 +10,12 @@
 		
 		
 		
-			<atom:link href="http://localhost:1313/en/tags/icfp/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://ezrawu-tw.github.io/en/tags/icfp/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>A is b, displacement</title>
-				<link>http://localhost:1313/en/posts/diagrammatic-design-process-n-02/</link>
+				<link>https://ezrawu-tw.github.io/en/posts/diagrammatic-design-process-n-02/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/en/posts/diagrammatic-design-process-n-02/</guid>
+				<guid>https://ezrawu-tw.github.io/en/posts/diagrammatic-design-process-n-02/</guid>
 				<description>&lt;p&gt;slug: Diagrammatic-Design-Process-N-02&lt;/p&gt;&#xA;&lt;h1 id=&#34;a-is-b&#34;&gt;A is B?&lt;/h1&gt;&#xA;&lt;p&gt;Richards(1936) defines metaphor as the form “A is B”.&#xA;a graph-like knowledge represents the individual memories with the nodes and arcs that are the ideas and the links between ideas respectively.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a&#34;&gt;A&lt;/h2&gt;&#xA;&lt;p&gt;A is the tenor through which we intend to understand B&lt;/p&gt;&#xA;&lt;h2 id=&#34;b&#34;&gt;B&lt;/h2&gt;&#xA;&lt;p&gt;B is the vehicle which helps us to understand A&lt;/p&gt;&#xA;&lt;h1 id=&#34;icfp&#34;&gt;ICFP&lt;/h1&gt;&#xA;&lt;p&gt;ICFP is a structured tool that helps capture and measure how designers organize and connect ideas during metaphorical displacement (when ideas shift from one domain to another).&lt;/p&gt;</description>
 			</item>
 	</channel>
