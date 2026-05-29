@@ -7,7 +7,6 @@ tags: ["與自己談話", "日記", "Picasso", "投射", "存在主義", "沙特
 categories: ["心理"]
 series: ["與自己談話"]
 series_order: 4
-author: "Picasso"
 toc: false
 ---
 
