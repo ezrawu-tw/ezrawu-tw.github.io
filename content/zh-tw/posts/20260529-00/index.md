@@ -1,7 +1,7 @@
 ---
 title: "與自己談話：三夜短篇集"
 subtitle: "A Night of Talking to Myself"
-date: 2026-05-30T06:00:00+08:00
+date: 2026-05-29T06:00:00+08:00
 draft: false
 description: "一個叫 Picasso 的人,在四個夜晚裡寫給自己的短篇集。沒有他人,只有四個房間、三個夢、和一道他幫所有目光寫的劇本。"
 tags: ["短篇小說集", "與自己談話", "Picasso"]
