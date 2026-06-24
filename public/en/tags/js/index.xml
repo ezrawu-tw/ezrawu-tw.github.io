@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Js on YiSheng&#39;s secret garden</title>
-		<link>https://ezrawu-tw.github.io/en/tags/js/</link>
-		<description>Recent content in Js on YiSheng&#39;s secret garden</description>
-		<generator>Hugo</generator>
-		<language>en</language>
-		
-		
-		
-		
-			<lastBuildDate>Tue, 28 Oct 2025 12:21:08 +0000</lastBuildDate>
-		
-			<atom:link href="https://ezrawu-tw.github.io/en/tags/js/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Three.js</title>
-				<link>https://ezrawu-tw.github.io/en/posts/three-js/</link>
-				<pubDate>Tue, 28 Oct 2025 12:21:08 +0000</pubDate>
-				<guid>https://ezrawu-tw.github.io/en/posts/three-js/</guid>
-				<description>&lt;p&gt;slug: Three-js&lt;/p&gt;&#xA;&lt;h1 id=&#34;a-brief-introduction-to-threejs&#34;&gt;A Brief Introduction to Three.js&lt;/h1&gt;&#xA;&lt;p&gt;Three.js is an open-source JavaScript library built on top of the WebGL API. It wraps the complex operations of WebGL into easy-to-use APIs, making it convenient for developers to create 3D scenes and animations in web browsers.&lt;/p&gt;&#xA;&lt;h1 id=&#34;exploring-the-development-of-threejs&#34;&gt;Exploring the Development of Three.js&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/fqoubAn.png&#34; alt=&#34;&#34;&gt;&#xA;Three.js is built on top of WebGL, WebGL is built on top of OpenGL ES 2.0, and OpenGL ES (OpenGL for Embedded Systems) is a version of OpenGL specifically tailored for embedded systems.&lt;/p&gt;</description>
-			</item>
-	</channel>
+  <channel>
+    <title>Js on YiSheng&#39;s secret garden</title>
+    <link>http://localhost:1313/en/tags/js/</link>
+    <description>Recent content in Js on YiSheng&#39;s secret garden</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Oct 2025 12:21:08 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Three.js</title>
+      <link>http://localhost:1313/en/posts/three-js/</link>
+      <pubDate>Tue, 28 Oct 2025 12:21:08 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/three-js/</guid>
+      <description>&lt;p&gt;slug: Three-js&lt;/p&gt;&#xA;&lt;h1 id=&#34;a-brief-introduction-to-threejs&#34;&gt;A Brief Introduction to Three.js&lt;a href=&#34;#a-brief-introduction-to-threejs&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;Three.js is an open-source JavaScript library built on top of the WebGL API. It wraps the complex operations of WebGL into easy-to-use APIs, making it convenient for developers to create 3D scenes and animations in web browsers.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Git on YiSheng&#39;s secret garden</title>
-		<link>https://ezrawu-tw.github.io/en/tags/git/</link>
-		<description>Recent content in Git on YiSheng&#39;s secret garden</description>
-		<generator>Hugo</generator>
-		<language>en</language>
-		
-		
-		
-		
-			<lastBuildDate>Tue, 28 Oct 2025 12:25:03 +0000</lastBuildDate>
-		
-			<atom:link href="https://ezrawu-tw.github.io/en/tags/git/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>git</title>
-				<link>https://ezrawu-tw.github.io/en/posts/git/</link>
-				<pubDate>Tue, 28 Oct 2025 12:25:03 +0000</pubDate>
-				<guid>https://ezrawu-tw.github.io/en/posts/git/</guid>
-				<description>&lt;p&gt;slug: git&lt;/p&gt;&#xA;&lt;h1 id=&#34;git&#34;&gt;git&lt;/h1&gt;&#xA;&lt;h1 id=&#34;introduction-to-git---brief-history-reasons-for-use-and-what-is-version-control&#34;&gt;Introduction to Git - Brief History, Reasons for Use, and What is Version Control?&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;History: Released under the GPL license in 2005, created by Linus Torvalds.&lt;/li&gt;&#xA;&lt;li&gt;Reason for use: When collaborating as a team, using git commands enables real-time updates without the hassle of the traditional method of uploading to the cloud and then downloading again.&lt;/li&gt;&#xA;&lt;li&gt;Version control: Software that helps track code changes over a period of time.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;explanation-of-version-control-logic&#34;&gt;Explanation of Version Control Logic&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/Sokaxmb.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
-			</item>
-	</channel>
+  <channel>
+    <title>Git on YiSheng&#39;s secret garden</title>
+    <link>http://localhost:1313/en/tags/git/</link>
+    <description>Recent content in Git on YiSheng&#39;s secret garden</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Oct 2025 12:25:03 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git</title>
+      <link>http://localhost:1313/en/posts/git/</link>
+      <pubDate>Tue, 28 Oct 2025 12:25:03 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/git/</guid>
+      <description>&lt;p&gt;slug: git&lt;/p&gt;&#xA;&lt;h1 id=&#34;git&#34;&gt;git&lt;a href=&#34;#git&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;h1 id=&#34;introduction-to-git---brief-history-reasons-for-use-and-what-is-version-control&#34;&gt;Introduction to Git - Brief History, Reasons for Use, and What is Version Control?&lt;a href=&#34;#introduction-to-git---brief-history-reasons-for-use-and-what-is-version-control&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;ul&gt;&#xA;&lt;li&gt;History: Released under the GPL license in 2005, created by Linus Torvalds.&lt;/li&gt;&#xA;&lt;li&gt;Reason for use: When collaborating as a team, using git commands enables real-time updates without the hassle of the traditional method of uploading to the cloud and then downloading again.&lt;/li&gt;&#xA;&lt;li&gt;Version control: Software that helps track code changes over a period of time.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;explanation-of-version-control-logic&#34;&gt;Explanation of Version Control Logic&lt;a href=&#34;#explanation-of-version-control-logic&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;&#xA;&lt;figure&#xA;  class=&#34;image-figure not-prose my-8&#34;&#xA;  data-lightbox-enabled=&#34;&#xA;    true&#xA;  &#34;&#xA;  data-gallery-type=&#34;auto&#34;&#xA;  data-image-width=&#34;0&#34;&#xA;  data-image-height=&#34;0&#34;&#xA;  data-image-src=&#34;https://i.imgur.com/Sokaxmb.png&#34;&#xA;&gt;&#xA;  &lt;div class=&#34;image-container&#34;&gt;&#xA;    &lt;img&#xA;    src=&#34;https://i.imgur.com/Sokaxmb.png&#34;&#xA;    alt=&#34;&#34;&#xA;    &#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    decoding=&#34;async&#34;&#xA;    data-gallery-src=&#34;https://i.imgur.com/Sokaxmb.png&#34;&#xA;    data-gallery-alt=&#34;&#34;&#xA;    data-gallery-title=&#34;&#34;&#xA;  /&gt;&lt;/div&gt;&#xA;&#xA;  &lt;/figure&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

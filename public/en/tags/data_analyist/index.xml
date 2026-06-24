@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Data_analyist on YiSheng&#39;s secret garden</title>
-		<link>https://ezrawu-tw.github.io/en/tags/data_analyist/</link>
-		<description>Recent content in Data_analyist on YiSheng&#39;s secret garden</description>
-		<generator>Hugo</generator>
-		<language>en</language>
-		
-		
-		
-		
-			<lastBuildDate>Tue, 28 Oct 2025 12:29:55 +0000</lastBuildDate>
-		
-			<atom:link href="https://ezrawu-tw.github.io/en/tags/data_analyist/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Python_Pandas</title>
-				<link>https://ezrawu-tw.github.io/en/posts/python-pandas/</link>
-				<pubDate>Tue, 28 Oct 2025 12:29:55 +0000</pubDate>
-				<guid>https://ezrawu-tw.github.io/en/posts/python-pandas/</guid>
-				<description>&lt;p&gt;slug: Python-Pandas&lt;/p&gt;&#xA;&lt;h1 id=&#34;python-pandas-data-analysis&#34;&gt;Python Pandas Data Analysis&lt;/h1&gt;&#xA;&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;h4 id=&#34;simply-put-pandas-is-like-the-spreadsheet-software-we-use-in-everyday-life&#34;&gt;Simply put, Pandas is like the spreadsheet software we use in everyday life.&lt;/h4&gt;&#xA;&lt;p&gt;First, you need to import the module to use it:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import pandas as pd&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;for-one-dimensional-data-use-series&#34;&gt;For &amp;ldquo;one-dimensional data&amp;rdquo;, use Series&lt;/h1&gt;&#xA;&lt;p&gt;Based on &lt;strong&gt;list data&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import pandas as pd&#xA;s = pd.Series([1, 2, 3, 4])&#xA;print(s.max())&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;for-two-dimensional-data-use-dataframe&#34;&gt;For &amp;ldquo;two-dimensional data&amp;rdquo;, use DataFrame&lt;/h1&gt;&#xA;&lt;p&gt;Based on &lt;strong&gt;dictionary data&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The DataFrame constructor parameters are as follows:&#xA;pandas.DataFrame( data, index, columns, dtype, copy)&#xA;Parameter descriptions:&#xA;data: a set of data (ndarray, series, map, lists, dict).&#xA;index: index values, also known as row labels.&#xA;columns: column labels, defaults to RangeIndex (0, 1, 2, …, n).&#xA;dtype: data type.&#xA;copy: copy data, defaults to False.&lt;/p&gt;</description>
-			</item>
-	</channel>
+  <channel>
+    <title>Data_analyist on YiSheng&#39;s secret garden</title>
+    <link>http://localhost:1313/en/tags/data_analyist/</link>
+    <description>Recent content in Data_analyist on YiSheng&#39;s secret garden</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Oct 2025 12:29:55 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/data_analyist/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python_Pandas</title>
+      <link>http://localhost:1313/en/posts/python-pandas/</link>
+      <pubDate>Tue, 28 Oct 2025 12:29:55 +0000</pubDate>
+      <guid>http://localhost:1313/en/posts/python-pandas/</guid>
+      <description>&lt;p&gt;slug: Python-Pandas&lt;/p&gt;&#xA;&lt;h1 id=&#34;python-pandas-data-analysis&#34;&gt;Python Pandas Data Analysis&lt;a href=&#34;#python-pandas-data-analysis&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;a href=&#34;#introduction&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&#34;simply-put-pandas-is-like-the-spreadsheet-software-we-use-in-everyday-life&#34;&gt;Simply put, Pandas is like the spreadsheet software we use in everyday life.&lt;a href=&#34;#simply-put-pandas-is-like-the-spreadsheet-software-we-use-in-everyday-life&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;First, you need to import the module to use it:&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>
