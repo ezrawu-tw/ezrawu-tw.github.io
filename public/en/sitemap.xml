@@ -884,6 +884,7 @@
   </url><url>
     <loc>https://ezrawu-tw.github.io/en/posts/diagrammatic-design-process-n-djoe/</loc>
   </url><url>
+<<<<<<< HEAD
     <loc>https://ezrawu-tw.github.io/en/posts/history-prize-adventure/</loc>
     <xhtml:link
                 rel="alternate"
@@ -895,6 +896,9 @@
                 hreflang="en"
                 href="https://ezrawu-tw.github.io/en/posts/history-prize-adventure/"
                 />
+=======
+    <loc>http://localhost:1313/en/posts/history-prize-adventure/</loc>
+>>>>>>> ea54015 (add my HBD)
   </url><url>
     <loc>https://ezrawu-tw.github.io/en/tags/icf/</loc>
   </url><url>

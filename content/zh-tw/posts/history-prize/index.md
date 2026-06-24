@@ -65,6 +65,15 @@ B.S. in Information Management - Graduated
 - **2025** Yunlin International Innovation & Entrepreneurship Camp – Third Place 
 
 
+# 運動
+
+- 考到 進階開放水域潛水員 2026/04/09
+- 考到 開放水域潛水員 2026/04/06
+
+# 競賽
+- 完成 一場鐵人三項 2025/06/10 (取代畢業典禮)
+- 
+
 
 # Contact
 - Email: **ezrawu.tw@gmail.com**
