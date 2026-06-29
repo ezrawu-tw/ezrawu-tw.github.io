@@ -2,7 +2,7 @@ baseURL: https://ezrawu-tw.github.io/
 locale: en
 defaultContentLanguage: "zh-tw"
 defaultContentLanguageInSubdir: false
-title: YiSheng's secret garden
+title: Ezra's Secret Garden
 theme: "hugo-narrow"
 
 hasCJKLanguage: true

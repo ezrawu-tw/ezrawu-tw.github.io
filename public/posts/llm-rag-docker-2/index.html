@@ -6,12 +6,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <title>Anything LLM 安裝 MacOS 篇 |
-    YiSheng&#39;s secret garden</title>
+    Ezra&#39;s Secret Garden</title>
 
 <meta
   name="description"
-  content="slug: llm-rag-docker-2
-MacOS 如何安裝 Anything LLM步驟 1：安裝 Homebrew（如未安裝） PLAINTEXT 摺疊 複製 /bin/bash -c &#34;$(curl -fsSL..."
+  content="MacOS 如何安裝 Anything LLM步驟 1：安裝 Homebrew（如未安裝） PLAINTEXT 摺疊 複製 /bin/bash -c &#34;$(curl -fsSL..."
 />
 <meta
   name="keywords"
@@ -19,7 +18,7 @@ MacOS 如何安裝 Anything LLM步驟 1：安裝 Homebrew（如未安裝） PLAI
 />
 <meta
   name="author"
-  content="YiSheng Wu"
+  content="Ezra"
 />
 <meta name="language" content="en" />
 
@@ -33,10 +32,9 @@ MacOS 如何安裝 Anything LLM步驟 1：安裝 Homebrew（如未安裝） PLAI
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="manifest" href="/site.webmanifest" />
 <meta property="og:url" content="http://localhost:1313/posts/llm-rag-docker-2/">
-  <meta property="og:site_name" content="YiSheng&#39;s secret garden">
+  <meta property="og:site_name" content="Ezra&#39;s Secret Garden">
   <meta property="og:title" content="Anything LLM 安裝 MacOS 篇">
-  <meta property="og:description" content="slug: llm-rag-docker-2
-MacOS 如何安裝 Anything LLM步驟 1：安裝 Homebrew（如未安裝） PLAINTEXT 摺疊 複製 /bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; brew doctor /bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; brew doctor 步驟 2：安裝 Docker Desktop for Mac PLAINTEXT 摺疊 複製 brew install --cask docker open -a Docker # 啟動 Docker Desktop，首次啟動可能需手動授權 brew install --cask docker open -a Docker # 啟動 Docker Desktop，首次啟動可能需手動授權 啟動後，請等候 Docker 小鯨魚圖示變成綠色，表示成功啟動。 確認安裝成功：">
+  <meta property="og:description" content="MacOS 如何安裝 Anything LLM步驟 1：安裝 Homebrew（如未安裝） PLAINTEXT 摺疊 複製 /bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; brew doctor /bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; brew doctor 步驟 2：安裝 Docker Desktop for Mac PLAINTEXT 摺疊 複製 brew install --cask docker open -a Docker # 啟動 Docker Desktop，首次啟動可能需手動授權 brew install --cask docker open -a Docker # 啟動 Docker Desktop，首次啟動可能需手動授權 啟動後，請等候 Docker 小鯨魚圖示變成綠色，表示成功啟動。 確認安裝成功：">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -48,16 +46,14 @@ MacOS 如何安裝 Anything LLM步驟 1：安裝 Homebrew（如未安裝） PLAI
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/happy.png">
   <meta name="twitter:title" content="Anything LLM 安裝 MacOS 篇">
-  <meta name="twitter:description" content="slug: llm-rag-docker-2
-MacOS 如何安裝 Anything LLM步驟 1：安裝 Homebrew（如未安裝） PLAINTEXT 摺疊 複製 /bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; brew doctor /bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; brew doctor 步驟 2：安裝 Docker Desktop for Mac PLAINTEXT 摺疊 複製 brew install --cask docker open -a Docker # 啟動 Docker Desktop，首次啟動可能需手動授權 brew install --cask docker open -a Docker # 啟動 Docker Desktop，首次啟動可能需手動授權 啟動後，請等候 Docker 小鯨魚圖示變成綠色，表示成功啟動。 確認安裝成功：">
+  <meta name="twitter:description" content="MacOS 如何安裝 Anything LLM步驟 1：安裝 Homebrew（如未安裝） PLAINTEXT 摺疊 複製 /bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; brew doctor /bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; brew doctor 步驟 2：安裝 Docker Desktop for Mac PLAINTEXT 摺疊 複製 brew install --cask docker open -a Docker # 啟動 Docker Desktop，首次啟動可能需手動授權 brew install --cask docker open -a Docker # 啟動 Docker Desktop，首次啟動可能需手動授權 啟動後，請等候 Docker 小鯨魚圖示變成綠色，表示成功啟動。 確認安裝成功：">
 
 
   <meta itemprop="name" content="Anything LLM 安裝 MacOS 篇">
-  <meta itemprop="description" content="slug: llm-rag-docker-2
-MacOS 如何安裝 Anything LLM步驟 1：安裝 Homebrew（如未安裝） PLAINTEXT 摺疊 複製 /bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; brew doctor /bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; brew doctor 步驟 2：安裝 Docker Desktop for Mac PLAINTEXT 摺疊 複製 brew install --cask docker open -a Docker # 啟動 Docker Desktop，首次啟動可能需手動授權 brew install --cask docker open -a Docker # 啟動 Docker Desktop，首次啟動可能需手動授權 啟動後，請等候 Docker 小鯨魚圖示變成綠色，表示成功啟動。 確認安裝成功：">
+  <meta itemprop="description" content="MacOS 如何安裝 Anything LLM步驟 1：安裝 Homebrew（如未安裝） PLAINTEXT 摺疊 複製 /bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; brew doctor /bin/bash -c &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&#34; brew doctor 步驟 2：安裝 Docker Desktop for Mac PLAINTEXT 摺疊 複製 brew install --cask docker open -a Docker # 啟動 Docker Desktop，首次啟動可能需手動授權 brew install --cask docker open -a Docker # 啟動 Docker Desktop，首次啟動可能需手動授權 啟動後，請等候 Docker 小鯨魚圖示變成綠色，表示成功啟動。 確認安裝成功：">
   <meta itemprop="datePublished" content="2026-01-23T11:00:00+00:00">
   <meta itemprop="dateModified" content="2026-01-23T11:00:00+00:00">
-  <meta itemprop="wordCount" content="495">
+  <meta itemprop="wordCount" content="493">
   <meta itemprop="image" content="http://localhost:1313/images/happy.png">
   <meta itemprop="keywords" content="Note">
 
@@ -162,11 +158,11 @@ MacOS 如何安裝 Anything LLM步驟 1：安裝 Homebrew（如未安裝） PLAI
               /
             "
             class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full transition-transform duration-200 hover:scale-105"
-            aria-label="YiSheng&#39;s secret garden"
+            aria-label="Ezra&#39;s Secret Garden"
           >
             <img
               src="/images/happy.svg"
-              alt="YiSheng&#39;s secret garden"
+              alt="Ezra&#39;s Secret Garden"
               class="h-full w-full object-cover"
             />
           </a>
@@ -524,7 +520,7 @@ MacOS 如何安裝 Anything LLM步驟 1：安裝 Homebrew（如未安裝） PLAI
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m3 12 2-2m0 0 7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
 </svg>
 
-              <span class="max-w-16 truncate md:max-w-none">YiSheng&#39;s secret garden</span>
+              <span class="max-w-16 truncate md:max-w-none">Ezra&#39;s Secret Garden</span>
             </a>
           </li>
         
@@ -627,7 +623,7 @@ MacOS 如何安裝 Anything LLM步驟 1：安裝 Homebrew（如未安裝） PLAI
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
 </svg>
 
-              <span>495 字</span>
+              <span>493 字</span>
             </div>
             
           </div>
@@ -662,8 +658,7 @@ MacOS 如何安裝 Anything LLM步驟 1：安裝 Homebrew（如未安裝） PLAI
 
   
   <article class="prose prose-neutral dark:prose-invert mb-12 max-w-none">
-    <p>slug: llm-rag-docker-2</p>
-<h1 id="macos-如何安裝-anything-llm">MacOS 如何安裝 Anything LLM<a href="#macos-%e5%a6%82%e4%bd%95%e5%ae%89%e8%a3%9d-anything-llm" class="heading-anchor" aria-label="連結到此部分"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h1><h2 id="步驟-1安裝-homebrew如未安裝">步驟 1：安裝 Homebrew（如未安裝）<a href="#%e6%ad%a5%e9%a9%9f-1%e5%ae%89%e8%a3%9d-homebrew%e5%a6%82%e6%9c%aa%e5%ae%89%e8%a3%9d" class="heading-anchor" aria-label="連結到此部分"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h2><div
+    <h1 id="macos-如何安裝-anything-llm">MacOS 如何安裝 Anything LLM<a href="#macos-%e5%a6%82%e4%bd%95%e5%ae%89%e8%a3%9d-anything-llm" class="heading-anchor" aria-label="連結到此部分"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h1><h2 id="步驟-1安裝-homebrew如未安裝">步驟 1：安裝 Homebrew（如未安裝）<a href="#%e6%ad%a5%e9%a9%9f-1%e5%ae%89%e8%a3%9d-homebrew%e5%a6%82%e6%9c%aa%e5%ae%89%e8%a3%9d" class="heading-anchor" aria-label="連結到此部分"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h2><div
   class="code-block-container border-border bg-card my-6 overflow-hidden rounded-xl border shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md"
   data-code-block
   data-code-id="code-0"
@@ -1724,7 +1719,7 @@ docker start &lt;CONTAINER_ID&gt;</div>
           
             <p>
               <strong>作者:</strong>
-              YiSheng Wu
+              Ezra
             </p>
           
 
@@ -1916,7 +1911,7 @@ docker start &lt;CONTAINER_ID&gt;</div>
       <p class="mb-2">
         &copy;
         2026
-        YiSheng&#39;s secret garden
+        Ezra&#39;s Secret Garden
       </p>
       <p class="flex flex-wrap items-center justify-center gap-1 md:justify-start">
         <span>Powered by</span>

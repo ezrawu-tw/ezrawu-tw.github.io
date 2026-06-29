@@ -6,12 +6,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <title>Pico |
-    YiSheng&#39;s secret garden</title>
+    Ezra&#39;s Secret Garden</title>
 
 <meta
   name="description"
-  content="slug: Pico
-Raspberry Pico 使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico 使用 Pico &#43; 1602 LCD 顯示內建溫度感測器讀取到的溫度資料 使用 Raspberry Pi 燒錄/除錯 Pico 程式(All) getTemp.py 取..."
+  content="Raspberry Pico 使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico 使用 Pico &#43; 1602 LCD 顯示內建溫度感測器讀取到的溫度資料 使用 Raspberry Pi 燒錄/除錯 Pico 程式(All) getTemp.py 取溫度程式..."
 />
 <meta
   name="keywords"
@@ -19,7 +18,7 @@ Raspberry Pico 使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico
 />
 <meta
   name="author"
-  content="YiSheng Wu"
+  content="Ezra"
 />
 <meta name="language" content="en" />
 
@@ -33,10 +32,9 @@ Raspberry Pico 使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="manifest" href="/site.webmanifest" />
 <meta property="og:url" content="http://localhost:1313/posts/pico/">
-  <meta property="og:site_name" content="YiSheng&#39;s secret garden">
+  <meta property="og:site_name" content="Ezra&#39;s Secret Garden">
   <meta property="og:title" content="Pico">
-  <meta property="og:description" content="slug: Pico
-Raspberry Pico 使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico 使用 Pico &#43; 1602 LCD 顯示內建溫度感測器讀取到的溫度資料 使用 Raspberry Pi 燒錄/除錯 Pico 程式(All) getTemp.py 取溫度程式 PYTHON= 摺疊 複製 import utime from machine import I2C, Pin, ADC from lcd_api import LcdApi from pico_i2c_lcd import I2cLcd I2C_ADDR = 63 I2C_NUM_ROWS = 2 I2C_NUM_COLS = 16 i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000) lcd = I2cLcd(i2c, I2C_ADDR, I2C_NUM_ROWS, I2C_NUM_COLS) def read_temp(): sensor_temp = ADC(4) conversion_factor = 3.3 / (65535) reading = sensor_temp.read_u16() * conversion_factor temperature = 27 - (reading - 0.706)/0.001721 formatted_temperature = &#34;{:.2f}&#34;.format(temperature) string_temperature = str(&#34;Temp:&#34; &#43; formatted_temperature) print(string_temperature) utime.sleep(2) return string_temperature while True: temperature = read_temp() lcd.move_to(0,0) lcd.putstr(temperature) import utime from machine import I2C, Pin, ADC from lcd_api import LcdApi from pico_i2c_lcd import I2cLcd I2C_ADDR = 63 I2C_NUM_ROWS = 2 I2C_NUM_COLS = 16 i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000) lcd = I2cLcd(i2c, I2C_ADDR, I2C_NUM_ROWS, I2C_NUM_COLS) def read_temp(): sensor_temp = ADC(4) conversion_factor = 3.3 / (65535) reading = sensor_temp.read_u16() * conversion_factor temperature = 27 - (reading - 0.706)/0.001721 formatted_temperature = &#34;{:.2f}&#34;.format(temperature) string_temperature = str(&#34;Temp:&#34; &#43; formatted_temperature) print(string_temperature) utime.sleep(2) return string_temperature while True: temperature = read_temp() lcd.move_to(0,0) lcd.putstr(temperature) 使用 VSCode 搭配 Pico 開發 MicroPython 程式">
+  <meta property="og:description" content="Raspberry Pico 使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico 使用 Pico &#43; 1602 LCD 顯示內建溫度感測器讀取到的溫度資料 使用 Raspberry Pi 燒錄/除錯 Pico 程式(All) getTemp.py 取溫度程式 PYTHON= 摺疊 複製 import utime from machine import I2C, Pin, ADC from lcd_api import LcdApi from pico_i2c_lcd import I2cLcd I2C_ADDR = 63 I2C_NUM_ROWS = 2 I2C_NUM_COLS = 16 i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000) lcd = I2cLcd(i2c, I2C_ADDR, I2C_NUM_ROWS, I2C_NUM_COLS) def read_temp(): sensor_temp = ADC(4) conversion_factor = 3.3 / (65535) reading = sensor_temp.read_u16() * conversion_factor temperature = 27 - (reading - 0.706)/0.001721 formatted_temperature = &#34;{:.2f}&#34;.format(temperature) string_temperature = str(&#34;Temp:&#34; &#43; formatted_temperature) print(string_temperature) utime.sleep(2) return string_temperature while True: temperature = read_temp() lcd.move_to(0,0) lcd.putstr(temperature) import utime from machine import I2C, Pin, ADC from lcd_api import LcdApi from pico_i2c_lcd import I2cLcd I2C_ADDR = 63 I2C_NUM_ROWS = 2 I2C_NUM_COLS = 16 i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000) lcd = I2cLcd(i2c, I2C_ADDR, I2C_NUM_ROWS, I2C_NUM_COLS) def read_temp(): sensor_temp = ADC(4) conversion_factor = 3.3 / (65535) reading = sensor_temp.read_u16() * conversion_factor temperature = 27 - (reading - 0.706)/0.001721 formatted_temperature = &#34;{:.2f}&#34;.format(temperature) string_temperature = str(&#34;Temp:&#34; &#43; formatted_temperature) print(string_temperature) utime.sleep(2) return string_temperature while True: temperature = read_temp() lcd.move_to(0,0) lcd.putstr(temperature) 使用 VSCode 搭配 Pico 開發 MicroPython 程式">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -49,16 +47,14 @@ Raspberry Pico 使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/happy.png">
   <meta name="twitter:title" content="Pico">
-  <meta name="twitter:description" content="slug: Pico
-Raspberry Pico 使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico 使用 Pico &#43; 1602 LCD 顯示內建溫度感測器讀取到的溫度資料 使用 Raspberry Pi 燒錄/除錯 Pico 程式(All) getTemp.py 取溫度程式 PYTHON= 摺疊 複製 import utime from machine import I2C, Pin, ADC from lcd_api import LcdApi from pico_i2c_lcd import I2cLcd I2C_ADDR = 63 I2C_NUM_ROWS = 2 I2C_NUM_COLS = 16 i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000) lcd = I2cLcd(i2c, I2C_ADDR, I2C_NUM_ROWS, I2C_NUM_COLS) def read_temp(): sensor_temp = ADC(4) conversion_factor = 3.3 / (65535) reading = sensor_temp.read_u16() * conversion_factor temperature = 27 - (reading - 0.706)/0.001721 formatted_temperature = &#34;{:.2f}&#34;.format(temperature) string_temperature = str(&#34;Temp:&#34; &#43; formatted_temperature) print(string_temperature) utime.sleep(2) return string_temperature while True: temperature = read_temp() lcd.move_to(0,0) lcd.putstr(temperature) import utime from machine import I2C, Pin, ADC from lcd_api import LcdApi from pico_i2c_lcd import I2cLcd I2C_ADDR = 63 I2C_NUM_ROWS = 2 I2C_NUM_COLS = 16 i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000) lcd = I2cLcd(i2c, I2C_ADDR, I2C_NUM_ROWS, I2C_NUM_COLS) def read_temp(): sensor_temp = ADC(4) conversion_factor = 3.3 / (65535) reading = sensor_temp.read_u16() * conversion_factor temperature = 27 - (reading - 0.706)/0.001721 formatted_temperature = &#34;{:.2f}&#34;.format(temperature) string_temperature = str(&#34;Temp:&#34; &#43; formatted_temperature) print(string_temperature) utime.sleep(2) return string_temperature while True: temperature = read_temp() lcd.move_to(0,0) lcd.putstr(temperature) 使用 VSCode 搭配 Pico 開發 MicroPython 程式">
+  <meta name="twitter:description" content="Raspberry Pico 使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico 使用 Pico &#43; 1602 LCD 顯示內建溫度感測器讀取到的溫度資料 使用 Raspberry Pi 燒錄/除錯 Pico 程式(All) getTemp.py 取溫度程式 PYTHON= 摺疊 複製 import utime from machine import I2C, Pin, ADC from lcd_api import LcdApi from pico_i2c_lcd import I2cLcd I2C_ADDR = 63 I2C_NUM_ROWS = 2 I2C_NUM_COLS = 16 i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000) lcd = I2cLcd(i2c, I2C_ADDR, I2C_NUM_ROWS, I2C_NUM_COLS) def read_temp(): sensor_temp = ADC(4) conversion_factor = 3.3 / (65535) reading = sensor_temp.read_u16() * conversion_factor temperature = 27 - (reading - 0.706)/0.001721 formatted_temperature = &#34;{:.2f}&#34;.format(temperature) string_temperature = str(&#34;Temp:&#34; &#43; formatted_temperature) print(string_temperature) utime.sleep(2) return string_temperature while True: temperature = read_temp() lcd.move_to(0,0) lcd.putstr(temperature) import utime from machine import I2C, Pin, ADC from lcd_api import LcdApi from pico_i2c_lcd import I2cLcd I2C_ADDR = 63 I2C_NUM_ROWS = 2 I2C_NUM_COLS = 16 i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000) lcd = I2cLcd(i2c, I2C_ADDR, I2C_NUM_ROWS, I2C_NUM_COLS) def read_temp(): sensor_temp = ADC(4) conversion_factor = 3.3 / (65535) reading = sensor_temp.read_u16() * conversion_factor temperature = 27 - (reading - 0.706)/0.001721 formatted_temperature = &#34;{:.2f}&#34;.format(temperature) string_temperature = str(&#34;Temp:&#34; &#43; formatted_temperature) print(string_temperature) utime.sleep(2) return string_temperature while True: temperature = read_temp() lcd.move_to(0,0) lcd.putstr(temperature) 使用 VSCode 搭配 Pico 開發 MicroPython 程式">
 
 
   <meta itemprop="name" content="Pico">
-  <meta itemprop="description" content="slug: Pico
-Raspberry Pico 使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico 使用 Pico &#43; 1602 LCD 顯示內建溫度感測器讀取到的溫度資料 使用 Raspberry Pi 燒錄/除錯 Pico 程式(All) getTemp.py 取溫度程式 PYTHON= 摺疊 複製 import utime from machine import I2C, Pin, ADC from lcd_api import LcdApi from pico_i2c_lcd import I2cLcd I2C_ADDR = 63 I2C_NUM_ROWS = 2 I2C_NUM_COLS = 16 i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000) lcd = I2cLcd(i2c, I2C_ADDR, I2C_NUM_ROWS, I2C_NUM_COLS) def read_temp(): sensor_temp = ADC(4) conversion_factor = 3.3 / (65535) reading = sensor_temp.read_u16() * conversion_factor temperature = 27 - (reading - 0.706)/0.001721 formatted_temperature = &#34;{:.2f}&#34;.format(temperature) string_temperature = str(&#34;Temp:&#34; &#43; formatted_temperature) print(string_temperature) utime.sleep(2) return string_temperature while True: temperature = read_temp() lcd.move_to(0,0) lcd.putstr(temperature) import utime from machine import I2C, Pin, ADC from lcd_api import LcdApi from pico_i2c_lcd import I2cLcd I2C_ADDR = 63 I2C_NUM_ROWS = 2 I2C_NUM_COLS = 16 i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000) lcd = I2cLcd(i2c, I2C_ADDR, I2C_NUM_ROWS, I2C_NUM_COLS) def read_temp(): sensor_temp = ADC(4) conversion_factor = 3.3 / (65535) reading = sensor_temp.read_u16() * conversion_factor temperature = 27 - (reading - 0.706)/0.001721 formatted_temperature = &#34;{:.2f}&#34;.format(temperature) string_temperature = str(&#34;Temp:&#34; &#43; formatted_temperature) print(string_temperature) utime.sleep(2) return string_temperature while True: temperature = read_temp() lcd.move_to(0,0) lcd.putstr(temperature) 使用 VSCode 搭配 Pico 開發 MicroPython 程式">
+  <meta itemprop="description" content="Raspberry Pico 使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico 使用 Pico &#43; 1602 LCD 顯示內建溫度感測器讀取到的溫度資料 使用 Raspberry Pi 燒錄/除錯 Pico 程式(All) getTemp.py 取溫度程式 PYTHON= 摺疊 複製 import utime from machine import I2C, Pin, ADC from lcd_api import LcdApi from pico_i2c_lcd import I2cLcd I2C_ADDR = 63 I2C_NUM_ROWS = 2 I2C_NUM_COLS = 16 i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000) lcd = I2cLcd(i2c, I2C_ADDR, I2C_NUM_ROWS, I2C_NUM_COLS) def read_temp(): sensor_temp = ADC(4) conversion_factor = 3.3 / (65535) reading = sensor_temp.read_u16() * conversion_factor temperature = 27 - (reading - 0.706)/0.001721 formatted_temperature = &#34;{:.2f}&#34;.format(temperature) string_temperature = str(&#34;Temp:&#34; &#43; formatted_temperature) print(string_temperature) utime.sleep(2) return string_temperature while True: temperature = read_temp() lcd.move_to(0,0) lcd.putstr(temperature) import utime from machine import I2C, Pin, ADC from lcd_api import LcdApi from pico_i2c_lcd import I2cLcd I2C_ADDR = 63 I2C_NUM_ROWS = 2 I2C_NUM_COLS = 16 i2c = I2C(0, sda=Pin(0), scl=Pin(1), freq=400000) lcd = I2cLcd(i2c, I2C_ADDR, I2C_NUM_ROWS, I2C_NUM_COLS) def read_temp(): sensor_temp = ADC(4) conversion_factor = 3.3 / (65535) reading = sensor_temp.read_u16() * conversion_factor temperature = 27 - (reading - 0.706)/0.001721 formatted_temperature = &#34;{:.2f}&#34;.format(temperature) string_temperature = str(&#34;Temp:&#34; &#43; formatted_temperature) print(string_temperature) utime.sleep(2) return string_temperature while True: temperature = read_temp() lcd.move_to(0,0) lcd.putstr(temperature) 使用 VSCode 搭配 Pico 開發 MicroPython 程式">
   <meta itemprop="datePublished" content="2025-10-28T12:25:56+00:00">
   <meta itemprop="dateModified" content="2025-10-28T12:25:56+00:00">
-  <meta itemprop="wordCount" content="243">
+  <meta itemprop="wordCount" content="241">
   <meta itemprop="image" content="http://localhost:1313/images/happy.png">
   <meta itemprop="keywords" content="Raspberry">
 
@@ -170,11 +166,11 @@ Raspberry Pico 使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico
               /
             "
             class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full transition-transform duration-200 hover:scale-105"
-            aria-label="YiSheng&#39;s secret garden"
+            aria-label="Ezra&#39;s Secret Garden"
           >
             <img
               src="/images/happy.svg"
-              alt="YiSheng&#39;s secret garden"
+              alt="Ezra&#39;s Secret Garden"
               class="h-full w-full object-cover"
             />
           </a>
@@ -532,7 +528,7 @@ Raspberry Pico 使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m3 12 2-2m0 0 7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
 </svg>
 
-              <span class="max-w-16 truncate md:max-w-none">YiSheng&#39;s secret garden</span>
+              <span class="max-w-16 truncate md:max-w-none">Ezra&#39;s Secret Garden</span>
             </a>
           </li>
         
@@ -635,7 +631,7 @@ Raspberry Pico 使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
 </svg>
 
-              <span>243 字</span>
+              <span>241 字</span>
             </div>
             
           </div>
@@ -689,8 +685,7 @@ Raspberry Pico 使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico
 
   
   <article class="prose prose-neutral dark:prose-invert mb-12 max-w-none">
-    <p>slug: Pico</p>
-<h1 id="raspberry-pico">Raspberry Pico<a href="#raspberry-pico" class="heading-anchor" aria-label="連結到此部分"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h1><ol>
+    <h1 id="raspberry-pico">Raspberry Pico<a href="#raspberry-pico" class="heading-anchor" aria-label="連結到此部分"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h1><ol>
 <li>使用 Thonny 將 blink (內建LED燈閃爍) 程式燒錄到 Pico</li>
 <li>使用 Pico + 1602 LCD 顯示內建溫度感測器讀取到的溫度資料</li>
 <li>使用 Raspberry Pi 燒錄/除錯 Pico 程式(All)
@@ -954,7 +949,7 @@ while True:
           
             <p>
               <strong>作者:</strong>
-              YiSheng Wu
+              Ezra
             </p>
           
 
@@ -1146,7 +1141,7 @@ while True:
       <p class="mb-2">
         &copy;
         2026
-        YiSheng&#39;s secret garden
+        Ezra&#39;s Secret Garden
       </p>
       <p class="flex flex-wrap items-center justify-center gap-1 md:justify-start">
         <span>Powered by</span>

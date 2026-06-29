@@ -1,9 +1,9 @@
 # Basic site info with SEO
 description: "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design."
 keywords: ["Hugo", "Blog", "Theme", "Technology", "Programming"]
-defaultAuthor: "YiSheng Wu"
+defaultAuthor: "Ezra"
 language: "en"
-shortName: "YiSheng's secret garden" # PWA
+shortName: "Ezra's Secret Garden" # PWA
 images:
   - "/images/happy.png"
 
@@ -13,8 +13,8 @@ favicon:
 
 # Author info
 author:
-  name: "YiSheng Wu"
-  title: "YiSheng's Secret Garden"
+  name: "Ezra"
+  title: "Ezra's Secret Garden"
   description: "Life and Journey."
   avatar: "/images/me.jpg"
   social:
@@ -84,7 +84,7 @@ post:
   relatedPostsCount: 3 # posts number
   license:
     show: true
-    author: "YiSheng Wu"
+    author: "Ezra"
     name: "CC BY-NC-SA 4.0"
     description: "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please attribute the source, use non-commercially, and maintain the same license."
     url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"

@@ -6,12 +6,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <title>Anything LLM 安裝 Windows 篇 |
-    YiSheng&#39;s secret garden</title>
+    Ezra&#39;s Secret Garden</title>
 
 <meta
   name="description"
-  content="slug: llm-rag-docker
-Windows Install PLAINTEXT 摺疊 複製 WSL (Windows Subsystem for Linux) 是微軟開發的一項功能，允許使用者在 Windows 10/11 或 Windows Server 上，不需虛擬機 (VM) 或..."
+  content="Windows Install PLAINTEXT 摺疊 複製 WSL (Windows Subsystem for Linux) 是微軟開發的一項功能，允許使用者在 Windows 10/11 或 Windows Server 上，不需虛擬機 (VM) 或雙開機，即可原生執行 Linux 二進制可..."
 />
 <meta
   name="keywords"
@@ -19,7 +18,7 @@ Windows Install PLAINTEXT 摺疊 複製 WSL (Windows Subsystem for Linux) 是微
 />
 <meta
   name="author"
-  content="YiSheng Wu"
+  content="Ezra"
 />
 <meta name="language" content="en" />
 
@@ -33,10 +32,9 @@ Windows Install PLAINTEXT 摺疊 複製 WSL (Windows Subsystem for Linux) 是微
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="manifest" href="/site.webmanifest" />
 <meta property="og:url" content="http://localhost:1313/posts/llm-rag-docker/">
-  <meta property="og:site_name" content="YiSheng&#39;s secret garden">
+  <meta property="og:site_name" content="Ezra&#39;s Secret Garden">
   <meta property="og:title" content="Anything LLM 安裝 Windows 篇">
-  <meta property="og:description" content="slug: llm-rag-docker
-Windows Install PLAINTEXT 摺疊 複製 WSL (Windows Subsystem for Linux) 是微軟開發的一項功能，允許使用者在 Windows 10/11 或 Windows Server 上，不需虛擬機 (VM) 或雙開機，即可原生執行 Linux 二進制可執行檔 WSL (Windows Subsystem for Linux) 是微軟開發的一項功能，允許使用者在 Windows 10/11 或 Windows Server 上，不需虛擬機 (VM) 或雙開機，即可原生執行 Linux 二進制可執行檔 使用WSL (Ubuntu22.4) 安裝 docker步驟 1: 檢查 WSL 版本 PLAINTEXT 摺疊 複製 wsl -v wsl -v 步驟 2: 安裝 Ubuntu 22.04 LTS PLAINTEXT 摺疊 複製 wsl --install -d Ubuntu-22.04 wsl --install -d Ubuntu-22.04 安裝完成後，會要求你創建一個 UNIX 用戶帳戶，你創建了用戶名 。">
+  <meta property="og:description" content="Windows Install PLAINTEXT 摺疊 複製 WSL (Windows Subsystem for Linux) 是微軟開發的一項功能，允許使用者在 Windows 10/11 或 Windows Server 上，不需虛擬機 (VM) 或雙開機，即可原生執行 Linux 二進制可執行檔 WSL (Windows Subsystem for Linux) 是微軟開發的一項功能，允許使用者在 Windows 10/11 或 Windows Server 上，不需虛擬機 (VM) 或雙開機，即可原生執行 Linux 二進制可執行檔 使用WSL (Ubuntu22.4) 安裝 docker步驟 1: 檢查 WSL 版本 PLAINTEXT 摺疊 複製 wsl -v wsl -v 步驟 2: 安裝 Ubuntu 22.04 LTS PLAINTEXT 摺疊 複製 wsl --install -d Ubuntu-22.04 wsl --install -d Ubuntu-22.04 安裝完成後，會要求你創建一個 UNIX 用戶帳戶，你創建了用戶名 。">
   <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -48,16 +46,14 @@ Windows Install PLAINTEXT 摺疊 複製 WSL (Windows Subsystem for Linux) 是微
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/happy.png">
   <meta name="twitter:title" content="Anything LLM 安裝 Windows 篇">
-  <meta name="twitter:description" content="slug: llm-rag-docker
-Windows Install PLAINTEXT 摺疊 複製 WSL (Windows Subsystem for Linux) 是微軟開發的一項功能，允許使用者在 Windows 10/11 或 Windows Server 上，不需虛擬機 (VM) 或雙開機，即可原生執行 Linux 二進制可執行檔 WSL (Windows Subsystem for Linux) 是微軟開發的一項功能，允許使用者在 Windows 10/11 或 Windows Server 上，不需虛擬機 (VM) 或雙開機，即可原生執行 Linux 二進制可執行檔 使用WSL (Ubuntu22.4) 安裝 docker步驟 1: 檢查 WSL 版本 PLAINTEXT 摺疊 複製 wsl -v wsl -v 步驟 2: 安裝 Ubuntu 22.04 LTS PLAINTEXT 摺疊 複製 wsl --install -d Ubuntu-22.04 wsl --install -d Ubuntu-22.04 安裝完成後，會要求你創建一個 UNIX 用戶帳戶，你創建了用戶名 。">
+  <meta name="twitter:description" content="Windows Install PLAINTEXT 摺疊 複製 WSL (Windows Subsystem for Linux) 是微軟開發的一項功能，允許使用者在 Windows 10/11 或 Windows Server 上，不需虛擬機 (VM) 或雙開機，即可原生執行 Linux 二進制可執行檔 WSL (Windows Subsystem for Linux) 是微軟開發的一項功能，允許使用者在 Windows 10/11 或 Windows Server 上，不需虛擬機 (VM) 或雙開機，即可原生執行 Linux 二進制可執行檔 使用WSL (Ubuntu22.4) 安裝 docker步驟 1: 檢查 WSL 版本 PLAINTEXT 摺疊 複製 wsl -v wsl -v 步驟 2: 安裝 Ubuntu 22.04 LTS PLAINTEXT 摺疊 複製 wsl --install -d Ubuntu-22.04 wsl --install -d Ubuntu-22.04 安裝完成後，會要求你創建一個 UNIX 用戶帳戶，你創建了用戶名 。">
 
 
   <meta itemprop="name" content="Anything LLM 安裝 Windows 篇">
-  <meta itemprop="description" content="slug: llm-rag-docker
-Windows Install PLAINTEXT 摺疊 複製 WSL (Windows Subsystem for Linux) 是微軟開發的一項功能，允許使用者在 Windows 10/11 或 Windows Server 上，不需虛擬機 (VM) 或雙開機，即可原生執行 Linux 二進制可執行檔 WSL (Windows Subsystem for Linux) 是微軟開發的一項功能，允許使用者在 Windows 10/11 或 Windows Server 上，不需虛擬機 (VM) 或雙開機，即可原生執行 Linux 二進制可執行檔 使用WSL (Ubuntu22.4) 安裝 docker步驟 1: 檢查 WSL 版本 PLAINTEXT 摺疊 複製 wsl -v wsl -v 步驟 2: 安裝 Ubuntu 22.04 LTS PLAINTEXT 摺疊 複製 wsl --install -d Ubuntu-22.04 wsl --install -d Ubuntu-22.04 安裝完成後，會要求你創建一個 UNIX 用戶帳戶，你創建了用戶名 。">
+  <meta itemprop="description" content="Windows Install PLAINTEXT 摺疊 複製 WSL (Windows Subsystem for Linux) 是微軟開發的一項功能，允許使用者在 Windows 10/11 或 Windows Server 上，不需虛擬機 (VM) 或雙開機，即可原生執行 Linux 二進制可執行檔 WSL (Windows Subsystem for Linux) 是微軟開發的一項功能，允許使用者在 Windows 10/11 或 Windows Server 上，不需虛擬機 (VM) 或雙開機，即可原生執行 Linux 二進制可執行檔 使用WSL (Ubuntu22.4) 安裝 docker步驟 1: 檢查 WSL 版本 PLAINTEXT 摺疊 複製 wsl -v wsl -v 步驟 2: 安裝 Ubuntu 22.04 LTS PLAINTEXT 摺疊 複製 wsl --install -d Ubuntu-22.04 wsl --install -d Ubuntu-22.04 安裝完成後，會要求你創建一個 UNIX 用戶帳戶，你創建了用戶名 。">
   <meta itemprop="datePublished" content="2026-01-23T11:00:00+00:00">
   <meta itemprop="dateModified" content="2026-01-23T11:00:00+00:00">
-  <meta itemprop="wordCount" content="537">
+  <meta itemprop="wordCount" content="535">
   <meta itemprop="image" content="http://localhost:1313/images/happy.png">
   <meta itemprop="keywords" content="Note">
 
@@ -162,11 +158,11 @@ Windows Install PLAINTEXT 摺疊 複製 WSL (Windows Subsystem for Linux) 是微
               /
             "
             class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full transition-transform duration-200 hover:scale-105"
-            aria-label="YiSheng&#39;s secret garden"
+            aria-label="Ezra&#39;s Secret Garden"
           >
             <img
               src="/images/happy.svg"
-              alt="YiSheng&#39;s secret garden"
+              alt="Ezra&#39;s Secret Garden"
               class="h-full w-full object-cover"
             />
           </a>
@@ -524,7 +520,7 @@ Windows Install PLAINTEXT 摺疊 複製 WSL (Windows Subsystem for Linux) 是微
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m3 12 2-2m0 0 7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
 </svg>
 
-              <span class="max-w-16 truncate md:max-w-none">YiSheng&#39;s secret garden</span>
+              <span class="max-w-16 truncate md:max-w-none">Ezra&#39;s Secret Garden</span>
             </a>
           </li>
         
@@ -627,7 +623,7 @@ Windows Install PLAINTEXT 摺疊 複製 WSL (Windows Subsystem for Linux) 是微
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
 </svg>
 
-              <span>537 字</span>
+              <span>535 字</span>
             </div>
             
           </div>
@@ -662,8 +658,7 @@ Windows Install PLAINTEXT 摺疊 複製 WSL (Windows Subsystem for Linux) 是微
 
   
   <article class="prose prose-neutral dark:prose-invert mb-12 max-w-none">
-    <p>slug: llm-rag-docker</p>
-<h1 id="windows-install">Windows Install<a href="#windows-install" class="heading-anchor" aria-label="連結到此部分"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h1><div
+    <h1 id="windows-install">Windows Install<a href="#windows-install" class="heading-anchor" aria-label="連結到此部分"><svg class="h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h1><div
   class="code-block-container border-border bg-card my-6 overflow-hidden rounded-xl border shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md"
   data-code-block
   data-code-id="code-0"
@@ -1627,7 +1622,7 @@ docker pull mintplexlabs/anythingllm</div>
           
             <p>
               <strong>作者:</strong>
-              YiSheng Wu
+              Ezra
             </p>
           
 
@@ -1819,7 +1814,7 @@ docker pull mintplexlabs/anythingllm</div>
       <p class="mb-2">
         &copy;
         2026
-        YiSheng&#39;s secret garden
+        Ezra&#39;s Secret Garden
       </p>
       <p class="flex flex-wrap items-center justify-center gap-1 md:justify-start">
         <span>Powered by</span>
