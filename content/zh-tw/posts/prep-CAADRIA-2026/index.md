@@ -12,7 +12,7 @@ description:
 top_img:
 cover:
 ---
-slug: prep-CAADRIA-2026
+
 # 當自律成為日常：為了兩個月後的 CAADRIA，我選擇與世界同步
 
 

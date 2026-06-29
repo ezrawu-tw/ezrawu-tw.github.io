@@ -12,7 +12,7 @@ description:
 top_img:
 cover:
 ---
-slug: llm-rag-AnythingLLM
+
 
 # 什麼是AnythingLLM
 AnythingLLM 是一款強大的 full-stack AI 應用程式，它能將多種文件格式、資源或內容轉化為大型語言模型（LLM）可使用的查詢用文本。

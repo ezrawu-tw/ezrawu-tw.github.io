@@ -12,7 +12,7 @@ description:
 top_img:
 cover:
 ---
-slug: writting
+
 # 退化成原始人
 
 在文獻回顧時

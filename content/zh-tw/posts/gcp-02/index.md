@@ -8,7 +8,7 @@ tags:
 categories:
   - Note
 ---
-slug: gcp-02
+
 
 GCP衝刺
 ==

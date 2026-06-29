@@ -5,7 +5,7 @@ date: 2025-10-28 12:05:43
 tags:
 - MQTT  
 ---
-slug: mqtt-setting
+
 
 # MQTT 基本設定
 

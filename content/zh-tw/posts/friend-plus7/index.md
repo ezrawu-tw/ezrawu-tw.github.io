@@ -12,7 +12,7 @@ description:
 top_img:
 cover:
 ---
-slug: friend-plus7
+
 
 # 來自 +7 的信
 2026.05.07

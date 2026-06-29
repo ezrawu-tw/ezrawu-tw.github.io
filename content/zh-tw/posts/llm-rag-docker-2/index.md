@@ -12,7 +12,7 @@ description:
 top_img:
 cover:
 ---
-slug: llm-rag-docker-2
+
 
 # MacOS 如何安裝 Anything LLM
 

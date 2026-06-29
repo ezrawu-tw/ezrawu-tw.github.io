@@ -11,7 +11,7 @@ description:
 top_img:
 cover:
 ---
-slug: gress-bus
+
 # 童年回憶翻轉!!!!!!
 ![](image.png)
 今天在跟朱思睿聊音樂(我的泰國朋友)

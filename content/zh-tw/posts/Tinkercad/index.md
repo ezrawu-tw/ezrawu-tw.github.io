@@ -7,7 +7,7 @@ tags:
 categories:
   - Note
 ---
-slug: Tinkercad
+
 
 Tinkercad 線上3D軟體介紹
 ==

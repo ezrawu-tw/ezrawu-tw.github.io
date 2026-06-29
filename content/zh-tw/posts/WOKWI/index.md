@@ -7,7 +7,7 @@ tags:
 categories:
   - Note
 ---
-slug: WOKWI
+
 
 WOKWI 電路模擬網站使用教學
 ==

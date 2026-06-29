@@ -8,7 +8,7 @@ tags:
 categories:
   - Note
 ---
-slug: gcp
+
 
 # 臨時抱佛腳-GCP競賽整理
 [筆記-觀念釐清](https://hackmd.io/@Eason2392/B1CqW-mkC)

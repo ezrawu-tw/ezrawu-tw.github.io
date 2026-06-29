@@ -12,7 +12,7 @@ description:
 top_img:
 cover:
 ---
-slug: rss
+
 
 # What’s RSS
 RSS的英文全稱是Really Simple Syndication

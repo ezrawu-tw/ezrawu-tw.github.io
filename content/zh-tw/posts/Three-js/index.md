@@ -9,7 +9,6 @@ tags:
 categories:
   - Note
 ---
-slug: Three-js
 
 淺談Three.js
 ==

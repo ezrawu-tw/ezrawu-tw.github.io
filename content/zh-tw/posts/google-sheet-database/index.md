@@ -8,7 +8,7 @@ tags:
 categories:
   - Note
 ---
-slug: google-sheet-database
+
 
 # 如何用 Google Sheets / Excel 當作資料庫？
 

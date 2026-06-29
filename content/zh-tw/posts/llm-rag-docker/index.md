@@ -12,7 +12,7 @@ description:
 top_img:
 cover:
 ---
-slug: llm-rag-docker
+
 
 # Windows Install
 

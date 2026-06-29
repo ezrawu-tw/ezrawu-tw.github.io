@@ -10,7 +10,7 @@ categories:
   - Note
 
 ---
-slug: arduino-Relay
+
 
 Arduino繼電器介紹
 ==

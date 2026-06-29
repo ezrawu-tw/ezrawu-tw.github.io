@@ -7,7 +7,6 @@ tags:
 categories:
   - Note
 ---
-slug: Pico
 
 Raspberry Pico 
 ==

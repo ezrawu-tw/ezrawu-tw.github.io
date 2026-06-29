@@ -8,7 +8,6 @@ tags:
 categories:
   - Note
 ---
-slug: git
 
 # git 
 

@@ -13,7 +13,7 @@ description: 關於我刪除社交媒體帳號的快樂
 top_img:
 cover:
 ---
-slug: deletesocialmedia
+
 
 # 消失? 
 當我按下刪除fb/ig 帳號

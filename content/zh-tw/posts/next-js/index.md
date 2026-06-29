@@ -11,7 +11,6 @@ categories:
   - Note
 
 ---
-slug: next-js
 
 淺談Next.js
 ==

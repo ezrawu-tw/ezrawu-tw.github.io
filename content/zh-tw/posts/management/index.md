@@ -7,7 +7,7 @@ tags:
 categories:
   - Note
 ---
-slug: management
+
 
 # 管理學
 

@@ -11,7 +11,7 @@ description:
 top_img:
 cover:
 ---
-slug: 0508
+
 
 # "《藥師少女的獨語》：致敬我有著亮光的朋友們" - alicehsu.blog 讀後感
 今天讀了這個

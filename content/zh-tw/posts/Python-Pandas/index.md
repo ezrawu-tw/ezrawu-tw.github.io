@@ -8,7 +8,7 @@ tags:
 categories:
   - Note
 ---
-slug: Python-Pandas
+
 
 # Python Pandas 資料分析
 ### 前言

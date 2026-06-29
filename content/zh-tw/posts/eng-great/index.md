@@ -11,7 +11,6 @@ description:
 top_img:
 cover:
 ---
-slug: eng-great
 
 # 學習 要有耐心
 在 9貓 教學中

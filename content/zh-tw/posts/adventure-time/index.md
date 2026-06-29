@@ -12,7 +12,7 @@ description:
 top_img:
 cover:
 ---
-slug: adventure-time
+
 
 # 冒險系玩家
 

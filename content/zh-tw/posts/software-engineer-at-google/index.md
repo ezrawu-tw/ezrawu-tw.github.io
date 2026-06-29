@@ -9,7 +9,7 @@ categories:
 
 
 ---
-slug: software-engineer-at-google
+
 # Google 軟體工程之道
 ![image](https://hackmd.io/_uploads/r1KD8CRNR.png)
 

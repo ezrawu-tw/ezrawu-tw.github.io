@@ -9,7 +9,7 @@ tags:
 categories:
   - Note
 ---
-slug: linux-build-safety-wordpress
+
 
 # Linux 建立安全性wordpress
 0. 安全群組
