@@ -9,18 +9,18 @@
     <lastBuildDate>Mon, 29 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/design-of-master/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AI時代下的英文寫作</title>
+      <link>http://localhost:1313/posts/ai%E6%99%82%E4%BB%A3%E4%B8%8B%E7%9A%84%E8%8B%B1%E6%96%87%E5%AF%AB%E4%BD%9C/</link>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ai%E6%99%82%E4%BB%A3%E4%B8%8B%E7%9A%84%E8%8B%B1%E6%96%87%E5%AF%AB%E4%BD%9C/</guid>
+      <description>&lt;h1 id=&#34;在那之後&#34;&gt;在那之後&lt;a href=&#34;#%e5%9c%a8%e9%82%a3%e4%b9%8b%e5%be%8c&#34; class=&#34;heading-anchor&#34; aria-label=&#34;連結到此部分&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;我最近有個蠻大的體悟吧 &lt;/br&gt;&#xA;我的Claude.ai 訂閱過期了&lt;/br&gt;&#xA;剛好&lt;/br&gt;&#xA;審稿人給我一些寫作上的回饋&lt;/br&gt;&#xA;但我卻無法幫助自己修改&lt;/br&gt;&#xA;就連縮減頁數這件事&lt;/br&gt;&#xA;我都要請AI想辦法&lt;/br&gt;&#xA;那就證明&lt;/br&gt;&#xA;我沒辦法用英文表達我的想法及修正我的想法了&lt;/br&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>AI時代下的對於專業判斷的反思</title>
       <link>http://localhost:1313/posts/ai%E6%99%82%E4%BB%A3%E4%B8%8B%E7%9A%84%E5%B0%8D%E6%96%BC%E5%B0%88%E6%A5%AD%E5%88%A4%E6%96%B7%E7%9A%84%E5%8F%8D%E6%80%9D/</link>
       <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/ai%E6%99%82%E4%BB%A3%E4%B8%8B%E7%9A%84%E5%B0%8D%E6%96%BC%E5%B0%88%E6%A5%AD%E5%88%A4%E6%96%B7%E7%9A%84%E5%8F%8D%E6%80%9D/</guid>
       <description>&lt;p&gt;[有感而發]&#xA;上次我在詢問有經驗的前輩， &lt;br&gt;&#xA;學術研究報告的簡報， &lt;br&gt;&#xA;會以怎樣的形式表達。 &lt;br&gt;&#xA;我提供了我的研究，我已經弄得差不多的簡報， &lt;br&gt;&#xA;給那位前輩看，&lt;br&gt;&#xA;他請我去問AI，&lt;br&gt;&#xA;他也告訴我AI，說他做的已經接近100分了。&lt;br&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>反思-AI時代下的英文寫作</title>
-      <link>http://localhost:1313/posts/%E5%8F%8D%E6%80%9D-ai%E6%99%82%E4%BB%A3%E4%B8%8B%E7%9A%84%E8%8B%B1%E6%96%87%E5%AF%AB%E4%BD%9C/</link>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/%E5%8F%8D%E6%80%9D-ai%E6%99%82%E4%BB%A3%E4%B8%8B%E7%9A%84%E8%8B%B1%E6%96%87%E5%AF%AB%E4%BD%9C/</guid>
-      <description>&lt;h1 id=&#34;在那之後&#34;&gt;在那之後&lt;a href=&#34;#%e5%9c%a8%e9%82%a3%e4%b9%8b%e5%be%8c&#34; class=&#34;heading-anchor&#34; aria-label=&#34;連結到此部分&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;我最近有個蠻大的體悟吧 &lt;/br&gt;&#xA;我的Claude.ai 訂閱過期了&#xA;剛好&#xA;審稿人給我一些寫作上的回饋&#xA;但我卻無法幫助自己修改&#xA;就連縮減頁數這件事&#xA;我都要請AI想辦法&#xA;那就證明&#xA;我沒辦法用英文表達我的想法及修正我的想法了&lt;/p&gt;</description>
     </item>
     <item>
       <title>我的第一篇學術論文 竟然在歐洲被炎上了!</title>
