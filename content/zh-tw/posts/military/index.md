@@ -1,6 +1,6 @@
 ---
 title: 明天就要當兵了
-date: 2026-07-07
+date: 2026-07-06
 categories:
   - Life
 ---
