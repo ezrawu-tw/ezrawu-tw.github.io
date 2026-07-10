@@ -1,5 +1,5 @@
 ---
-title: 巴威颱風-當兵一天半
+title: Pass auf dich auf!
 date: 2026-07-07
 categories:
   - Life
@@ -17,6 +17,7 @@ categories:
 改期三次</br>
 改成週四晚上17:00走人</br>
 2026/07/09 就放人了!!!</br>
+>Pass auf dich auf! 注意安全 - 德文
 
 ## 陽光大男孩
 
