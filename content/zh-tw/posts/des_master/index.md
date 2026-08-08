@@ -1,7 +1,7 @@
 ---
 copyright: true
 title: 為什麼要讀設計所
-date: 2026-07-25
+date: 2026-08-08
 categories:
   - Design of Master
 ---
