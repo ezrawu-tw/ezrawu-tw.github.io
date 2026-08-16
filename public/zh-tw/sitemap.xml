@@ -34,7 +34,7 @@
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%E6%89%93%E9%A3%AF%E8%88%AC%E7%9A%84%E7%85%AE%E9%A3%AF%E8%81%9A%E6%9C%83/</loc>
+    <loc>http://localhost:1313/posts/%E6%89%93%E9%A3%AF%E7%8F%AD%E7%9A%84%E7%85%AE%E9%A3%AF%E8%81%9A%E6%9C%83/</loc>
     <lastmod>2026-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/design-of-master/</loc>
@@ -45,6 +45,9 @@
   </url><url>
     <loc>http://localhost:1313/posts/%E7%82%BA%E4%BA%86%E6%9B%B4%E5%81%A5%E5%BA%B7%E7%9A%84%E8%87%AA%E5%B7%B1/</loc>
     <lastmod>2026-08-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/1985%E5%B9%B4%E7%9A%84%E5%86%B7%E6%88%B0%E5%9C%B0%E5%9C%96/</loc>
+    <lastmod>2026-07-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/kacken/</loc>
     <lastmod>2026-07-18T00:00:00+00:00</lastmod>
