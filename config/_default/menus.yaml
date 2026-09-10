@@ -17,6 +17,12 @@ main:
     params:
       icon: categories
 
+  - name: 成就
+    weight: 30
+    pageRef: /achievements
+    params:
+      icon: lightbulb
+
 #   - name: Archives
 #     pageRef: /archives
 #     weight: 20
