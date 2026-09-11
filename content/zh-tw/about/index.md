@@ -1,12 +1,12 @@
 ---
-title: "關於我"
+title: "關於"
 date: 2026-05-08
 layout: "page"         # 強制指定使用「頁面」佈局
 
 --- 
 NYUST IM &rarr; DMD 
-- 愛去ㄉ:潛水、溫泉、森林、游泳
-- 愛ㄉ:高山茶、Espresso、梅子汽水、花花草草、刺刺
+- 去:潛水、溫泉、森林、游泳
+- 愛:Espresso、梅子汽水、花花草草、刺刺
 - 說: ES/DE/EN/TW
 
 學歷
