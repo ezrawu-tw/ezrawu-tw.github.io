@@ -10,6 +10,7 @@ NYUST IM &rarr; DMD
 - 說: ES/DE/EN/TW
 - 陽光愛笑大男孩 (2003) aka 純愛戰士 
 
+[我的獎盃](../posts/achievements/)
 # 可愛又帥氣ㄉME:  
 
 ![](d0.JPG)
