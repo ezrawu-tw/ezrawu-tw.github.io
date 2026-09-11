@@ -6,8 +6,15 @@
     <description>Recent content in Tags on Ezra&#39;s Secret Garden</description>
     <generator>Hugo</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 29 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Espresso</title>
+      <link>http://localhost:1313/tags/espresso/</link>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/espresso/</guid>
+      <description></description>
+    </item>
     <item>
       <title>台灣原住民文化</title>
       <link>http://localhost:1313/tags/%E5%8F%B0%E7%81%A3%E5%8E%9F%E4%BD%8F%E6%B0%91%E6%96%87%E5%8C%96/</link>
