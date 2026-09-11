@@ -71,7 +71,7 @@ Bialetti's moka pot</br>
 1Zpresso's xultra 潛力發揮出來</br>
 我非常期待呢</br>
 售價也只要</br>
-350美金!!!</br>
+USD.xxx!!!</br>
 
 
 !更新 2026.09.11</br>
@@ -79,13 +79,11 @@ Bialetti's moka pot</br>
 超期待到貨</br>
 我買的是藍色的</br>
 雖然以前就用獎學金買</br>
-Bialetti的moka pot(NT.3280)</br>
+Bialetti的moka pot</br>
 BUT!!!!</br>
 這次是</br>
-Cafelet robot (NT.17900~=18000)!!!!</br>
+Cafelet robot !!!!</br>
 好興奮</br>
 
-我現在心情有點像偷情的男人</br>
->偷偷買玩具 不敢上報給🐶!
 
 
