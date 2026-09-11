@@ -1,7 +1,7 @@
 ---
 slug:
 copyright: true
-title: "成就列表"
+title: "Achievements"
 date: 2024-09-10
 
 ---
@@ -12,7 +12,7 @@ date: 2024-09-10
 * 國立台中科技大學-資訊應用菁英班 五專 (2018-2023)
 
 學術發表
-* IEEE Conference on Multimedia Information Processing and Retrieval (MIPR)
+* IEEE Conference on Multimedia Information Processing and Retrieval (MIPR) - 碩一提早入學時發表
 > Beyond Semantic Distance: Fusing Physiological and Linguistic Signals for Multimodal Coordination Assessment in Cross-Disciplinary Design
 
 研究經驗
