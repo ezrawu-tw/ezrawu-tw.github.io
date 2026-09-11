@@ -72,3 +72,19 @@ Bialetti's moka pot</br>
 我非常期待呢</br>
 售價也只要</br>
 350美金!!!</br>
+
+
+!更新 2026.09.11</br>
+我真的買了!!!</br>
+超期待到貨</br>
+我買的是藍色的</br>
+雖然以前就用獎學金買</br>
+Bialetti的moka pot(NT.3280)</br>
+BUT!!!!</br>
+這次是</br>
+Cafelet robot (NT.17900~=18000)!!!!</br>
+好興奮</br>
+
+
+
+
