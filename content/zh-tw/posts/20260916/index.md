@@ -2,7 +2,7 @@
 slug:
 copyright: true
 title: "感覺對了就對了!"
-date: 2026-09-10
+date: 2026-09-16
 updated:
 tags: 
 - Espresso
@@ -19,7 +19,7 @@ Peru這隻豆子抓到甜蜜點了</br>
 但有巧克力和回甘的sweet</br>
 重點不會有雜味</br>
 
-### 國科會
+### 國
 計畫聽起來非常酷</br>
 我們老師抓了四個走向讓我選</br>
 但是說明會聽起來</br>
