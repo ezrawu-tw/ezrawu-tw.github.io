@@ -1,5 +1,5 @@
 ---
-title: "關於"
+title: "YI-SHENG WU"
 date: 2026-05-08
 layout: "page"         # 強制指定使用「頁面」佈局
 
