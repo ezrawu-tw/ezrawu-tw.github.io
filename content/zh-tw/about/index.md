@@ -48,7 +48,7 @@ YISHENG EZRA WU
 
 - 支援國際計算輔助建築與互動設計工作營之演算法與技術落地協調。
 
-Google｜Google Developer Student Community 技術推廣 (2024-2025)
+Google｜Google Developer Student Community in YUNTECH 技術推廣 (2024-2025)
 
 - 推廣前沿雲端架構與 AI 開發者工具，主辦並推動技術社群專案。
 
