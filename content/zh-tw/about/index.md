@@ -1,35 +1,42 @@
 ---
-title: "YI-SHENG WU"
+title: YI-SHENG WU
 date: 2026-05-08
-layout: "page"         # 強制指定使用「頁面」佈局
-
---- 
+layout: page
+---
 
 ![](S__6553611.jpg)
 
-
 # 我是跨域人機互動（HCI）與多模態 AI 研究員</br>
+
 具備資訊管理架構與數位媒體設計雙重背景，專注於 Multimodal AI、生理/語言多模態互動與端到端產品落地，同時擁有跨國協作視野與產品商業化思維。</br>
 </br>
 
 ## 個人核心定位</br>
+
 * **背景跨界**：資管架構 ✕ 數媒設計（NYUST IM &rarr; DMD，碩一 GPA: 4.0 / 二技 GPA: 3.8）</br>
 * **核心技術**：Multimodal AI、生理與語言訊號融合、IoT 軟硬整合、雲端運算</br>
 * **國際視野**：具備多語溝通能力（EN / DE / ES / TW），並活躍於國際工作營與全球學生開發者社群</br>
 </br>
 
 ## 核心旗艦成果</br>
+
 ### 學術頂會發表 (IEEE MIPR 2026)</br>
+
 * **Beyond Semantic Distance: Fusing Physiological and Linguistic Signals for Multimodal Coordination Assessment in Cross-Disciplinary Design**</br>
+* [Paper Link](https://ieeexplore.ieee.org/document/11716248)
 * 備註：碩一提早入學即發表於 IEEE 國際頂尖多媒體資訊處理會議（MIPR），結合生理訊號與語意訊號實現跨領域協作評估。</br>
 </br>
+
 ### 端到端產品落地：盲童教學平台 (2024/09–2025/04)</br>
+
 * 使用技術：RAG / AI / Azure / IoT</br>
 * 備註：針對視障兒童教育痛點，實現結合硬體物聯網與生成式檢索增強技術（RAG）之端到端落地應用。</br>
 </br>
 
 ## 專業研發與領導經驗</br>
+
 ### 核心研發與國際協作</br>
+
 * **雲科大 互動運算研究室**：獎助研究生（2026/01–至今）</br>
 * **CAADRIA 2026 國際工作營**：[Workshop Assistants](https://youtu.be/vL1OS1RpDgg?si=jU5B-O0uYo7ZrjEL)（2026）</br>
 * **創科資訊 Trunk Studio**：軟體研發實習生（2023/01–2023/07）</br>
@@ -42,6 +49,7 @@ layout: "page"         # 強制指定使用「頁面」佈局
 </br>
 
 > 具備橫跨硬體儀器、資訊安全至跨領域社群經營的團隊整合與溝通協調力：</br>
+
 * **資安研發**：雲科大資訊安全研究室 - 獎助研究生（2024/09–2025/01）</br>
 * **電機實習**：雲科精密儀器中心 - 兼任研究助理（2024/01–2024/08）</br>
 * **學術志工**：2024 台灣人機互動研討會（TAICHI）志工（2024/07）</br>
@@ -53,12 +61,16 @@ layout: "page"         # 強制指定使用「頁面」佈局
 </br>
 
 ## 精選競賽與商業戰績</br>
+
 ### 創新創業與商業價值</br>
+
 * 2024 雲林國際創新創業營隊：**第一名**</br>
 * 2025 雲林國際創新創業營隊：**第三名**</br>
 * 2024 技職盃黑客馬拉松：**最佳創造價值獎**</br>
 </br>
+
 ### HCI 設計與演算法實力</br>
+
 * 2024 OPENHCI：**最佳故事獎**</br>
 * 2024 海峽兩岸青少年人工智慧大賽：**第三名**</br>
 * 2022 CSF程速勁賽：**第三名**</br>
@@ -79,7 +91,9 @@ layout: "page"         # 強制指定使用「頁面」佈局
 </details>
 
 ## 專業證照與特質</br>
+
 ### 雲端、行銷與專業技術</br>
+
 * **雲端架構**：AWS Certified Cloud Practitioner（2023）</br>
 * **數據與行銷**：Google Analytics (GA4) 認證、Google 完整 AI 廣告與數位行銷認證體系（10 項廣告與 AI 認證，2024）</br>
 
@@ -88,6 +102,7 @@ layout: "page"         # 強制指定使用「頁面」佈局
 </br>
 
 > 具備將 AI 技術與實際商業廣告流量、素材生成及精準行銷對接之完整知識體系：</br>
+
 * Google ADS 搜尋廣告認證（2024）</br>
 * Google ADS 影片廣告認證（2024）</br>
 * Google ADS 多媒體廣告認證（2024）</br>
@@ -101,8 +116,7 @@ layout: "page"         # 強制指定使用「頁面」佈局
 </details>
 </br>
 
-
-
 ### 語言能力與個人風格</br>
+
 * **語言**：中文（TW）、English（EN）、Deutsch（DE）、Español（ES）</br>
 * **探索與生活**：PADI 進階開放水域潛水員（AOW，2026）、野溪溫泉、森林徒步、Espresso 萃取、植栽花草</br>
