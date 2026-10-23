@@ -1,0 +1,76 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+# Phone-friendly blog editor. Open https://ezrawu-tw.github.io/admin/
+# Every "Save" = one git commit to main → GitHub Actions rebuilds the site.
+
+backend:
+  name: github
+  repo: ezrawu-tw/ezrawu-tw.github.io
+  branch: main
+  commit_messages:
+    create: "post: new {{slug}}"
+    update: "post: update {{slug}}"
+    delete: "post: delete {{slug}}"
+    uploadMedia: "media: upload {{path}}"
+    deleteMedia: "media: delete {{path}}"
+
+site_url: https://ezrawu-tw.github.io
+display_url: https://ezrawu-tw.github.io
+
+# Fallback for images not attached to a post
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: posts
+    label: 文章 Posts
+    label_singular: 文章
+    folder: content/zh-tw/posts
+    create: true
+    # Same layout you use now: posts/<folder>/index.md with images beside it
+    path: "{{slug}}/index"
+    slug: "{{year}}{{month}}{{day}}"
+    media_folder: ""
+    public_folder: ""
+    format: yaml-frontmatter
+    sortable_fields: [date, title]
+    view_groups:
+      - { label: 分類, field: categories }
+    summary: "{{date | date('YYYY-MM-DD')}} · {{title}}"
+    preview_path: "posts/{{dirname}}/"
+    fields:
+      - { label: 標題 Title, name: title, widget: string }
+      - { label: 日期 Date, name: date, widget: datetime, type: date, default: "{{now}}" }
+      - label: 分類 Categories
+        name: categories
+        widget: select
+        multiple: true
+        required: false
+        default: [Life]
+        options: [Life, Note, Design of Master, Seminar, 台灣旅遊]
+      - { label: 標籤 Tags, name: tags, widget: list, required: false }
+      - { label: 草稿 Draft (on = 不公開), name: draft, widget: boolean, default: false, required: false }
+      - { label: 版權聲明 Copyright, name: copyright, widget: boolean, default: true, required: false }
+      - { label: 更新日期 Updated, name: updated, widget: datetime, type: date, required: false }
+      - { label: 內文 Body, name: body, widget: markdown }
+
+  - name: pages
+    label: 頁面 Pages
+    files:
+      - label: 關於我 (中文)
+        name: about-zh
+        file: content/zh-tw/about/index.md
+        media_folder: ""
+        public_folder: ""
+        fields:
+          - { label: 標題 Title, name: title, widget: string }
+          - { label: 日期 Date, name: date, widget: datetime, type: date }
+          - { name: layout, widget: hidden, default: page }
+          - { label: 內文 Body, name: body, widget: markdown }
+      - label: About (English)
+        name: about-en
+        file: content/en/about/index.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Date, name: date, widget: datetime, type: date }
+          - { name: layout, widget: hidden, default: page }
+          - { label: Body, name: body, widget: markdown }
