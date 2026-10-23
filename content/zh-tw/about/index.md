@@ -24,8 +24,6 @@ YISHENG EZRA WU
 
  論文題目：_Beyond Semantic Distance: Fusing Physiological and Linguistic Signals for Multimodal Coordination Assessment in Cross-Disciplinary Design_
 
-01 閱讀論文 (Paper Link)
-
  核心技術：多模態特徵融合（Multimodal Feature Fusion）、生理訊號處理（Physiological Sensing）、自然語言處理（NLP）
 
  專案概述：突破傳統僅依賴語意分析的限制，首創融合生理感測與語言特徵的評估模型，實現跨領域團隊協作與複雜人機互動過程中的客觀、即時協同效益量測。
@@ -42,7 +40,7 @@ YISHENG EZRA WU
 
 ### 研發與領導經歷 (Experience & Leadership)
 
-雲科大 互動運算研究室 **(Interactive Computing Lab)** ｜ 獎助研究生 _(2026/01 –_ 至今*)*
+雲科大 互動運算研究室 **(Interactive Computing Lab)** ｜ 獎助研究生 _(2026/01 –_ 至今\*)\*
 
 - 主導多模態生理與行為訊號運算研究，推進前沿人機互動技術與系統雛型驗證。
 
@@ -50,7 +48,7 @@ YISHENG EZRA WU
 
 - 支援國際計算輔助建築與互動設計工作營之演算法與技術落地協調。
 
- **Microsoft** ｜ 學生大使 (Student Ambassador) _(2025 – 2026)_
+Google｜Google Developer Student Community 技術推廣 (2024-2025)
 
 - 推廣前沿雲端架構與 AI 開發者工具，主辦並推動技術社群專案。
 
@@ -66,9 +64,9 @@ YISHENG EZRA WU
 
  商業創新與價值創造
 
-1.  雲林國際創新創業營隊｜冠軍 **(**第一名**)** _(2024)_
+1.  雲林國際創新創業營隊｜冠軍 _(2024)_
 2.  技職盃黑客馬拉松｜最佳創造價值獎 _(2024)_
-3.  雲林國際創新創業營隊｜季軍 **(**第三名**)** _(2025)_
+3.  雲林國際創新創業營隊｜季軍 _(2025)_
 
  演算法與前沿互動
 
