@@ -1,5 +1,5 @@
 ---
-title: First time go to Okinawa
+title: ［OKA] First time go to Okinawa
 date: 2026-11-06
 categories:
   - Life
