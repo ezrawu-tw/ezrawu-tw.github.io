@@ -2,7 +2,8 @@
 title: IRB and RTD
 date: 2026-11-14
 categories:
-  - Life
+  - Design of Master
+  - Note
 tags: []
 draft: false
 copyright: true
